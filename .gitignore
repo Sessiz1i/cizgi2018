@@ -399,8 +399,8 @@ FodyWeavers.xsd
 
 # Custom ignore
 *.bak
-images/
-img/
+images/*.*
+img/*.*
 content/
 dosya/
 sablon/
