@@ -164,8 +164,8 @@
             <ItemTemplate>
                 <div class="col-md-6 col-sm-6 ">
                     <asp:Panel ID="kapakPanel" runat="server" CssClass="order-kapak">
-                        <%-- <asp:ImageButton CssClass="kapak-image" ID="imgBtnKapakFoto" runat="server" ImageUrl='<%# string.Format("/images/nurun/{0}", Eval("nurunimage_path")) %>' CommandName="kapakEkle" CommandArgument='<%#Eval("nurun_id") + "," + Eval("nurun_adi") %>'/> --%>
-                        <asp:ImageButton CssClass="kapak-image" ID="imgBtnKapakFoto" runat="server" ImageUrl='https://picsum.photos/500/400' CommandName="kapakEkle" CommandArgument='<%#Eval("nurun_id") + "," + Eval("nurun_adi") %>'/>
+                        <asp:ImageButton CssClass="kapak-image" ID="imgBtnKapakFoto" runat="server" ImageUrl='<%# string.Format("/images/nurun/{0}", Eval("nurunimage_path")) %>' CommandName="kapakEkle" CommandArgument='<%#Eval("nurun_id") + "," + Eval("nurun_adi") %>'/>
+                        <%-- <asp:ImageButton CssClass="kapak-image" ID="imgBtnKapakFoto" runat="server" ImageUrl='https://picsum.photos/500/400' CommandName="kapakEkle" CommandArgument='<%#Eval("nurun_id") + "," + Eval("nurun_adi") %>'/> --%>
                         <div class="card-body p-0">
                             <asp:Label CssClass="kapak-title" ID="kapakLabel" runat="server" Text='<%#Eval("nurun_adi") %>'/>
                             <div class="kapak-btn-grp" role="group">
@@ -472,7 +472,8 @@
                             <asp:Repeater ID="rptKapakModal" runat="server">
                                 <ItemTemplate>
                                     <div class="carousel-item">
-                                        <img src="/images/nurun/<%#Eval("nurunimage_path") %>" class="w-100 h-75" style="max-height: 700px" alt="<%#Eval("nurunimage_path") %>">
+                                        <img class="d-block w-100 h-75 " style="max-height: 70vh" src="/images/nurun/<%#Eval("nurunimage_path") %>" alt="<%#Eval("nurunimage_path") %>">
+                                        <%-- <img class="d-block w-100 h-100" src="https://picsum.photos/1920/1080" alt="<%#Eval("nurunimage_path") %>"> --%>
                                     </div>
                                 </ItemTemplate>
                             </asp:Repeater>
@@ -515,26 +516,31 @@
 
 <asp:Content ID="Content3" ContentPlaceHolderID="contentBottom" runat="Server">
     <script src="/bootstrap/js/bootstrap.bundle.js" type="text/javascript"></script>
-    <script src="/bootstrap/js/bootstrap.js" type="text/javascript"></script>
+    <script src="/bootstrap/js/bootstrap.js" type="text/javascript"></script>   
     <script src="/order.js"></script>
     <script >
-            $(document).ready(function (){
-                console.log("değişti")
-                var totalPrice;
-                $(".extra-price").each(function (){
-                    totalPrice += this.textContent
-                })
-                $(".checkout-price").innerText = totalPrice
-            })
+    $(document).on("click",function (){
+        console.log("değişti")
+        var totalPrice=0;
+        $(".extra-price").each(function (){
+            totalPrice += parseFloat(this.textContent)
+            console.log(totalPrice)
+        })
+        // $(".checkout-price").innerHTML =`${totalPrice},00 <i class="fa fa-try"></i>`;
+        $('.checkout-price').innerText =`Total Price`
+    })
     var parameter = Sys.WebForms.PageRequestManager.getInstance();
     parameter.add_endRequest(async function () {
-            $(document).ready(function (){
+            $(document).on("click",function (){
                 console.log("değişti")
-                var totalPrice;
+                var totalPrice=0;
                 $(".extra-price").each(function (){
-                    totalPrice += this.textContent
+                    totalPrice += parseFloat(this.textContent)
+                    console.log(totalPrice)
                 })
-                $(".checkout-price").innerHTML =`${totalPrice},00 <i class="fa fa-try"></i>`
+                // $(".checkout-price").innerHTML =`${totalPrice},00 <i class="fa fa-try"></i>`;
+                $('.checkout-price').innerText =`Total Price`
+     
             })
     })
     </script>

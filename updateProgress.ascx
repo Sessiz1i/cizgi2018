@@ -52,17 +52,18 @@
       -webkit-animation: progress-bar-stripes .5s linear infinite;
       animation: progress-bar-stripes .5s linear infinite;
     }
-    .modal-dialog-centered {
+    
+   .modal-progress-centered {
       display: flex;
       align-items: center;
       min-height: calc(100% - 1rem);
     }
-    @media (min-width: 576px) {
-      .modal-dialog {
+     @media (min-width: 576px) {
+      .modal-progress-dialog {
         max-width: 500px;
         margin: 1.75rem auto;
       }
-      .modal-dialog-centered {
+      .modal-progress-centered {
         min-height: calc(100% - 3.5rem);
       }
     }
@@ -70,8 +71,8 @@
 </style>
 
 <div class="modal show" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-hidden="true" style=" overflow-y:visible;">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-body">
+    <div class="modal-progress-dialog modal-progress-centered">
+      <div class="modal-body" style="width: 500px">
       <div class="progress">
                 <div class="progress-bar progress-bar-striped active" role="progressbar">
                     <asp:Literal ID="lttLoginTitle8" runat="server" Text="<%$Resources:strings, updateProgresLoader %>"/>
