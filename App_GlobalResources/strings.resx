@@ -1,0 +1,2646 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="banneranasayfakris1" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="banneranasayfakris2" xml:space="preserve">
+    <value>/img/banner-ana-sayfa/tr/albumfotoornek1.jpg</value>
+  </data>
+  <data name="banneranasayfakris3" xml:space="preserve">
+    <value>Kristal Albümler</value>
+  </data>
+  <data name="banneranasayfakris4" xml:space="preserve">
+    <value>50x60, 45x70, 35x65, 30x80 ve 30x90 ölçü seçenekleri ile Kristal Albümlerimizi incelemek için tıklayın.</value>
+  </data>
+  <data name="banneranasayfaluna1" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="banneranasayfaluna2" xml:space="preserve">
+    <value>/img/banner-ana-sayfa/tr/albumfotoornek1.jpg</value>
+  </data>
+  <data name="banneranasayfaluna3" xml:space="preserve">
+    <value>Luna Serisi</value>
+  </data>
+  <data name="banneranasayfaluna4" xml:space="preserve">
+    <value>35x65, 30x45, 30x70, 30x90 ve 41x76 ölçü seçenekleri ile Luna Serisi Albümlerimizi incelemek için tıklayın.</value>
+  </data>
+  <data name="banneranasayfamaster1" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="banneranasayfamaster2" xml:space="preserve">
+    <value>/img/banner-ana-sayfa/tr/albumfotoornek1.jpg</value>
+  </data>
+  <data name="banneranasayfamaster3" xml:space="preserve">
+    <value>Master Serisi</value>
+  </data>
+  <data name="banneranasayfamaster4" xml:space="preserve">
+    <value>30x90, 42x63 ve 35x70 ölçü ve FineArt kağıt seçenekleri bulunan Master Serisi Albümlerimizi incelemek için tıklayın.</value>
+  </data>
+  <data name="banneranasayfanova1" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="banneranasayfanova2" xml:space="preserve">
+    <value>/img/banner-ana-sayfa/tr/albumfotoornek1.jpg</value>
+  </data>
+  <data name="banneranasayfanova3" xml:space="preserve">
+    <value>Nova Serisi</value>
+  </data>
+  <data name="banneranasayfanova4" xml:space="preserve">
+    <value>35x65, 30x45, 30x70, 30x90, 30x60 ve 41x76 ölçü seçenekleri ile Nova Serisi Albümlerimizi incelemek için tıklayın.</value>
+  </data>
+  <data name="banneranasayfapan1" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="banneranasayfapan2" xml:space="preserve">
+    <value>/img/banner-ana-sayfa/tr/albumfotoornek1.jpg</value>
+  </data>
+  <data name="banneranasayfapan3" xml:space="preserve">
+    <value>Panoramik Albümler</value>
+  </data>
+  <data name="banneranasayfapan4" xml:space="preserve">
+    <value>35x65, 30x45 ve 31x50 ölçü seçenekleri bulunan Panoramik Albümlerimizi incelemek için tıklayın.</value>
+  </data>
+  <data name="banneranasayfapre1" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="banneranasayfapre2" xml:space="preserve">
+    <value>/img/banner-ana-sayfa/tr/albumfotoornek1.jpg</value>
+  </data>
+  <data name="banneranasayfapre3" xml:space="preserve">
+    <value>Premium Albümler</value>
+  </data>
+  <data name="banneranasayfapre4" xml:space="preserve">
+    <value>50x60, 35x65, 30x90 ve 45x70 ölçü seçenekleri bulunan Premium Albümlerimizi incelemek için tıklayın.</value>
+  </data>
+  <data name="footercopyright1" xml:space="preserve">
+    <value>Çizgi Albüm Fotoğrafçılık Kırtasiye İnşaat Gıda ve Sanayi Ticaret Limited Şirketi Tüm Hakları Saklıdır © 1989 - 2015</value>
+  </data>
+  <data name="footercopyright2" xml:space="preserve">
+    <value>Bizi Arayın:</value>
+  </data>
+  <data name="footercopyright3" xml:space="preserve">
+    <value>+90 (212) 618-01-08 &lt;br&gt;&lt;strong&gt;veya&lt;/strong&gt; +90 (212) 618-11-13</value>
+  </data>
+  <data name="footercopyright4" xml:space="preserve">
+    <value>Firüzköy Mahallesi Mezarlıküstü Caddesi No : 12 Avcılar&lt;br&gt; İstanbul, Türkiye</value>
+  </data>
+  <data name="footerfollowus1" xml:space="preserve">
+    <value>Bizi Takip Edin</value>
+  </data>
+  <data name="footerfollowus2" xml:space="preserve">
+    <value>Sosyal Medyada Bizi Takip Edin</value>
+  </data>
+  <data name="footerHesabim1" xml:space="preserve">
+    <value>Hesabım</value>
+  </data>
+  <data name="footerHesabim2" xml:space="preserve">
+    <value>Üye Sayfam</value>
+  </data>
+  <data name="footerHesabim3" xml:space="preserve">
+    <value>Sipariş Geçmişi</value>
+  </data>
+  <data name="footerHesabim4" xml:space="preserve">
+    <value>Çıkış</value>
+  </data>
+  <data name="footermaillist1" xml:space="preserve">
+    <value>Email Listesi</value>
+  </data>
+  <data name="footermaillist2" xml:space="preserve">
+    <value>Yeniliklerden haberdar olmak için mail listemize kayıt olun!</value>
+  </data>
+  <data name="footerSayfalar1" xml:space="preserve">
+    <value>Bilgiler</value>
+  </data>
+  <data name="footerSayfalar2" xml:space="preserve">
+    <value>Gizlilik ve Güvenlik</value>
+  </data>
+  <data name="footerSayfalar3" xml:space="preserve">
+    <value>Üyelik Sözleşmesi</value>
+  </data>
+  <data name="footerSayfalar4" xml:space="preserve">
+    <value>Mesafeli Satış Sözleşmesi</value>
+  </data>
+  <data name="footerSayfalar5" xml:space="preserve">
+    <value>İade ve Garanti</value>
+  </data>
+  <data name="footerSayfalar6" xml:space="preserve">
+    <value>Ödeme ve Teslimat</value>
+  </data>
+  <data name="footerSayfalar7" xml:space="preserve">
+    <value>3D Secure</value>
+  </data>
+  <data name="headerdefaultdesc" xml:space="preserve">
+    <value>Çizgi Album Düğün, Nişan, Kristal, Premium ve Panoramik Albüm İmalatı</value>
+  </data>
+  <data name="headerdefaultkeywords" xml:space="preserve">
+    <value>fotograf,fotoğraf, albüm, düğün albüm, bebek albüm, cep albüm, profesyonel, profesyonel albüm, promosyon albüm, dijital albüm, panaromik albüm, fotoğrafçılık, Çizgi albüm, orjinal dizayn, albüm imalat,albüm üretimi,amatör albüm, evlilik fotoğrafları</value>
+  </data>
+  <data name="headerdefaulttitle" xml:space="preserve">
+    <value>Çizgi Album - Panoramik Albüm, Kristal Albüm, Düğün Albümleri, Lüx Premium Albümler, Avangard Albümler, Fotoğraf Albümleri, Stüdyo Albümleri ve Nişan Albümleri İmalatı</value>
+  </data>
+  <data name="headerenglish" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="headerfrance" xml:space="preserve">
+    <value>France</value>
+  </data>
+  <data name="headergerman" xml:space="preserve">
+    <value>Germany</value>
+  </data>
+  <data name="headergirisyap" xml:space="preserve">
+    <value>Giriş Yap</value>
+  </data>
+  <data name="headerkayitol" xml:space="preserve">
+    <value>Kayıt Ol</value>
+  </data>
+  <data name="headerlanguage" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="headerturkce" xml:space="preserve">
+    <value>Türkçe 111</value>
+  </data>
+  <data name="headeruyesayfam" xml:space="preserve">
+    <value>Hoşgeldin</value>
+  </data>
+  <data name="languagekisaltma" xml:space="preserve">
+    <value>tr</value>
+  </data>
+  <data name="menuanasayfa" xml:space="preserve">
+    <value>Ana Sayfa</value>
+  </data>
+  <data name="menuanasayfalink" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="menuhakkimizda" xml:space="preserve">
+    <value>Hakkımızda</value>
+  </data>
+  <data name="menuhakkimizdaurl" xml:space="preserve">
+    <value>/tr/Hakkimizda</value>
+  </data>
+  <data name="menuiletisim" xml:space="preserve">
+    <value>İletişim</value>
+  </data>
+  <data name="menuiletisimurl" xml:space="preserve">
+    <value>/tr/Iletisim</value>
+  </data>
+  <data name="menumegamasterserisrc" xml:space="preserve">
+    <value>/img/headercontent/tr/menu-master-series.jpg</value>
+  </data>
+  <data name="menusayfalar" xml:space="preserve">
+    <value>Sayfalar</value>
+  </data>
+  <data name="menusayfalarurl" xml:space="preserve">
+    <value>/tr/Sayfalar</value>
+  </data>
+  <data name="menuurunler" xml:space="preserve">
+    <value>Ürünlerimiz</value>
+  </data>
+  <data name="menuurunlerkri1" xml:space="preserve">
+    <value>Kristal Serisi</value>
+  </data>
+  <data name="menuurunlerkrisrc1" xml:space="preserve">
+    <value>/img/headercontent/tr/albumfotoornek2.jpg</value>
+  </data>
+  <data name="menuurunlerkriurl1" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="menuurunlerluna1" xml:space="preserve">
+    <value>Luna Serisi</value>
+  </data>
+  <data name="menuurunlerlunasrc1" xml:space="preserve">
+    <value>/img/headercontent/tr/albumfotoornek2.jpg</value>
+  </data>
+  <data name="menuurunlerlunaurl1" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="menuurunlermaster" xml:space="preserve">
+    <value>Master Serisi</value>
+  </data>
+  <data name="menuurunlermastersrc" xml:space="preserve">
+    <value>/img/headercontent/tr/albumfotoornek2.jpg</value>
+  </data>
+  <data name="menuurunlermasterurl" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="menuurunlernova1" xml:space="preserve">
+    <value>Nova Serisi</value>
+  </data>
+  <data name="menuurunlernovasrc1" xml:space="preserve">
+    <value>/img/headercontent/tr/albumfotoornek2.jpg</value>
+  </data>
+  <data name="menuurunlernovaurl1" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="menuurunlerpan1" xml:space="preserve">
+    <value>Panoramik Serisi</value>
+  </data>
+  <data name="menuurunlerpansrc1" xml:space="preserve">
+    <value>/img/headercontent/tr/albumfotoornek2.jpg</value>
+  </data>
+  <data name="menuurunlerpanurl1" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="menuurunlerpre1" xml:space="preserve">
+    <value>Premium Serisi</value>
+  </data>
+  <data name="menuurunlerpresrc1" xml:space="preserve">
+    <value>/img/headercontent/tr/albumfotoornek2.jpg</value>
+  </data>
+  <data name="menuurunlerpreurl1" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="litRegisterTitle1" xml:space="preserve">
+    <value>Sitemize Üye Olun</value>
+  </data>
+  <data name="litRegisterTitle2" xml:space="preserve">
+    <value>Lütfen sitemize üye olmak için aşağıdaki formu doldurun.</value>
+  </data>
+  <data name="litUsernameLogin1" xml:space="preserve">
+    <value>Kullanıcı Adınız</value>
+  </data>
+  <data name="litUsernameLogin2" xml:space="preserve">
+    <value>Şifreniz</value>
+  </data>
+  <data name="litUsernameLogin3" xml:space="preserve">
+    <value>Gerekli Alan</value>
+  </data>
+  <data name="litUsernameLoginBtn" xml:space="preserve">
+    <value>Giriş Yap</value>
+  </data>
+  <data name="litUsernameLoginForgetten" xml:space="preserve">
+    <value>Şifremi Unuttum !</value>
+  </data>
+  <data name="loginBread1" xml:space="preserve">
+    <value>Üye Girişi</value>
+    <comment>breadcrumb</comment>
+  </data>
+  <data name="loginBread2" xml:space="preserve">
+    <value>Ana Sayfa</value>
+    <comment>breadcrumb</comment>
+  </data>
+  <data name="loginForgettenUrl" xml:space="preserve">
+    <value>Sifremi-Unuttum</value>
+  </data>
+  <data name="loginPageName" xml:space="preserve">
+    <value>uye-giris</value>
+  </data>
+  <data name="loginTitle" xml:space="preserve">
+    <value>Üye girişi yapın veya Yeni hesap açın !</value>
+    <comment>login top</comment>
+  </data>
+  <data name="loginTitle2" xml:space="preserve">
+    <value>Yeni Hesap Açın</value>
+  </data>
+  <data name="loginTitle3" xml:space="preserve">
+    <value>Çizgi Albüm sitemizde hesabınız yok ise, yeni hesap açarak Üye sayfanızdan Panoramik Albüm veya diğer ürünlerimizi sipariş edebilirsiniz.</value>
+  </data>
+  <data name="loginTitle4" xml:space="preserve">
+    <value>Yeni Hesap Aç</value>
+  </data>
+  <data name="loginTitle5" xml:space="preserve">
+    <value>Üye Girişi Yapın</value>
+  </data>
+  <data name="loginTitle6" xml:space="preserve">
+    <value>Mevcut hesabınızı ile giriş yapmak için aşağıdaki formu kullanabilirsiniz.</value>
+  </data>
+  <data name="loginTitle7" xml:space="preserve">
+    <value>Üye Girişi</value>
+  </data>
+  <data name="loginTitle8" xml:space="preserve">
+    <value>Çizgi Albüm üye girişi yaparak, Üye sayfanızdan Panoramik Albüm veya diğer ürünlerimizi sipariş edebilirsiniz.</value>
+  </data>
+  <data name="loginTitle9" xml:space="preserve">
+    <value>Hesabıma Giriş Yap</value>
+  </data>
+  <data name="memberPageName" xml:space="preserve">
+    <value>uye-sayfam</value>
+  </data>
+  <data name="regFormErrorTitle" xml:space="preserve">
+    <value>Lütfen aşağıdaki uyarıları kontrol ederek tekrar deneyiniz.</value>
+  </data>
+  <data name="registerCheckAdres" xml:space="preserve">
+    <value>Adresinizi yazmadınız.</value>
+  </data>
+  <data name="registerCheckEposta" xml:space="preserve">
+    <value>Email adresinizi yazmadınız.</value>
+  </data>
+  <data name="registerCheckEpostaHatali" xml:space="preserve">
+    <value>Yazdığınız mail adresi &lt;strong class="text-danger"&gt;{0}&lt;/strong&gt; hatalıdır. Lütfen düzeltip tekrar deneyin.</value>
+  </data>
+  <data name="registerCheckIsim" xml:space="preserve">
+    <value>Adınızı yazmadınız.</value>
+  </data>
+  <data name="registerCheckMailRegistered" xml:space="preserve">
+    <value>Yazdığınız mail adresi &lt;strong class="text-danger"&gt;{0}&lt;/strong&gt; ile daha önceden sitemize kayıt olunmuş. Mail adresine erişiminiz var ise Şifremi unuttum kısmından &lt;strong class="text-danger"&gt;{0}&lt;/strong&gt; kayıtlı mail adresine yeni şifre gönderimi yapabilirsiniz.</value>
+    <comment>{0} olan yere mail adresi gelecek</comment>
+  </data>
+  <data name="registerCheckSehir" xml:space="preserve">
+    <value>Şehir seçimi yapmadınız.</value>
+  </data>
+  <data name="registerCheckSifre" xml:space="preserve">
+    <value>Şifrenizi yazmadınız.</value>
+  </data>
+  <data name="registerCheckSifre2" xml:space="preserve">
+    <value>Şifrenizi Tekrar kısmına yazmadınız.</value>
+  </data>
+  <data name="registerCheckSifreNot6" xml:space="preserve">
+    <value>Şifreniz en az &lt;strong class="text-danger"&gt;6&lt;/strong&gt; karakter uzunluğunda olmalıdır.</value>
+  </data>
+  <data name="registerCheckSifreNotMatch" xml:space="preserve">
+    <value>Şifreleriniz uyuşmuyor.</value>
+  </data>
+  <data name="registerCheckSoyIsim" xml:space="preserve">
+    <value>Soyadınızı yazmadınız.</value>
+  </data>
+  <data name="registerCheckTel" xml:space="preserve">
+    <value>Telefon numaranızı yazmadınız.</value>
+  </data>
+  <data name="registerCheckUlke" xml:space="preserve">
+    <value>Ülke seçimi yapmadınız.</value>
+  </data>
+  <data name="registerCheckUsernameRegistered" xml:space="preserve">
+    <value>Seçtiğiniz kullanıcı adı &lt;strong class="text-danger"&gt;{0}&lt;/strong&gt; daha önceden alınmış. Lütfen farklı bir kullanıcı adı ile tekrar deneyin. Kullanıcı adının size ait olduğunu düşünüyorsanız Şifremi unuttum kısmından mail adresinize yeni şifre gönderimi yapabilirsiniz.</value>
+    <comment>{0} olan yere kullanıcı adı gelecek</comment>
+  </data>
+  <data name="registerCheckUsr" xml:space="preserve">
+    <value>Kullanıcı adı yazmadınız.</value>
+  </data>
+  <data name="registerCheckUsrNot3" xml:space="preserve">
+    <value>Kullanıcı adınız en az 3 karakter uzunluğunda olmalıdır.</value>
+  </data>
+  <data name="registerCheckUyelikSzlmes" xml:space="preserve">
+    <value>&lt;strong class="text-danger"&gt;Üyelik sözleşmesini kabul etmeden üye olamazsınız.&lt;/strong&gt;</value>
+  </data>
+  <data name="registerFormAdres" xml:space="preserve">
+    <value>Adres</value>
+  </data>
+  <data name="registerFormBtnRegister" xml:space="preserve">
+    <value>Gönder ve Üyelik Kaydımı Yap</value>
+  </data>
+  <data name="registerFormEposta" xml:space="preserve">
+    <value>Eposta Adresi</value>
+  </data>
+  <data name="registerFormFirmaAdres" xml:space="preserve">
+    <value>Firma Adresi</value>
+  </data>
+  <data name="registerFormFirmaFaturaIsim" xml:space="preserve">
+    <value>Faturaya Yazılacak İsim</value>
+  </data>
+  <data name="registerFormFirmaTel" xml:space="preserve">
+    <value>Firma Telefon</value>
+  </data>
+  <data name="registerFormFirmaTitle" xml:space="preserve">
+    <value>Firma Bilgileriniz</value>
+  </data>
+  <data name="registerFormFirmaUnvan" xml:space="preserve">
+    <value>Firma Ünvanı</value>
+  </data>
+  <data name="registerFormFirmaUyelikSozlesmesiTitle" xml:space="preserve">
+    <value>Üyelik Sözleşmesi</value>
+  </data>
+  <data name="registerFormFirmaVergiDairesi" xml:space="preserve">
+    <value>Vergi Dairesi</value>
+  </data>
+  <data name="registerFormFirmaVergiNumarasi" xml:space="preserve">
+    <value>VergiNumarasi</value>
+  </data>
+  <data name="registerFormIsim" xml:space="preserve">
+    <value>İsim</value>
+  </data>
+  <data name="registerFormMailingList" xml:space="preserve">
+    <value>Yenilikler İçin Mail Listesine Kayıt Ol</value>
+  </data>
+  <data name="registerFormSehir" xml:space="preserve">
+    <value>Şehir</value>
+  </data>
+  <data name="registerFormSehirSecin" xml:space="preserve">
+    <value>Lütfen Şehir Seçin</value>
+  </data>
+  <data name="registerFormSifre" xml:space="preserve">
+    <value>Şifreniz</value>
+  </data>
+  <data name="registerFormSifre2" xml:space="preserve">
+    <value>Şifreniz (Tekrar)</value>
+  </data>
+  <data name="registerFormSoyisim" xml:space="preserve">
+    <value>Soyisim</value>
+  </data>
+  <data name="registerFormSozlesme" xml:space="preserve">
+    <value>Üyelik Sözleşmesini Okudum ve Kabul Ediyorum</value>
+  </data>
+  <data name="registerFormTel" xml:space="preserve">
+    <value>Telefon Numaranız</value>
+  </data>
+  <data name="registerFormUlke" xml:space="preserve">
+    <value>Ülke</value>
+  </data>
+  <data name="registerFormUlkeSecin" xml:space="preserve">
+    <value>Lütfen Ülke Seçin</value>
+  </data>
+  <data name="registerFormUsername" xml:space="preserve">
+    <value>Kullanıcı Adı</value>
+  </data>
+  <data name="registerFormUyelikSozlesmesi1" xml:space="preserve">
+    <value>Sayın Site Kullanıcısı;</value>
+  </data>
+  <data name="registerFormUyelikSozlesmesi10" xml:space="preserve">
+    <value>http://www.cizgialbum.com web sitesine gönderilen bütün dataların Çizgi Albüm tarafından saklanması, depolanması, basılması, kullanılması ve yayımlanmasını kabul ediyorum Bu dataların 3. kişiler tarafından kopyalanıp kullanılmasından Çizgi Albüm' ün herhangi bir sorumluluğu yoktur.</value>
+  </data>
+  <data name="registerFormUyelikSozlesmesi11" xml:space="preserve">
+    <value>Yayınlanan içeriğin kesintisinden, gecikmesinden veya hatalı olmasından ve bunların yola açabileceği zararlardan dolayı Çizgi Albüm hiç bir şekilde sorumlu değildir.</value>
+  </data>
+  <data name="registerFormUyelikSozlesmesi12" xml:space="preserve">
+    <value>http://www.cizgialbum.com internet sitesine üye olduğunuzda siparişinizin durumu, Çizgi Albüm güncellemeleri ve yeni ürünler hakkında spam yapmamak şartı ile kullanıcının mail adresine epostalar gönderilmektedir. Siteye üye olan kullanıcı kendisine Çizgi Albüm tarafından mailler gönderileceğini kabul eder,</value>
+  </data>
+  <data name="registerFormUyelikSozlesmesi13" xml:space="preserve">
+    <value>http://www.cizgialbum.com sitesi kullanıcı sitede gezinirken sadece Çizgi Albüm tarafından kullanıcıyı tanımlamak ve siparişin verilirken sağlıklı olması için cookie (çerez) kullanmaktadır. Çizgi Albüm sitesinde kullanılan çerezlerin reklam amaçlı kullanılmadığını taahhüt eder.</value>
+  </data>
+  <data name="registerFormUyelikSozlesmesi14" xml:space="preserve">
+    <value>Bu yayın, Çizgi Albüm izni olmadan kopyalanamaz, dağıtılamaz, ticari bir amaçla kaynak gösterilmek suretiyle veya kaynak gösterilmeksizin kullanılamaz ve hiçbir format altında bilgisayar sistemlerine aktarılamaz.</value>
+  </data>
+  <data name="registerFormUyelikSozlesmesi15" xml:space="preserve">
+    <value>http://www.cizgialbum.com web sitesine girmekle site ziyaretçileri yukarıdaki uyarı ve beyanları okumuş ve kabul etmiş addedilecektir. Bu hususta herhangi bir anlaşmazlık, iddia ve talep olduğu takdirde, iş bu web sayfasında yazılı bulunan bu ibarelerin ve Çizgi Albüm 'e ait diğer tüm bilgisayar kayıtlarının tek ve gerçek münhasır delil olarak HUMK Madde 287'ye uygun olarak İstanbul Mahkemeleri ve İcra ve İflas Dairelerinin yetkisine sunulacağı Çizgi Albüm tarafından beyan ve işbu http://www.cizgialbum.com web Sitesi'ne giren kişi(ler), kuruluş(lar) tarafından kabul ve taahhüt edilir.</value>
+  </data>
+  <data name="registerFormUyelikSozlesmesi16" xml:space="preserve">
+    <value>Çizgi Albüm</value>
+  </data>
+  <data name="registerFormUyelikSozlesmesi2" xml:space="preserve">
+    <value>http://www.cizgialbum.com internet sitesi Çizgi Albüm güvencesinde olup, yine onun tarafından işletilmektedir ve içeriği uluslararası fikri ve sınai mülkiyet mevzuatı tarafından korunmaktadır.  Bu siteyi kullanmaya başladığınız andan itibaren aşağıda yazılı tüm hususları tamamen anlamış ve kabul etmiş sayılırsınız:</value>
+  </data>
+  <data name="registerFormUyelikSozlesmesi3" xml:space="preserve">
+    <value>http://www.cizgialbum.com internet sitesindeki tüm dokümanlar Çizgi Albüm mülkiyetindedir. Kod ve yazılım da dahil olmak üzere, bu sitedeki hiç bir malzemeyi değiştiremez, kopyalayamaz, çoğaltamaz, kiralayamaz, yeniden yayımlayamaz, başka bir bilgisayara yükleyemez, postalayamaz, iletemez ya da dağıtamazsınız. Yukarıda belirtilenden bağımsız olarak, sitenin sayfalarının yazıcı çıktısını kişisel kullanımınız için alabilirsiniz.</value>
+  </data>
+  <data name="registerFormUyelikSozlesmesi4" xml:space="preserve">
+    <value>http://www.cizgialbum.com web sitesinin virüs ve benzeri amaçlı yazılımlardan arındırılmış olması için mevcut imkanlar dahilinde tedbir alınmış olmakla birlikte, nihai güvenliğin sağlanması için kullanıcı, kendi virüs koruma sistemini tedarik etmek ve gerekli korumayı sağlamakla yükümlüdür.</value>
+  </data>
+  <data name="registerFormUyelikSozlesmesi5" xml:space="preserve">
+    <value>http://www.cizgialbum.com web sitesine girmesi nedeniyle, kullanıcının kendi yazılım ve işletim sistemlerinde oluşabilecek tüm hata ve bunların doğrudan ya da dolaylı sonuçlarından kendisinin sorumlu olduğunu kabul eder.</value>
+  </data>
+  <data name="registerFormUyelikSozlesmesi6" xml:space="preserve">
+    <value>İleride söz konusu şartları okumamış veya okumuş olup da bunlara uygun davranmamış olmanızdan kaynaklanabilecek olan her türlü maddi ve manevi zarara ilişkin talebinizden Çizgi Albüm veya http://www.cizgialbum.com Web Sitesi 'nin, bu sitedeki her türlü içeriğin hazırlayıcılarının, çalışanlarının, Çizgi Albüm tarafından yetkilendirdikleri kişi ve kuruluşların hiçbir hukuki ve cezai sorumluluğu bulunmamaktadır.</value>
+  </data>
+  <data name="registerFormUyelikSozlesmesi7" xml:space="preserve">
+    <value>http://www.cizgialbum.com web Sitesini ziyaret edenlerin, reklam ve sponsorluk veren şirketlerin, Web Sitesi'nde yayınlamış olabilecekleri yazı, bilgi, yorum, haber, görüntü, http://www.cizgialbum.com logosunun, anasayfa ile alt bölüm bağlantılarının http://www.cizgialbum.com dışı web sitelerinde kullanımı, hizmetlerinin ve kullanıcılar tarafından Çizgi Albüm sunucularına yüklenip yayınlanan her türlü içeriğin kullanımı suretiyle edinilen bilgiler de dahil ve fakat bu sayılan kişiler ya da yayınlarla sınırlı olmaksızın, Internet, yeterli güvenlik önlemleri olmasına rağmen dolaşılabilir ve yetkili olmayan kişilerce bilgilere erişilebilir olan genel yapısı gereği sorumluluk ve yetkisinde olmayan herhangi bir içerikten, Çizgi Albüm  hukuki, cezai ve/veya şahsi hiçbir sorumluluğu bulunmamakta olup, işbu web Sitesi ziyaretçileri bu hususu bu siteye girdikleri andan itibaren kabul ve beyan ederler.</value>
+  </data>
+  <data name="registerFormUyelikSozlesmesi8" xml:space="preserve">
+    <value>Çizgi Albüm, işbu hüküm ve şartları dilediği zaman önceden haber vermek zorunda olmaksızın tek taraflı olarak değiştirme ve güncelleme hakkına haizdir. Değiştirilen, yenilenen ya da yürürlükten kaldırılan her hüküm, yayın tarihinde tüm kullanıcılar bakımından hüküm ifade edecektir.</value>
+  </data>
+  <data name="registerFormUyelikSozlesmesi9" xml:space="preserve">
+    <value>http://www.cizgialbum.com web sitesinde veya bu siteden bağlantı yapılarak ulaşılan herhangi bir web sitesinde yer alan bilgi, değerlendirme, yorum ve istatistiki şekil ve değerlerin kullanımı sonucunda doğabilecek doğrudan veya dolaylı maddi ve / veya manevi menfi ve / veya müsbet zararlardan ve olası sair zarar ve masraflardan dolayı Çizgi Albüm hiç bir şahsi, hukuki ve cezai sorumluluğu mevcut değildir.</value>
+  </data>
+  <data name="registerFormWeb" xml:space="preserve">
+    <value>Web Siteniz</value>
+  </data>
+  <data name="registerPageDesc" xml:space="preserve">
+    <value>Üye girişi yapmak veya sitemize üye olmak için bu sayfayı kullanabilirsiniz.</value>
+  </data>
+  <data name="registerPageTitle" xml:space="preserve">
+    <value>Üye Girişi Yapın veya Kayıt Olun - Çizgi Albüm</value>
+  </data>
+  <data name="updateProgresLoader" xml:space="preserve">
+    <value>Yükleniyor ...</value>
+  </data>
+  <data name="regFormComplete" xml:space="preserve">
+    <value>&lt;p&gt;&lt;strong class="text-info"&gt;Sayın {0}, üyelik kaydınız başarı ile tamamlanmıştır.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong class="text-info"&gt;Üyeliğiniz onaylandığında tarafımızdan üyeliğinizin onaylandığına dair bir eposta alacaksınız.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong class="text-info"&gt;Bir sorun yaşarsanız iletişim kısmındaki telefon numaralarımızdan bize ulaşabilirsiniz.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong class="text-danger"&gt;Not : Bilgileri eksik üyelikler onaylanmayacaktır.&lt;/strong&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="regFormCompleteTitle" xml:space="preserve">
+    <value>&lt;strong class="text-info"&gt;Tebrikler, üyelik kaydınız başarı ile tamamlandı&lt;/strong&gt;</value>
+  </data>
+  <data name="loginHataMesaj1" xml:space="preserve">
+    <value>&lt;p&gt;Kullanıcı adı veya Şifrenizi hatalı girdiniz.&lt;/p&gt;</value>
+  </data>
+  <data name="loginHataMesaj2" xml:space="preserve">
+    <value>&lt;p&gt;Lütfen düzeltip tekrar deneyiniz.&lt;/p&gt;</value>
+  </data>
+  <data name="loginHataMesaj3" xml:space="preserve">
+    <value>&lt;p&gt;Değerli Müşterimiz.&lt;/p&gt;&lt;p&gt;Üyeliğiniz henüz aktif edilmemiş&lt;/p&gt;&lt;p&gt;+ 90 212 000 00 00 numaralı telefonu arayarak müşteri temsilcinizden bilgi alabilirsiniz.&lt;/p&gt;</value>
+  </data>
+  <data name="loginHataSifre" xml:space="preserve">
+    <value>&lt;p&gt;Şifrenizi yazmadınız.&lt;/p&gt;</value>
+  </data>
+  <data name="loginHataSifre6" xml:space="preserve">
+    <value>&lt;p&gt;Şifreniz en az 6 karakter uzunluğunda olmalıdır.&lt;/p&gt;</value>
+  </data>
+  <data name="loginHataTitle" xml:space="preserve">
+    <value>Giriş yapılırken bir sorun oluştu !</value>
+  </data>
+  <data name="loginHataUsername" xml:space="preserve">
+    <value>&lt;p&gt;Kullanıcı adınızı yazmadınız.&lt;/p&gt;</value>
+  </data>
+  <data name="regFormMailError" xml:space="preserve">
+    <value>&lt;p class="text-danger"&gt;Üyelik kaydınız yapıldı fakat, &lt;strong&gt;{0}&lt;/strong&gt; mail adresine hoşgeldin maili gönderilemedi.&lt;/p&gt;</value>
+  </data>
+  <data name="registerFirmaAdi" xml:space="preserve">
+    <value>ÇİZGİ ALBUM FOTOGRAFCILIK KIRTASİYE INŞAAT GIDA VE SAN TIC LTD ŞTI</value>
+  </data>
+  <data name="registerFirmaAdres" xml:space="preserve">
+    <value>Karayolları Mahallesi 569 Sokak No : 8 Gaziosmanpaşa İstanbul</value>
+  </data>
+  <data name="registerFirmaEposta" xml:space="preserve">
+    <value>Eposta : info@cizgialbum.com</value>
+  </data>
+  <data name="registerFirmaFax" xml:space="preserve">
+    <value>Fax 1 : +90 2120000000</value>
+  </data>
+  <data name="registerFirmaTel1" xml:space="preserve">
+    <value>Tel 1 : +90 212 0000000</value>
+  </data>
+  <data name="registerFirmaTel2" xml:space="preserve">
+    <value>Tel 2 : +90 212 0000000</value>
+  </data>
+  <data name="registerFooterCopyright" xml:space="preserve">
+    <value>Tüm Hakları Saklıdır © 2007-2019</value>
+  </data>
+  <data name="registerHeaderCong" xml:space="preserve">
+    <value>TEBRİKLER ÜYELİK KAYDINIZ TAMAMLANDI !</value>
+  </data>
+  <data name="registerHeaderYapabilecekleri" xml:space="preserve">
+    <value>ÜYELİĞİNİZ İLE YAPABİLECEKLERİNİZİN BAZILARI</value>
+  </data>
+  <data name="registerMailSocial" xml:space="preserve">
+    <value> Çizgi Albüm' ü Sosyal Medyada Takip Edin.</value>
+  </data>
+  <data name="registerMailTitle" xml:space="preserve">
+    <value>Yeni Üyelik Kayıt - Çizgi Albüm</value>
+  </data>
+  <data name="registerMailTitle2" xml:space="preserve">
+    <value> Çizgi Albüm Üyeliğiniz Hakkında</value>
+  </data>
+  <data name="registerOnlineOdeme" xml:space="preserve">
+    <value>Online Ödeme</value>
+  </data>
+  <data name="registerOnlineOdemeText" xml:space="preserve">
+    <value>Siparişlerinizin ödemelerini 3D Secure sistemi veya Paypal ile güvenli bir şekilde yapabilirsiniz.</value>
+  </data>
+  <data name="registerOnlineSip" xml:space="preserve">
+    <value>Online Sipariş</value>
+  </data>
+  <data name="registerOnlineSipText" xml:space="preserve">
+    <value>Panoramik albüm siparişlerini websitemiz üzerinden online olarak verebilirsiniz.</value>
+  </data>
+  <data name="registerOnlineTakip" xml:space="preserve">
+    <value>Sipariş Takibi</value>
+  </data>
+  <data name="registerOnlineTakipText" xml:space="preserve">
+    <value>Verdiğiniz siparişlerin durumunu adım adım sitemiz üzerinden takip edebilirsiniz.</value>
+  </data>
+  <data name="registerSayin" xml:space="preserve">
+    <value>Sayın</value>
+  </data>
+  <data name="registerTesekkur1" xml:space="preserve">
+    <value>Sitemize üye olduğunuz için teşekkür ederiz,</value>
+  </data>
+  <data name="registerTesekkur2" xml:space="preserve">
+    <value>Üyelik bilgileriniz tarafımızdan incelendikten sonra üyeliğiniz onaylanacaktır.</value>
+  </data>
+  <data name="registerTesekkur3" xml:space="preserve">
+    <value>Üyeliğiniz onaylandığında, tarafınıza üyeliğinizin onaylandığına dair bir onay epostası gönderilecektir.</value>
+  </data>
+  <data name="headerLogout" xml:space="preserve">
+    <value>Çıkış Yap !</value>
+  </data>
+  <data name="languageKisa" xml:space="preserve">
+    <value>Dil</value>
+    <comment>Dil, Lang vb. gibi</comment>
+  </data>
+  <data name="languagePageUrl" xml:space="preserve">
+    <value>dil-secimi</value>
+  </data>
+  <data name="logoutPageName" xml:space="preserve">
+    <value>Cikis-Yap</value>
+  </data>
+  <data name="passForgetDone" xml:space="preserve">
+    <value>&lt;p&gt;Tebrikler&lt;/p&gt;&lt;p&gt;Şifreniz başarı ile sıfırlandı.&lt;/p&gt;&lt;p&gt;Yeni şifreniz email adresinize gönderildi.&lt;/p&gt;&lt;p&gt;Lütfen spam klasörünü kontrol etmeyi unutmayınız!&lt;/p&gt;</value>
+  </data>
+  <data name="passForgetDoneNoEmail" xml:space="preserve">
+    <value>&lt;p&gt;Şifreniz başarı ile sıfırlandı lakin,&lt;/p&gt;&lt;p&gt;Kayıtlı mail adresinize yeni şifreniz gönderilirken bir sorun oluştu.&lt;/p&gt;&lt;p&gt;Lütfen Çizgi Albüm müşteri temsilciniz ile irtibat kurun.&lt;/p&gt;</value>
+  </data>
+  <data name="passForgetDoneTitle" xml:space="preserve">
+    <value>Şifre Sıfırlama Başarılı !</value>
+  </data>
+  <data name="passForgetHataSorun" xml:space="preserve">
+    <value>&lt;p&gt;Sistemde bir sorun oluştu&lt;/p&gt;&lt;p&gt;Lütfen daha sonra tekrar deneyiniz&lt;/p&gt;&lt;p class="text-danger"&gt;Bu hatayı devamlı alıyorsanız lütfen müşteri temsilciniz ile görüşün.&lt;/p&gt;</value>
+  </data>
+  <data name="passForgetHataSorunTitle" xml:space="preserve">
+    <value>Bir Sorun Oluştu !</value>
+  </data>
+  <data name="passForgetHataTitle" xml:space="preserve">
+    <value>Şifreniz Sıfırlanamadı !</value>
+  </data>
+  <data name="passForgetMail1" xml:space="preserve">
+    <value>Web sitemiz üzerinden yaptığınız istek üzerine şifreniz sıfırlanmıştır.</value>
+  </data>
+  <data name="passForgetMail2" xml:space="preserve">
+    <value>Kullanıcı Adınız : </value>
+  </data>
+  <data name="passForgetMail3" xml:space="preserve">
+    <value>Yeni Şifreniz : </value>
+  </data>
+  <data name="passForgetMailHeader" xml:space="preserve">
+    <value>Çizgi Albüm ŞİFRENİZ SIFIRLANDI</value>
+  </data>
+  <data name="passForgetMailTitle" xml:space="preserve">
+    <value>Yeni Şifre Bilgileriniz</value>
+  </data>
+  <data name="passForgetMailUyusmuyor" xml:space="preserve">
+    <value>&lt;p&gt;Kullanıcı Adınız/Eposta Adresiniz sitemizdeki kayıtlarla uyuşmuyor.&lt;/p&gt;&lt;p&gt;Lütfen kontrol ederek tekrar deneyiniz.&lt;/p&gt;&lt;p class="text-danger"&gt;Sitemize kayıt olurken girdiğiniz Kullanıcı adını veya Eposta adresinizi hatırlamıyorsanız lütfen müşteri temsilciniz ile görüşün.&lt;/p&gt;</value>
+  </data>
+  <data name="passForgettenForm1" xml:space="preserve">
+    <value>Kayıp Şifre Formu</value>
+  </data>
+  <data name="passForgettenForm2" xml:space="preserve">
+    <value>Şifrenizi resetlemek için aşağıdaki formu kullanabilirsiniz.</value>
+  </data>
+  <data name="passForgettenForm3" xml:space="preserve">
+    <value>Şifremi Gönder !</value>
+  </data>
+  <data name="passForgettenTitle" xml:space="preserve">
+    <value>Şifrenizi unuttuysanız aşağıdaki formu kullanabilirsiniz.</value>
+  </data>
+  <data name="memberAciklama" xml:space="preserve">
+    <value>Üye sayfanızdan ürün siparişlerinizi verebilir, daha önce verdiğiniz siparişlerinizin durumunu takip edebilir veya kredi kartı/paypal kullanarak ödemelerinizi yapabilirsiniz.</value>
+  </data>
+  <data name="memberAdresDefteri" xml:space="preserve">
+    <value>Adres Defterim</value>
+  </data>
+  <data name="memberAdresDefteriLnk" xml:space="preserve">
+    <value>/adreslerim</value>
+  </data>
+  <data name="memberBilgileriDuzenle" xml:space="preserve">
+    <value>Bilgilerimi Düzenle</value>
+  </data>
+  <data name="memberBilgileriDuzenleLnk" xml:space="preserve">
+    <value>/bilgilerimi-duzenle</value>
+  </data>
+  <data name="memberBread" xml:space="preserve">
+    <value>Üye Sayfam</value>
+  </data>
+  <data name="memberHello" xml:space="preserve">
+    <value>Değerli Müşterimiz,</value>
+  </data>
+  <data name="memberHesabimTitle" xml:space="preserve">
+    <value>Hesabım</value>
+  </data>
+  <data name="memberHesapBilgilerim" xml:space="preserve">
+    <value>Üye Bilgilerim</value>
+  </data>
+  <data name="memberMailDuzenle" xml:space="preserve">
+    <value>Eposta Güncelleme</value>
+  </data>
+  <data name="memberMailDuzenleLnk" xml:space="preserve">
+    <value>/eposta-guncelle</value>
+  </data>
+  <data name="memberSifreDuzenle" xml:space="preserve">
+    <value>Parola Güncelleme</value>
+  </data>
+  <data name="memberSifreDuzenleLnk" xml:space="preserve">
+    <value>/parola-guncelle</value>
+  </data>
+  <data name="memberSiparislerim" xml:space="preserve">
+    <value>Siparişlerim</value>
+  </data>
+  <data name="memberSipDetay" xml:space="preserve">
+    <value>Detaylar</value>
+  </data>
+  <data name="memberSipDurum" xml:space="preserve">
+    <value>Durum</value>
+  </data>
+  <data name="memberSipID" xml:space="preserve">
+    <value>Sipariş No</value>
+  </data>
+  <data name="memberSipIslem" xml:space="preserve">
+    <value>İşlem</value>
+  </data>
+  <data name="memberSipPaket" xml:space="preserve">
+    <value>Paket</value>
+  </data>
+  <data name="memberSipTarih" xml:space="preserve">
+    <value>Tarih</value>
+  </data>
+  <data name="memberSipYok" xml:space="preserve">
+    <value>Mevcut sipariş bulunamadı.</value>
+  </data>
+  <data name="memberUyeSayfam" xml:space="preserve">
+    <value>Üye Sayfam</value>
+  </data>
+  <data name="membermuhasebesor" xml:space="preserve">
+    <value>Muhasebe Sorumlunuz</value>
+  </data>
+  <data name="memberpazarlama" xml:space="preserve">
+    <value>Pazarlama Sorumlunuz</value>
+  </data>
+  <data name="membersiparissor" xml:space="preserve">
+    <value>Sipariş Sorumlunuz</value>
+  </data>
+  <data name="siparisGonder" xml:space="preserve">
+    <value>Sipariş Gönder</value>
+  </data>
+  <data name="siparisKampanyaliSeriOlcuList" xml:space="preserve">
+    <value>Nova &amp; Luka</value>
+  </data>
+  <data name="siparisKristalSeriOlcuList" xml:space="preserve">
+    <value>Kristal Seri</value>
+  </data>
+  <data name="siparisMasterSeriOlcuList" xml:space="preserve">
+    <value>Master Seri</value>
+  </data>
+  <data name="siparisPremiumPlusSeriOlcuList" xml:space="preserve">
+    <value>Premium Plus Seri Albüm Ölçüleri</value>
+  </data>
+  <data name="siparisPremiumSeriOlcuList" xml:space="preserve">
+    <value>Premium Seri Albüm Ölçüleri</value>
+  </data>
+  <data name="siparisStandartSeriOlcuList" xml:space="preserve">
+    <value>Standart Seri</value>
+  </data>
+  <data name="siparisVerBaslik" xml:space="preserve">
+    <value>Sipariş Gönder</value>
+  </data>
+  <data name="siparisBuyukEbat" xml:space="preserve">
+    <value>Büyük Ebatlarınız</value>
+  </data>
+  <data name="siparisBuyukEbat2" xml:space="preserve">
+    <value>Büyük ebatınız yoksa "yok" yazınız. Gönderdiğiniz büyük ebatları bu bölümü yazınız örneğin : "2 ad 50x60 ve 1 ad 75x100" gibi</value>
+  </data>
+  <data name="siparisCalismaSekli" xml:space="preserve">
+    <value>Çalışma Şekli Seçiniz</value>
+  </data>
+  <data name="siparisCalismaSekliSecim1" xml:space="preserve">
+    <value>&lt;strong&gt;Ben Çalıştım.&lt;/strong&gt; Albüm rutuş, fonlama ve renk işlemlerini kendiniz hazırladı iseniz bu seçeneği seçmeniz gerekmektedir.</value>
+  </data>
+  <data name="siparisCalismaSekliSecim2" xml:space="preserve">
+    <value>&lt;strong&gt;Siz Çalışın. &lt;/strong&gt; Albüm rutuş, fonlama ve renk işlemlerinin Çizgi Albüm tarafından yapılmasını istiyorsanız bu seçeneği seçmeniz gerekmektedir.&lt;/br&gt;&lt;strong class='text-warning'&gt;10 Yapraklı albümlerde 30 pozdan sonra, 5 Yapraklı albümlerde ise 15. pozdan sonra her poz için ekstra 15 TL ilave çalışma ücreti eklenecektir.&lt;/strong&gt;</value>
+  </data>
+  <data name="siparisKapakDlYazi" xml:space="preserve">
+    <value>{0} kodlu albüm kapak şablonunu bilgisayarınıza indirmek için tıklayınız !</value>
+  </data>
+  <data name="siparisKapakEkle" xml:space="preserve">
+    <value>Kumaş Seçeneğini Seç</value>
+  </data>
+  <data name="siparisKapakYazisi" xml:space="preserve">
+    <value>Kapak Yazısı</value>
+  </data>
+  <data name="siparisKapakYazisi2" xml:space="preserve">
+    <value>Siparişinizin kapağına gelin&amp;damat ismi ve tarih vb. yazılmasını istediklerinizi buraya yazın. Kapak yazınız lütfen 200 karakteri geçmesin.</value>
+  </data>
+  <data name="siparisPaketFiyat" xml:space="preserve">
+    <value>Paket Ücreti :</value>
+  </data>
+  <data name="siparisPaketSecBtn" xml:space="preserve">
+    <value>Albüm Paketini Seç</value>
+  </data>
+  <data name="siparisSayfaTipi" xml:space="preserve">
+    <value>Sayfa Tipi Seçiniz</value>
+  </data>
+  <data name="siparisYaprakSayisi" xml:space="preserve">
+    <value>Yaprak Sayısı</value>
+  </data>
+  <data name="paket1" xml:space="preserve">
+    <value>25x50 Magazin Ekonomik Paketi</value>
+  </data>
+  <data name="paket134" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket144" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket145" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket146" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket147" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket148" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket151" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket152" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket153" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket154" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket155" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket156" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket157" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket158" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket160" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket161" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket162" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket163" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket164" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket165" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket167" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket168" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket169" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket170" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket171" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket172" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket174" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket177" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket178" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket179" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket180" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket182" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket183" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket184" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket185" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket190" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket191" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket192" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket193" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket194" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket195" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket196" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket197" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket198" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket199" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket200" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket201" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket202" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket203" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket204" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket205" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket206" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket207" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket209" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket210" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket211" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket212" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket213" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket214" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket216" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket217" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket218" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket219" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket220" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket221" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket223" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket224" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket225" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket226" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket227" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket228" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket229" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket23" xml:space="preserve">
+    <value>25x70 Standart Ekonomik Paketi</value>
+  </data>
+  <data name="paket230" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket231" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket232" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket233" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket234" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket235" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket236" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket237" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket238" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket45" xml:space="preserve">
+    <value>WeTransfer Siparişi</value>
+  </data>
+  <data name="paket46" xml:space="preserve">
+    <value>25x60 Magazin Ekonomik Paketi</value>
+  </data>
+  <data name="paket48" xml:space="preserve">
+    <value>25x60 Legend-Nayla Ekonomik Paketi</value>
+  </data>
+  <data name="paket49" xml:space="preserve">
+    <value>25x60 Legend-Nayla Aile Paketi</value>
+  </data>
+  <data name="paket54" xml:space="preserve">
+    <value>30x76 Loft Ekonomik Paketi</value>
+  </data>
+  <data name="paket55" xml:space="preserve">
+    <value>30x76 Loft Aile Paketi</value>
+  </data>
+  <data name="paket56" xml:space="preserve">
+    <value>30x76 Loft Aile Paketi + Kutu</value>
+  </data>
+  <data name="paket57" xml:space="preserve">
+    <value>25x60 Loft Aile Paketi + Kutu</value>
+  </data>
+  <data name="paket60" xml:space="preserve">
+    <value>25x50 Baby Aile Paket</value>
+  </data>
+  <data name="paket61" xml:space="preserve">
+    <value>30x60 Baby Ekonomik Paket</value>
+  </data>
+  <data name="paket66" xml:space="preserve">
+    <value>30x50 Loft Aile Paketi + Kutu</value>
+  </data>
+  <data name="paket67" xml:space="preserve">
+    <value>Kampanyalı 2 Paket</value>
+  </data>
+  <data name="paket68" xml:space="preserve">
+    <value>25x70 Trend Aile Pulley Paket Kutulu</value>
+  </data>
+  <data name="paket69" xml:space="preserve">
+    <value>30x80 Trend Aile Pulley Paket Kutulu</value>
+  </data>
+  <data name="paket70" xml:space="preserve">
+    <value>25x50 Magazin Aile Paketi</value>
+  </data>
+  <data name="paket71" xml:space="preserve">
+    <value>35x65 Legend-Nayla Küçük Aile Paketi</value>
+  </data>
+  <data name="paket72" xml:space="preserve">
+    <value>30x76 Legend-Nayla Küçük Aile Paketi</value>
+  </data>
+  <data name="paket73" xml:space="preserve">
+    <value>30x76 Kampanyalı Aile Paket</value>
+  </data>
+  <data name="paket74" xml:space="preserve">
+    <value>25x70 Kampanyalı Ekonomik Paket</value>
+  </data>
+  <data name="paket75" xml:space="preserve">
+    <value>25x70 Kampanyalı Aile Paket</value>
+  </data>
+  <data name="paket78" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket79" xml:space="preserve">
+    <value>30x76 Magazin Küçük Aile Paketi</value>
+  </data>
+  <data name="paket80" xml:space="preserve">
+    <value>25x60 Standart Ekonomik Paketi</value>
+  </data>
+  <data name="paket89" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket90" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket91" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket92" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket93" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket94" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket95" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket96" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket97" xml:space="preserve">
+    <value />
+  </data>
+  <data name="siparisCikartBtnGenel" xml:space="preserve">
+    <value>Siparişten Çıkart</value>
+  </data>
+  <data name="siparisEkleBtnGenel" xml:space="preserve">
+    <value>Gönderime Ekle</value>
+  </data>
+  <data name="siparisAileSecenekleri" xml:space="preserve">
+    <value>Ekstra Aile Albüm Seçenekleri</value>
+  </data>
+  <data name="siparisBilgilerForm" xml:space="preserve">
+    <value>Sipariş Detayları</value>
+  </data>
+  <data name="siparisBilgileriTitle" xml:space="preserve">
+    <value>Sipariş Detayları</value>
+  </data>
+  <data name="siparisBuyukSecenekleri" xml:space="preserve">
+    <value>Büyük Ebat Seçenekleri</value>
+  </data>
+  <data name="siparisCantaSecenekleri" xml:space="preserve">
+    <value>Kutu Seçenekleri</value>
+  </data>
+  <data name="siparisCepSecenekleri" xml:space="preserve">
+    <value>Ekstra Cep Albüm Seçenekleri</value>
+  </data>
+  <data name="siparisFormuGonder" xml:space="preserve">
+    <value>Formu Gönder</value>
+  </data>
+  <data name="siparisMusteriNotu" xml:space="preserve">
+    <value>Sipariş Notunuz</value>
+  </data>
+  <data name="siparisOlcuyeUygun" xml:space="preserve">
+    <value>Seçtiğiniz Ölçüye Uygun Albüm Paketleri</value>
+  </data>
+  <data name="siparisOzeti" xml:space="preserve">
+    <value>Sipariş Özeti</value>
+  </data>
+  <data name="siparisPaketExtraFiyat" xml:space="preserve">
+    <value>Ücreti : </value>
+  </data>
+  <data name="siparisPaketExtraFiyatOzel" xml:space="preserve">
+    <value>İskontolu Ücreti : </value>
+  </data>
+  <data name="siparisPaketFiyatOzel" xml:space="preserve">
+    <value>İskontolu Paket Ücreti : </value>
+  </data>
+  <data name="siparisPaketinKapaklari" xml:space="preserve">
+    <value>Seçtiğiniz Albüm Paketine Uygun Kapak Modelleri</value>
+  </data>
+  <data name="siparisSaatSecenekleri" xml:space="preserve">
+    <value>Saat Seçenekleri</value>
+  </data>
+  <data name="memberMailUpdateEskiMailHatali" xml:space="preserve">
+    <value>Hata !</value>
+  </data>
+  <data name="memberMailUpdateEskiMailHatali2" xml:space="preserve">
+    <value>Mevcut mail adresinizi yanlış girdiniz, Lütfen düzeltip tekrar deneyiniz.</value>
+  </data>
+  <data name="memberMailUpdateMailBtn" xml:space="preserve">
+    <value>Mail Adresimi Güncelle</value>
+  </data>
+  <data name="memberMailUpdateMailCurrent" xml:space="preserve">
+    <value>Mevcut mail adresiniz</value>
+  </data>
+  <data name="memberMailUpdateMailNew" xml:space="preserve">
+    <value>Yeni mail adresiniz</value>
+  </data>
+  <data name="memberMailUpdateMevcutFail" xml:space="preserve">
+    <value>Mevcut mail adresiniz hatalı. Lütfen düzeltip tekrar deneyiniz.</value>
+  </data>
+  <data name="memberMailUpdateMevcutMailBos" xml:space="preserve">
+    <value>Mevcut mail adresinizi yazmadınız.</value>
+  </data>
+  <data name="memberMailUpdateOkey" xml:space="preserve">
+    <value>Tebrikler</value>
+  </data>
+  <data name="memberMailUpdateOkey2" xml:space="preserve">
+    <value>&lt;strong class="text-info"&gt;Yeni email adresiniz başarı ile güncellendi.&lt;/strong&gt;</value>
+  </data>
+  <data name="memberMailUpdateSifreHatali" xml:space="preserve">
+    <value>Hata !</value>
+  </data>
+  <data name="memberMailUpdateSifreHatali2" xml:space="preserve">
+    <value>Mevcut şifrenizi yanlış girdiniz, Lütfen düzeltip tekrar deneyiniz.</value>
+  </data>
+  <data name="memberMailUpdateTitle" xml:space="preserve">
+    <value>Email Güncelleme Formu</value>
+  </data>
+  <data name="memberMailUpdateTitle2" xml:space="preserve">
+    <value>Aşağıdaki formu kullanarak Email adresinizi güncelleyebilirsiniz.</value>
+  </data>
+  <data name="memberMailUpdateYeniFail" xml:space="preserve">
+    <value>Yeni mail adresiniz hatalı. Lütfen düzeltip tekrar deneyiniz.</value>
+  </data>
+  <data name="memberMailUpdateYeniMailBos" xml:space="preserve">
+    <value>Yeni mail adresinizi yazmadınız.</value>
+  </data>
+  <data name="memberPassUpdateBtn" xml:space="preserve">
+    <value>Şifremi Güncelle</value>
+  </data>
+  <data name="memberPassUpdateFail" xml:space="preserve">
+    <value>Hata !</value>
+  </data>
+  <data name="memberPassUpdateFail2" xml:space="preserve">
+    <value>Mevcut Şifreniz hatalı, Lütfen düzeltip tekrar deneyin.</value>
+  </data>
+  <data name="memberPassUpdateNewPass1" xml:space="preserve">
+    <value>Yeni Şifreniz</value>
+  </data>
+  <data name="memberPassUpdateNewPass2" xml:space="preserve">
+    <value>Yeni Şifreniz Tekrar</value>
+  </data>
+  <data name="memberPassUpdateOkey" xml:space="preserve">
+    <value>Tebrikler</value>
+  </data>
+  <data name="memberPassUpdateOkey2" xml:space="preserve">
+    <value>&lt;strong class="text-info"&gt;Yeni Şifreniz Başarı İle Güncellendi.&lt;/strong&gt;</value>
+  </data>
+  <data name="memberPassUpdateOldPass" xml:space="preserve">
+    <value>Mevcut Şifreniz</value>
+  </data>
+  <data name="memberPassUpdateSifreBos" xml:space="preserve">
+    <value>Mevcut Şifrenizi Yazmadınız.</value>
+  </data>
+  <data name="memberPassUpdateSifreYeniBos" xml:space="preserve">
+    <value>Yeni Şifrenizi Yazmadınız.</value>
+  </data>
+  <data name="memberPassUpdateSifreYeniBosTekrar" xml:space="preserve">
+    <value>Yeni Şifrenizi Tekrar Bölümüne Yazmadınız.</value>
+  </data>
+  <data name="memberPassUpdateTitle" xml:space="preserve">
+    <value>Şifre Güncelleme Formu</value>
+  </data>
+  <data name="memberPassUpdateTitle2" xml:space="preserve">
+    <value>Aşağıdaki formu kullanarak şifrenizi güncelleyebilirsiniz.</value>
+  </data>
+  <data name="memberUpdateBtn" xml:space="preserve">
+    <value>Üyelik Bilgilerimi Güncelle</value>
+  </data>
+  <data name="memberUpdateComplete" xml:space="preserve">
+    <value>&lt;strong class="text-info"&gt;Tebrikler, Üyelik Bilgileriniz Güncellendi.&lt;/strong&gt;</value>
+  </data>
+  <data name="memberUpdateError" xml:space="preserve">
+    <value>&lt;strong class="text-warning"&gt;Bilgileriniz Güncellenirken Bir Sorun Oluştu Lütfen Daha Sonra Tekrar Deneyin.&lt;/strong&gt;</value>
+  </data>
+  <data name="memberUpdateTitle" xml:space="preserve">
+    <value>Üyelik Bilgilerinizi Güncelleyin</value>
+  </data>
+  <data name="memberUpdateTitle2" xml:space="preserve">
+    <value>Bilgilerinizi güncellemek için aşağıdaki formu kullanabilirsiniz.</value>
+  </data>
+  <data name="memberUpdateTitle22" xml:space="preserve">
+    <value>Üyelik Bilgileriniz</value>
+  </data>
+  <data name="siparisBuyukEbatlariniz" xml:space="preserve">
+    <value>Büyük Ebatlarınız : </value>
+  </data>
+  <data name="siparisBuyukEbatYaziEksik" xml:space="preserve">
+    <value>Lütfen gönderdiğiniz büyük ebatın ölçülerini yazınız. &lt;/br&gt;2 Adet 50x60 veya 1 Adet 75x100 gibi.</value>
+  </data>
+  <data name="siparisCalismaSekliSecilmemis" xml:space="preserve">
+    <value>Çalışma şeklini seçmediniz.&lt;/br&gt;Photoshop, rütuş vb. işlemlerini yaptıysanız &lt;strong&gt;Ben Çalıştım&lt;/strong&gt;,&lt;/br&gt;Albümün Photoshop çalışmasını tarafımızdan yapılmasını istiyorsanız &lt;strong&gt;Siz Çalışın&lt;/strong&gt; seçeneğini seçmeniz gerekmektedir.</value>
+  </data>
+  <data name="siparisDoneTitle" xml:space="preserve">
+    <value>Siparişiniz Alındı !</value>
+  </data>
+  <data name="siparisDoneYazi1" xml:space="preserve">
+    <value>Sipariş Gönderildi.</value>
+  </data>
+  <data name="siparisDoneYazi2" xml:space="preserve">
+    <value>Lütfen üye sayfasına girip siparişinizi seçerek dosyanızı yükleyiniz.</value>
+  </data>
+  <data name="siparisDoneYazi3" xml:space="preserve">
+    <value>Siparişiniz &lt;strong&gt;{0}&lt;/strong&gt; takip numarası ile işleme alınmıştır,</value>
+  </data>
+  <data name="siparisDoneYazi4" xml:space="preserve">
+    <value>Bu takip numarası ile siparişinizi takip edebilirsiniz.</value>
+  </data>
+  <data name="siparisDoneYazi5" xml:space="preserve">
+    <value>Siparişiniz dosyanız yüklendikten sonra onaylanacaktır.&lt;/br&gt;Lütfen üye sayfasından dosyanızı yüklemeyi unutmayın.</value>
+  </data>
+  <data name="siparisDoneYazi6" xml:space="preserve">
+    <value>Siparişiniz onaylandıktan sonra tarafımızdan siparişinizin onaylandığına dair bir email alacaksınız.</value>
+  </data>
+  <data name="siparisEkstraYaprakFiyatlandirma" xml:space="preserve">
+    <value>* Seçilen ekstra yapraklar için fiyatlandırma yapılmıştır.</value>
+  </data>
+  <data name="siparisFileUplFormDosyaEkle" xml:space="preserve">
+    <value>Dosya Ekleyin</value>
+  </data>
+  <data name="siparisFileUplFormStart" xml:space="preserve">
+    <value>Yüklemeye Başla</value>
+  </data>
+  <data name="siparisFileUplFormStart2" xml:space="preserve">
+    <value>Yükle</value>
+  </data>
+  <data name="siparisFileUplFormStop" xml:space="preserve">
+    <value>Durdur</value>
+  </data>
+  <data name="siparisFileUplFormTitle" xml:space="preserve">
+    <value>Dosya Gönderi Formu</value>
+  </data>
+  <data name="siparisFinalBtnFrw" xml:space="preserve">
+    <value>BİLGİLER DOĞRU KAYIT ETMEK İSTİYORUM</value>
+  </data>
+  <data name="siparisFinalBtnGeri" xml:space="preserve">
+    <value>BİLGİLERDE HATA VAR DÜZELTMEK İSTİYORUM</value>
+  </data>
+  <data name="siparisGenelToplam" xml:space="preserve">
+    <value>Toplam Tutar</value>
+  </data>
+  <data name="siparisKapakYaziniz" xml:space="preserve">
+    <value>Kapak Yazılacak Yazınız : </value>
+  </data>
+  <data name="siparisMusteriNotunuz" xml:space="preserve">
+    <value>Sipariş Notunuz : </value>
+  </data>
+  <data name="siparisUploadyazi1" xml:space="preserve">
+    <value>Lütfen dosya upload edilirken tarayıcınızı kapatmayınız,</value>
+  </data>
+  <data name="siparisUploadyazi2" xml:space="preserve">
+    <value>Dosya isimlerinde unicode karakter kullanmayınız,</value>
+  </data>
+  <data name="siparisUploadyazi3" xml:space="preserve">
+    <value>Dosyalanızı göndermeden önce mutlaka sıkıştırmanız gerekmektedir,</value>
+  </data>
+  <data name="siparisUploadyazi4" xml:space="preserve">
+    <value>Sadece &lt;strong&gt;rar&lt;/strong&gt; ve &lt;strong&gt;zip&lt;/strong&gt; uzantılı dosyalar kabul edilmektedir. Dosyanızı en az Winrar 5.60 versiyonu ile sıkıştırmanız önerilir.</value>
+  </data>
+  <data name="siparisUploadyazi5" xml:space="preserve">
+    <value>Dosyanızı yüklemeden önce lütfen albüm ebatlarınızı doğru ayarladığınızdan emin olun.</value>
+  </data>
+  <data name="siparisDoneYazi7" xml:space="preserve">
+    <value>Siparişiniz &lt;strong&gt;{0}&lt;/strong&gt; takip numarası ile işleme alınmıştır, </value>
+  </data>
+  <data name="siparisDoneYazi8" xml:space="preserve">
+    <value>&lt;span class='text-danger'&gt;Yapılan otomatik kontrol neticesinde şuan gönderdiğiniz siparişinizin &lt;strong&gt;{0}&lt;/strong&gt; tarihinde gönderdiğiniz &lt;strong&gt;{1}&lt;/strong&gt; numaralı siparişinizin içeriğinin aynı olduğu tespit edilmiştir.&lt;/span&gt;</value>
+  </data>
+  <data name="siparisDoneYazi9" xml:space="preserve">
+    <value>&lt;span class='text-danger'&gt;Siparişiniz otomatik onaylanacak lakin,  Siparişiniz tarafımızdan incelendikten sonra fotoğraflar aynı ise iptal edilecektir.&lt;/span&gt;</value>
+  </data>
+  <data name="siparisErrTitle" xml:space="preserve">
+    <value>Bir sorun oluştu !</value>
+  </data>
+  <data name="siparisErrYazi1" xml:space="preserve">
+    <value>Siparişiniz alınırken bir sorun oluştu.</value>
+  </data>
+  <data name="siparisErrYazi2" xml:space="preserve">
+    <value>Lütfen siparişinizi daha sonra tekrar göndermeyi deneyiniz.</value>
+  </data>
+  <data name="siparisErrYazi3" xml:space="preserve">
+    <value>Sorunun devam etmesi durumunda telefon numaralarımızdan bize ulaşarak destek isteyebilirsiniz.</value>
+  </data>
+  <data name="siparisErrYazi4" xml:space="preserve">
+    <value>Dosyanız yüklenirken bir sorun oluştu.</value>
+  </data>
+  <data name="siparisErrYazi5" xml:space="preserve">
+    <value>İnternet bağlantınız kopmuş ve sistemde bir sorun olmuş olabilir. Lütfen siparişinizi daha sonra tekrar göndermeyi deneyiniz.</value>
+  </data>
+  <data name="siparisPageTitle" xml:space="preserve">
+    <value>Sipariş Formu</value>
+  </data>
+  <data name="memberUyeSayfamB" xml:space="preserve">
+    <value>Üye Sayfam</value>
+  </data>
+  <data name="sayfa3dSecureContent" xml:space="preserve">
+    <value>&lt;b&gt;3D Secure nedir?&lt;/b&gt;&lt;p&gt;İnternet üzerinden kredi kartı ve banka kartıyla yapılan alışveriş işlemlerinin güvenliğinin artırılması için geliştirilmiş bir sistemdir.&lt;/p&gt;&lt;p&gt;Visa ve MasterCard'ın geliştirdiği bu "güvenli sanal alışveriş" çözümleri ile hem kart sahipleri hem de üye işyerleri sahtekarlıklara karşı güvence altına alınmıştır.&lt;/p&gt;&lt;p&gt;Verified by Visa ve MasterCard SecureCode logoları bulunan sanal işyerlerinden yapılan online alışverişler Visa ve MasterCard güvencesi altındadır.&lt;/p&gt;&lt;b&gt;3D Secure neden güvenlidir?&lt;/b&gt;&lt;p&gt;3D Secure sisteminde, sanal ödeme işlemi gerçekleşirken, banka tarafından kart sahibine sadece kendisinin bildiği ödeme şifresi sorulmakta ve kart sahibinin kimliği doğrulanmaktadır. Yetkisiz kişilerin kartlarını internet ortamında kullanması engellenmektedir.&lt;/p&gt;&lt;b&gt;3D Secure nasıl işler?&lt;/b&gt;&lt;p&gt;Kart sahibi, kartını internet bankacılığı kanalıyla bankasına kaydettirir. Kartına bağlı bir şifre ve bir güvenlik soru - cevabı tanımlar.&lt;/p&gt;&lt;p&gt;Kart sahibi, sisteme uyumlu sanal işyerinde alışverişini yapar ve ödeme bölümüne geçer.&lt;/p&gt;&lt;p&gt;Kart sahibinin karşısına, bankası tarafından, işlem şifresini ve kişisel güvenlik mesajını soran bir pop-up ekran açılır.&lt;/p&gt;&lt;p&gt;Kart sahibi şifresini girerek işleme devam eder. Şifre, banka tarafından doğrulanınca işlem tamamlanır.&lt;/p&gt;</value>
+  </data>
+  <data name="sayfa3dSecureTitle" xml:space="preserve">
+    <value>3D Secure Nedir ?</value>
+  </data>
+  <data name="sayfaGarantiiadeContent" xml:space="preserve">
+    <value>&lt;h6 class='text-center'&gt;İade Şartları&lt;/h6&gt;&lt;h7&gt;Ürün İade Şartları&lt;/h7&gt;&lt;p&gt;Sitemizden verilen siparişler kişiye özel hazırlandığı için, ürün siparişi verdiğinizde iptali için sonraki gün sabah 10:00 'a kadar iptal için bizi aramanız gerekmektedir, Cumartesi ve Pazar gönderilen siparişler için Pazartesi sabah 10:00' dan önce iptali için arayabilirsiniz, Albüm siparişleri 1 iş günü sonra baskı yapıldıktan sonra iptal ve ücret iadesi yapılmamaktadır.&lt;/p&gt;&lt;h7&gt;Arızalı Ürünler&lt;/h7&gt;&lt;p&gt;1- Sitemizden satın almış olduğunuz ürünlerin tarafınıza teslimatı sırasında kargo firması yetkilisi huzurunda açılarak taşıma esnasında ürünün zarar görüp görmediği kontrol edilmelidir. Ürün kargo esnasında zarar görmüşse teslim alınmamalı ve tutanakla bu durum teyit edilmelidir. Ürün sağlam bir şekilde tarafımıza teslim edildikten sonra arızalı çıkarsa; arızanın tarafımızdan meydana geldiğini düşünüyorsanız +90 212 000 00 00 nolu telefondan bize ulaşabilirsiniz,&lt;/p&gt;&lt;h7&gt;Ürün Garantisi&lt;/h7&gt;&lt;p&gt;Ürünler, imalatçı veya ithalatçı firma garantisi kapsamındadır. Satın almış olduğunuz ürünlerde, garanti süresi içinde meydana gelen arızalar, aşağıda ayrıntıları belirtilen garanti şartlarına göre ücretsiz olarak tamir ettirilir. Bazı ürünler, jelatinli ya da vakumlu ambalajda gelmekte, Garanti Belgesi de, ürünün bulunduğu kutunun içinde bulunmaktadır. Bu hallerde, ürünün orijinal halini bozmamak için, Garanti Belgesi, ürünü gönderirken doldurulmamakta, daha sonra, müşterilerimiz isterlerse, Garanti Belgesi'ni ayrıca bize gönderip doldurulmaktadır. Ürün faturası ile sunulması halinde, bu şekildeki Garanti Belgeleri de geçer.&lt;/p&gt;&lt;p&gt;1- Garanti süresi malın tüketiciye teslim tarihinden itibaren başlar ve aksi belirtilmediği sürece en az bir yıldır. Malın arızalanması durumunda, tamirde geçen süre garanti süresine eklenir.&lt;/p&gt;&lt;p&gt;2- Malın tamir süresi en fazla 30 iş günüdür. Bu süre mala ilişkin arızanın servis istasyonuna, ya da satıcıya bildirim tarihinden itibaren başlar. Bu sürenin aşılması durumunda, müşteri, Malın ücretsiz değişimini ya da bedel iadesini isteyebilir.&lt;/p&gt;&lt;p&gt;3- Malın arızasının 15 iş günü içerisinde giderilememesi halinde, imalatçı veya ithalatçı firma; Malın tamiri tamamlanıncaya kadar, benzer özelliklere sahip başka bir malı tüketicinin kullanımına tahsis etmek zorundadır.&lt;/p&gt;&lt;p&gt;4- Satıcı, Malın; garanti süresi içinde, gerek malzeme ve işçilik gerekse montaj hatalarından dolayı arızalanması halinde işçilik masrafı, değiştirilen parça bedeli ya da başka herhangi bir ad altında hiçbir ücret talep etmeksizin tamirini yapmak veya yaptırmakla yükümlüdür.&lt;/p&gt;&lt;p&gt;5- Arızalarda kullanım hatasının bulunup bulunmadığı servis istasyonları, servis istasyonunun mevcut olmaması halinde ithalatçı veya imalatçı firma tarafından düzenlenen raporla belirlenir.&lt;/p&gt;&lt;p&gt;6- Tüketicinin onarım hakkını kullanmasına rağmen Malın;&lt;/p&gt;&lt;p&gt;a) Tüketiciye teslim edildiği tarihten itibaren, bir yıl içerisinde; aynı arızanın ikiden fazla tekrarlanması veya farklı arızaların dörtten fazla meydana gelmesi veya belirlenen garanti süresi içerisinde farklı arızaların toplamının altıdan fazla olması unsurlarının yanı sıra, bu arızaların maldan yararlanamamayı sürekli kılması,&lt;/p&gt;&lt;p&gt;b) Tamiri için gereken azami sürenin (30 iş günü) aşılması,&lt;/p&gt;&lt;p&gt;c) Arızanın tamirinin mümkün bulunmadığının belirlenmesi,&lt;/p&gt;&lt;p&gt;bu durumlarda, tüketici Malın ücretsiz değiştirilmesini, bedel iadesi veya ayıp oranında bedel indirimi talep edebilir.&lt;/p&gt;</value>
+  </data>
+  <data name="sayfaGarantiiadeTitle" xml:space="preserve">
+    <value>Garanti ve İade Şartları</value>
+  </data>
+  <data name="sayfaGGContent" xml:space="preserve">
+    <value>&lt;h4&gt;cizgialbum.com neden güvenli?&lt;/h4&gt;&lt;p&gt;cizgialbum.com tüm kullanıcıları için siparişleri hızlı olduğu kadar güvenli hale getirmek için çeşitli güvenlik önlemleri uygulamaktadır.&lt;/p&gt;&lt;p&gt;cizgialbum.com' da kredi kartı bilgileriniz yalnızca sipariş işlemi gerçekleştirilirken kullanılır ve kesinlikle veri tabanında kayıtlı olarak tutulmaz.&lt;/p&gt;&lt;p&gt;Bilgilerinizin gerçekten cizgialbum.com' a gönderildiğini güvence altına alarak, 128 bit şifreleme ile iletilen bilgilerin güvenliğini sağlayan SSL Sertifikası kullanılmaktadır.&lt;/p&gt;&lt;p&gt;cizgialbum.com olarak sunucumuzda 128 bit Rapid SSL sertifikası kullanmaktayız.&lt;/p&gt;&lt;h4&gt;SSL sertifikası nedir?&lt;/h4&gt;&lt;p&gt;Güvenli alışveriş için SSL sertifikası denen şifreleme sistemi her e-ticaret sitesi için gereklidir ve zorunludur. Sitenin çalıştığı sunucuya kurulan bir şifreleme eklentisidir.&lt;/p&gt;&lt;p&gt;Her banka müşterilerinin alışveriş yaparken güvenli ortama sahip olan sitelerden alışveriş yapmasını ister ve bu şartlara sahip olmayan sitelere kartını kullandırmaz.&lt;/p&gt;&lt;p&gt;Bu sayede alışverişinizin kişisel bilgileri ve ödeme bilgilerini girdiğiniz kısımda, tüm bilgileriniz günümüz teknolojisiyle kırılmasy güç bir şekilde şifrelenecek ve site ile sizin bilgisayarınız arasında alışveriş bitene kadar yabancıların çözemeyeceği bir şekilde bilgi akışı olacak.&lt;/p&gt;&lt;h4&gt;SSL sertifikasının varlığı nasıl anlaşılır?&lt;/h4&gt;&lt;p&gt;Bir Internet sitesinde SSL sertifikası bulunup bulunmadığını anlamak oldukça kolaydır.&lt;/p&gt;&lt;p&gt;Sitemizin ödeme sayfalarında aşaşydaki gibi kilit işareti simgeleri göreceksiniz. Örnek olarak Chrome ve Internet explorer 8 tarayıcılarında SSL adreslerinin nasıl göründüğü aşağıda gösterilmiştir.&lt;/p&gt;&lt;p&gt;Şifreleme işlemi sadece kredi kartı bilgilerinin girildiği sayfalarda, fatura, teslimat ve diğer kişisel bilgilerin girildiği sayfalarda, ödeme onay ekrany sayfalarında, banka ile para çekim işleminin yapıldığı sayfalarda kullanılmaktadır. Bu işlemler esnasında sadece bizim sitemizde değil, diğer tüm sitelerde de güvenliğiniz için bu simgeyi arayınız. &lt;/p&gt;</value>
+  </data>
+  <data name="sayfaGGTitle" xml:space="preserve">
+    <value>Gizlilik ve Güvenlik</value>
+  </data>
+  <data name="sayfaMSSContent" xml:space="preserve">
+    <value>&lt;h3 class='text-center'&gt;**U Y A R I**&lt;/h3&gt;&lt;b&gt;İlgili yasa gereği lütfen aşağıdaki sözleşme metnimizi 12 punto ve koyu fontta print ederek okuyunuz. ( Bu şekilde yaptığınız varsayılır ) Ayrıca; internet sitemize kayıt olan ve alışveriş yapan tüm müşterilerimiz, tarafımızdan düzenlenmiş olan aşağıdaki site kuralları ve garanti hükümlerini de içeren satış sözleşmemizin tüm maddelerini başka bir ihbara gerek kalmaksızın okumuş ve kabul etmiş sayılırlar.&lt;/b&gt;&lt;b&gt;http://www.cizgialbum.com ALIŞVERİŞ SİTESİ MESAFELİ SATIŞ SÖZLEŞMESİ&lt;/b&gt;&lt;p&gt;İşbu sözleşme 13.06.2003 tarih ve 25137 sayılı Resmi Gazetede yayınlanan Mesafeli Sözleşmeler Uygulama Usul ve Esasları Hakkında Yönetmelik gereği internet üzerinden gerçekleştiren satışlar için sözleşme yapılması zorunluluğuna istinaden yönetmelik hükümlerine uygun olarak düzenlenmiş olup, maddeler halinde aşağıdaki gibidir.&lt;/p&gt;&lt;h7&gt;MADDE 1 - KONU&lt;/h7&gt;&lt;p&gt;İşbu sözleşmenin konusu, SATICI'nın, ALICI'ya satışını yaptığı, aşağıda nitelikleri ve satış fiyatı belirtilen ürünün satışı ve teslimi ile ilgili olarak 4077 sayılı Tüketicilerin Korunması Hakkındaki Kanun-Mesafeli Sözleşmeleri Uygulama Esas ve Usulleri Hakkında Yönetmelik hükümleri gereğince tarafların hak ve yükümlülüklerini kapsamaktadır.&lt;/p&gt;&lt;h7&gt;MADDE 2 - TARAFLAR ( Tarafların Tanımı )&lt;/h7&gt;&lt;h7&gt;MADDE 2.1 - SATICI BİLGİLERİ ( Satıcının Tanımı )&lt;/h7&gt;&lt;p&gt;Ünvan : ÇİZGİ ALBUM FOTOGRAFCILIK KIRTASYYE INŞAAT GIDA VE SAN TIC LTD ŞTI ( Bundan sonra SATICI olarak anılacaktır )&lt;/p&gt;&lt;p&gt;Adres : Firüzköy Mahallesi Mezarlıküstü Caddesi No : 12 Avcılar İstanbul Türkiye&lt;/p&gt;&lt;p&gt;WebSite: http://www.cizgialbum.com&lt;/p&gt;&lt;p&gt;Telefon : 0212 618 01 08&lt;/p&gt;&lt;p&gt;Faks : 0212 618 75 04&lt;/p&gt;&lt;p&gt;Email: info@cizgialbum.com&lt;/p&gt;&lt;h7&gt;MADDE 2.2 - ALICI BİLGİLERİ ( Alıcının Tanımı )&lt;/h7&gt;&lt;p&gt;Bu sözleşmeyi onaylayarak http://www.cizgialbum.com sitesine kayıt olan kişi / kurum / kuruluş. ( Sözleşmeyi onaylamadan sistem tarafından kayıt işlemi yapılmamaktadır. )&lt;/p&gt;&lt;p&gt;Bundan sonra ALICI olarak anılacaktır ve kayıt olurken kullanılan adres ve iletişim bilgileri esas alınacaktır.&lt;/p&gt;&lt;h7&gt;MADDE 3 - SÖZLEŞME KONUSU ÜRÜN / HİZMET BİLGİLERİ&lt;/h7&gt;&lt;p&gt;ALICI site üzerinden gönderdiği fotoğrafları, SATICI basarak albüm haline getirir. Ürün bundan sonra PANORAMİK ALBÜM olarak anılacaktır.&lt;/p&gt;&lt;h7&gt;MADDE 4 - GENEL HÜKÜMLER&lt;/h7&gt;&lt;p&gt;4.1 - ALICI, Madde 3'te belirtilen sözleşme konusu ürün veya ürünlerin temel nitelikleri, satış fiyatı ve ödeme şekli ile teslimata ilişkin tüm ön bilgileri okuyup bilgi sahibi olduğunu ve elektronik ortamda gerekli teyidi verdiğini beyan eder.&lt;/p&gt;&lt;p&gt;4.2 - Sarf malzemeleri, fikir ve sanat eserleri ve promosyon, eşantiyon kapsamına giren ürünler hariç olmak üzere, tüm ürünlerimizin garanti belgelerinde aksi belirtilmediği sürece 1 yıl garantisi vardır, ve bu garanti belgesinde adı geçen üretici ve / veya ithalatçı firma sorumluluğunda en iyi biçimde verilmektedir.&lt;/p&gt;&lt;p&gt;4.3 - Alıcı şahıs ve/veya firmalar - ilk yedi günlük süre hariç - tüm bu garanti süreçlerinde oluşabilecek her türlü taşıma / nakliye / posta vb. ücretlerini yüklenmeyi kabul ve taahhüt ederler.&lt;/p&gt;&lt;p&gt;4.4 - Üretici / ithalatçı firmalar ürünlerin onarımının yapılması, ya da gerekli - zorunlu hallerde yenisi ile değiştirilmesi yoluna gidebilirler. Bu işlemlerin tümü Tüketici Koruma Kanunu çerçevesinde üretici / ithalatçı firmaların tasarrufundadır.&lt;/p&gt;&lt;p&gt;4.5 - Garanti ve iade işlemlerinde yasal süre en fazla 30 gün olarak belirlenmiştir.&lt;/p&gt;&lt;p&gt;4.6 - Mümkün olan en kısa süre içerisinde ürününüz ya kusuru giderilmiş olarak, ya da yenisi ile değiştirilmiş olarak size gönderilecek, her ikisi de mümkün olamıyorsa ürün için ödemiş olduğunuz tutar 10 iş günü içerisinde size iade edilecektir. Ücret iadesi, ödeme yaparken kullandığınız yöntem ile gerçekleştirilecektir.&lt;/p&gt;&lt;p&gt;4.7 - http://www.cizgialbum.com SATICI olarak satılan hiçbir ürün için tavsiye, rehberlik, teknik bilgi ve yeterlilik aşılama, kullanma kılavuzluğu görevi ve öğretme sorumluluğu olmadığını alenen beyan eder.&lt;/p&gt;&lt;p&gt;4.8 - http://www.cizgialbum.com sitesinde satılan cihazların / ürünlerin hatalı kullanımından, uyumsuz cihazlarla birlikte kullanımından, kullanım alanı dışında yapılan kullanımlardan, cihazın teknik bilgileri ve yeterliliklerinin üzerinde ve/veya dışında kullanımlardan dolayı oluşacak arızalar vb. sorunlarda SATICI sorumlu tutulamaz ve herhangi bir tazmin talebinde bulunulamaz.&lt;/p&gt;&lt;p&gt;4.9 - Sözleşme konusu ürün veya ürünler, 30 günlük yasal süreyi aşmamak koşulu ile her bir ürün için ALICI'nın yerleşim yerinin uzaklığına bağlı olarak ön bilgiler içinde açıklanan süre içinde ALICI veya gösterdiği adresteki kişi/kuruluşa teslim edilir. Bu süre ALICI'ya daha önce bildirilmek kaydıyla en fazla 10 gün daha uzatılabilir.&lt;/p&gt;&lt;p&gt;4.10 - Sözleşme konusu ürün, ALICI'dan başka bir kişi/kuruluşa teslim edilecek ise, teslim edilecek kişi/kuruluşun teslimatı kabul etmemesinden, ve bundan doğan sorunlardan SATICI sorumlu tutulamaz.&lt;/p&gt;&lt;p&gt;4.11 - SATICI, sözleşme konusu ürünün sağlam, eksiksiz, siparişte belirtilen niteliklere uygun ve varsa garanti belgeleri ve kullanım kılavuzları ile teslim edilmesinden sorumludur.&lt;/p&gt;&lt;p&gt;4.12 - Sözleşme konusu ürünün teslimatı için sipariş bedelinin ALICI'nın mevcut seçenekler arasından tercih ettiği ödeme şekillerinden biri ile gerçekleştirilmiş olması şarttır. Herhangi bir nedenle ürün bedeli ödenmez veya banka kayıtlarında iptal edilir ise, SATICI ürünün teslimi yükümlülüğünden kurtulmuş kabul edilir.&lt;/p&gt;&lt;p&gt;4.13 - Ürünün tesliminden sonra ALICI'ya ait kredi kartının ALICI'nın kusurundan kaynaklanmayan bir şekilde yetkisiz kişilerce haksız veya hukuka aykırı olarak kullanılması nedeni ile ilgili banka veya finans kuruluşun ürün bedelini SATICI'ya ödememesi halinde, ALICI'nın kendisine teslim edilmiş olması kaydıyla ürünün 3 gün içinde SATICI'ya gönderilmesi zorunludur. Bu takdirde nakliye giderleri ALICI'ya aittir.&lt;/p&gt;&lt;p&gt;4.14 - SATICI mücbir sebepler veya nakliyeyi engelleyen hava muhalefeti, ulaşımın kesilmesi gibi olağanüstü durumlar nedeni ile sözleşme konusu ürünü süresi içinde teslim edemez ise, durumu ALICI'ya bildirmekle yükümlüdür. Bu takdirde ALICI siparişin iptal edilmesini, sözleşme konusu ürünün varsa emsali ile değiştirilmesini ve/veya teslimat süresinin engelleyici durumun ortadan kalkmasına kadar ertelenmesi haklarından birini kullanabilir. ALICI'nın siparişi iptal etmesi halinde ödediği tutar 10 iş günü içinde kendisine nakden ve defaten ödenir.&lt;/p&gt;&lt;p&gt;4.15 - http://www.cizgialbum.com' un neden göstermeksizin, müşteriye ödemiş olduğu ücret tutarını iade etmek suretiyle yapılan işlemlerin tümünü ya da bir kısmını iptal etme hakkı saklıdır. Siteye üye olan bir şahıs ve/veya firmanın üyeliği üzerindeki her türlü tasarruf http://www.cizgialbum.com' a aittir. http://www.cizgialbum.com gerekli gördüğü takdirde site üzerinden gerçekleştirilen üye olma işlemini ve üyelik kayıtlarını tek taraflı olarak feshetme hakkına sahiptir.&lt;/p&gt;&lt;p&gt;4.16 - İşbu sözleşme tüm maddeleri ile ALICI tarafından okunmuş kabul edilir, ve sanal ortamda siteye kayıt olma esnasında sözleşme onay kutucuğunun işaretlenmesi ile birlikte kabul edilmiş ve imzalanmış sayılmaktadır.&lt;/p&gt;&lt;h7&gt;MADDE 5 - CAYMA HAKKI&lt;/h7&gt;&lt;p&gt;ALICI, sözleşme konusu ürünün kendisine veya gösterdiği adresteki kişi/kuruluşa tesliminden itibaren yedi (7) gün içinde cayma hakkına sahiptir. Cayma hakkının kullanılması için bu süre içinde SATICI'ya faks, email veya telefon ile bildirimde bulunulması ve ürünün ilgili madde hükümleri çerçevesinde kullanılmamış ve herhangi bir zarar görmemiş olması şarttır. Bu hakkın kullanılması halinde, 3. kişiye veya ALICI'ya teslim edilen ürünün SATICI'ya gönderildiğine ilişkin kargo teslim tutanağı örneği ile siparişe ilişkin fatura aslının iadesi zorunludur. Bu belgelerin ulaşmasını takip eden yedi (7) gün içinde ürün bedeli ALICI'ya iade edilir. Fatura aslının gönderilememesi durumunda KDV ve varsa sair yasal yükümlülükler iade edilemez. Cayma hakkı nedeni ile iade edilen ürünün kargo bedeli SATICI tarafından karşılanır.&lt;/p&gt;&lt;p&gt;5.1 - Niteliği itibariyle iade edilemeyecek ürünler :&lt;/p&gt;&lt;p&gt;Tek kullanımlık ürünler, tüketim malzemeleri, kopyalanabilir yazılım ve programlar, hızlı bozulan veya son kullanım tarihi geçen ürünler için cayma hakkı kullanılamaz. Her türlü yazılım ve programlar, DVD, VCD, CD ve kasetler, piller, sarf malzemeleri (toner, kartuş, şerit v.b) için cayma hakkının kullanılması, ürünün orjinal ambalajının açılmamış, bozulmamış ve ürünün kullanılmamış olması şartına bağlıdır.&lt;/p&gt;&lt;p&gt;Ayrıca, tüketicinin özel istek ve talepleri uyarınca üretilen veya üzerinde değişiklik ya da ilaveler yapılarak kişiye özel hale getirilen ürün ve hizmetlerde tüketici cayma hakkını kullanamaz. PANORAMİK ALBÜM 'ler bu kategoriye girmektedir.&lt;/p&gt;&lt;p&gt;Ödemenin kredi kartı veya benzeri bir ödeme kartı ile yapılması halinde tüketici, kartın kendi rızası dışında ve hukuka aykırı biçimde kullanıldığı gerekçesiyle ödeme işleminin iptal edilmesini talep edebilir. Bu halde, kartı çıkaran kuruluş itirazın kendisine bildirilmesinden itibaren 10 gün içinde ödeme tutarını tüketiciye iade eder.&lt;/p&gt;&lt;h7&gt;MADDE 6 – İHTİLAF HALİ VE YETKİLİ MAHKEMELER&lt;/h7&gt;&lt;p&gt;İşbu sözleşme tüm maddeleri ile, ALICI tarafından okunmuş kabul edilir ve sanal ortamda siteye kayıt olma esnasında sözleşme onay kutucuğunun işaretlenmesi ile birlikte kabul edilmiş ve imzalanmış sayılmaktadır.&lt;/p&gt;&lt;p&gt;İşbu sözleşmenin uygulanmasında, Sanayi ve Ticaret Bakanlığınca ilan edilen değere kadar Tüketici Hakem Heyetleri, bu değerin üzerindeki bedeller için İstanbul Tüketici Mahkemeleri yetkilidir.&lt;/p&gt;</value>
+  </data>
+  <data name="sayfaMSSTitle" xml:space="preserve">
+    <value>Mesafeli Satış Sözleşmesi</value>
+  </data>
+  <data name="sayfaOdemeTeslimatContent" xml:space="preserve">
+    <value>&lt;p&gt;&lt;strong&gt;Kargo Şirketi:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Sitemizden yapılan her türlü taşıma işlemi yalnızca Çizgi Albüm tarafından belirlenen kargo şirketleri ile yapılır. Çizgi Albüm Yurtiçi gönderilerini şuan ARAS Kargo, Yurtdışı gönderilerini PTT Kargo ile gerçekleştirmektedir. Yapılan özel anlaşmalardan sitemizden sipariş veren tüm üyelerimiz faydalanmaktadır.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Kargo Ücretleri:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Albüm siparişlerinde (set) kargo ücreti alınmamaktadır. Vitrinlik, saat vb. ufak promosyon ürün siparişlerinizde kargo ücreti alıcıya yansıtılmaktadır, eğer vitrinlik vb. siparişinizi Albüm siparişinizle beraber isterseniz, albüm paketlerinde kargo ücreti alınmadığından kargo ücreti eklenmeyecektir,&lt;/p&gt;&lt;p&gt;İade, değiştirme gibi işlemlerde taşıma ücreti müşterimiz tarafından karşılanır. Bu işlemler siparişin ilk gönderimi dahil tüm taşıma ücretlerini kapsayabilir. İşletmemizin kusuru nedeniyle meydana gelen tüm taşıma ücretleri www.cizgialbum.com tarafından karşılanır.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Kargo Süreleri:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Sitemizden yapılan her türlü taşıma işlemi yalnızca www.cizgialbum.com tarafından belirlenen kargo şirketleri ile yapılır ve teslimat süreleri kargo şirket/leri tarafından belirlenir. Sitemiz yalnızca kargoya teslim edilecek zamanı bildirmekle yükümlüdür. İstenmeden özel koşullar oluşması halinde bu süreler değişebilmektedir. Çizgi Albüm İstanbul'dadır. &lt;/p&gt;&lt;p&gt;Albüm siparişlerinin kargo teslim süreleri ise aşağıdaki gibidir,&lt;/p&gt;&lt;p&gt;Panoramik Albüm Çalışmasız ortalama 7 gün,&lt;/p&gt;&lt;p&gt;Panoramik Albüm Çalışmalı ortalama 20 gün,&lt;/p&gt;&lt;p&gt;Kristal Albüm Çalışmasız ortalama 12 gün,&lt;/p&gt;&lt;p&gt;Kristal Albüm Çalışmalı ortalama 25 gün,&lt;/p&gt;&lt;p&gt;Diamond Albüm Çalışmasız ortalama 7 gün (Damla kapaklı modellerde +3 gün),&lt;/p&gt;&lt;p&gt;Diamond Albüm Çalışmalı ortalama 15 gün (Damla kapaklı modellerde +3 gün),&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Not :&lt;/strong&gt; Çalışmalı Albüm seçeneği, Müşteri tarafından gönderilen işlem yapılmamış albüm fotoğraflarının rütüş, fonlama, renk ve diğer işlerinin Çizgi Albüm tarafından yapılacağını ifade eder,&lt;/p&gt;&lt;p&gt;İmalat yoğunluğu/azlığı vb. nedenlerle kargo teslim süreleri 2-3 gün değişiklik gösterebilir,&lt;/p&gt;&lt;p&gt;Siparişinizin gönderildiği bilgisi size ulaştıktan sonraki iş günü siparişiniz imalata alınır. Tüm hesaplamalar iş günü olarak hesaplanmalıdır. Cumartesi, Pazar günleri ve tatil günleri süre hesaplarken kullanılmamalıdır.&lt;/p&gt;&lt;p&gt;Siparişiniz gönderildi mesajını aldıktan sonraki 3 gün içerisinde kargo elinize ulaşmazsa info@cizgialbum.com adresine bir e-posta göndererek kargonuzu takip etmemizi sağlayın. Kargonuzun size ulaşmadığı bilgisini 7 iş günü içinde bize bildirmediğiniz takdirde gönderim ile ilgili sorumluluğumuz sona ermektedir. Bu süre sonunda sorumluluk kargo şirketi ile alıcı arasındadır.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Kargo Güvenliği:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Tüm siparişleriniz anlaşmalı kargo şirketi tarafından sigortalıdır. Sigortanın geçerli olması için siparişinizi teslim aldığınızda kargo görevlisi önünde açılması gereklidir. Üründe bir hasar görüldüğünde rapor tutturarak bir kopyası alımalıdır. Zarar görmüş kargoyu kesinlikle teslim almayınız . Aksi taktirde siparişiniz gönderilmiş kabul edilecektir. Tereddütte kaldığınız durumda +90 212 000 00 00 nolu telefonu arayarak yetkililerden de bilgi alabilirsiniz.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Kargo Kontrolü:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Paket size ulaştığında fiziksel olarak zarar görüp görmediğini kontrol edin. Ezilmiş, yırtılmış, açılmış paketleri mutlaka kargo yetkilisi eşliğinde açarak kontrol edin. Beklenmedik bir durum oluştuğunda, paketi teslim almayarak kargo yetkilisine tutanak ile tespit ettirin ve sigorta tarafından karşılanmasını talep edin.&lt;/p&gt;</value>
+  </data>
+  <data name="sayfaOdemeTeslimatTitle" xml:space="preserve">
+    <value>Ödeme ve Teslimat</value>
+  </data>
+  <data name="sayfaUyelikContent" xml:space="preserve">
+    <value>&lt;p&gt;Sayın Site Kullanıcısı;&lt;/p&gt;&lt;p&gt;&lt;a href="http://www.cizgialbum.com/"&gt;http://www.cizgialbum.com&lt;/a&gt; internet sitesi Çizgi Albüm güvencesinde olup, yine onun tarafından işletilmektedir ve içeriği uluslararası fikri ve sınai mülkiyet mevzuatı tarafından korunmaktadır.  Bu siteyi kullanmaya başladığınız andan itibaren aşağıda yazılı tüm hususları tamamen anlamış ve kabul etmiş sayılırsınız:&lt;/p&gt;&lt;p&gt;&lt;a href="http://www.cizgialbum.com"&gt;http://www.cizgialbum.com&lt;/a&gt; internet sitesindeki tüm dokümanlar Çizgi Albüm mülkiyetindedir. Kod ve yazılım da dahil olmak üzere, bu sitedeki hiç bir malzemeyi değiştiremez, kopyalayamaz, çoğaltamaz, kiralayamaz, yeniden yayımlayamaz, başka bir bilgisayara yükleyemez, postalayamaz, iletemez ya da dağıtamazsınız. Yukarıda belirtilenden bağımsız olarak, sitenin sayfalarının yazıcı çıktısını kişisel kullanımınız için alabilirsiniz.&lt;/p&gt;&lt;p&gt;&lt;a href="http://www.cizgialbum.com/"&gt;http://www.cizgialbum.com&lt;/a&gt; web sitesinin virüs ve benzeri amaçlı yazılımlardan arındırılmış olması için mevcut imkanlar dahilinde tedbir alınmış olmakla birlikte, nihai güvenliğin sağlanması için kullanıcı, kendi virüs koruma sistemini tedarik etmek ve gerekli korumayı sağlamakla yükümlüdür. &lt;/p&gt;&lt;p&gt;&lt;a href="http://www.cizgialbum.com/"&gt;http://www.cizgialbum.com&lt;/a&gt; web sitesine girmesi nedeniyle, kulanıcının kendi yazılım ve işletim sistemlerinde oluşabilecek tüm hata ve bunların doğrudan ya da dolaylı sonuçlarından kendisinin sorumlu olduğunu kabul eder.&lt;/p&gt;&lt;p&gt;İleride söz konusu şartları okumamış veya okumuş olup da bunlara uygun davranmamış olmanızdan kaynaklanabilecek olan her türlü maddi ve manevi zarara ilişkin talebinizden Çizgi Albüm ve / veya &lt;a href="http://www.cizgialbum.com/"&gt;http://www.cizgialbum.com&lt;/a&gt; Web Sitesi'nin, bu sitedeki her türlü içeriğin hazırlayıcılarının, çalışanlarının, Çizgi Albüm tarafından  yetkilendirdikleri kişi ve kuruluşların hiçbir hukuki ve cezai sorumluluğu bulunmamaktadır.&lt;/p&gt;&lt;p&gt;&lt;a href="http://www.cizgialbum.com/"&gt;http://www.cizgialbum.com&lt;/a&gt; web Sitesini ziyaret edenlerin, reklam ve sponsorluk veren şirketlerin, Web Sitesi'nde yayınlamış olabilecekleri yazı, bilgi, yorum, haber, görüntü, &lt;a href="http://www.cizgialbum.com/"&gt;http://www.cizgialbum.com&lt;/a&gt; logosunun, anasayfa ile alt bölüm bağlantılarının &lt;a href="http://www.cizgialbum.com/"&gt;http://www.cizgialbum.com&lt;/a&gt; dışı web sitelerinde kullanımı, hizmetlerinin ve kullanıcılar tarafından Çizgi Albüm sunucularına yüklenip yayınlanan her türlü içeriğin kullanımı suretiyle edinilen bilgiler de dahil ve fakat bu sayılan kişiler ya da yayınlarla sınırlı olmaksızın, Internet, yeterli güvenlik önlemleri olmasına rağmen dolaşılabilir ve yetkili olmayan kişilerce bilgilere erişilebilir olan genel yapısı gereği sorumluluk ve yetkisinde olmayan herhangi bir içerikten, Çizgi Albüm hukuki, cezai ve/veya şahsi hiçbir sorumluluğu bulunmamakta olup, işbu web Sitesi ziyaretçileri bu hususu bu siteye girdikleri andan itibaren kabul ve beyan ederler.&lt;/p&gt;&lt;p&gt;Çizgi Albüm, işbu hüküm ve şartları dilediği zaman önceden haber vermek zorunda olmaksızın tek taraflı olarak değiştirme ve güncelleme hakkına haizdir. Değiştirilen, yenilenen ya da yürürlükten kaldırılan her hüküm, yayın tarihinde tüm kullanıcılar bakımından hüküm ifade edecektir.&lt;/p&gt;&lt;p&gt;&lt;a href="http://www.cizgialbum.com/"&gt;http://www.cizgialbum.com&lt;/a&gt; web sitesinde veya bu siteden bağlantı yapılarak ulaşılan herhangi bir web sitesinde yer alan bilgi, değerlendirme, yorum ve istatistiki şekil ve değerlerin kullanımı sonucunda doğabilecek doğrudan veya dolaylı maddi ve / veya manevi menfi ve / veya müsbet zararlardan ve olası sair zarar ve masraflardan dolayı Çizgi Albüm hiç bir şahsi, hukuki ve cezai sorumluluğu mevcut değildir.&lt;/p&gt;&lt;p&gt;&lt;a href="http://www.cizgialbum.com/"&gt;http://www.cizgialbum.com&lt;/a&gt; web sitesine gönderilen bütün dataların Çizgi Albüm tarafından saklanması, depolanması, basılması, kullanılması ve yayımlanmasını kabul ediyorum&lt;/p&gt;&lt;p&gt;Bu dataların 3. kişiler tarafından kopyalanıp kullanılmasından Çizgi Albüm'ün herhangi bir sorumluluğu yoktur.&lt;/p&gt;&lt;p&gt;Yayınlanan içeriğin kesintisinden, gecikmesinden veya hatalı olmasından ve bunların yola açabileceği zararlardan dolayı Çizgi Albüm  hiç bir şekilde sorumlu değildir.&lt;/p&gt;&lt;p&gt;&lt;a href="http://www.cizgialbum.com/"&gt;http://www.cizgialbum.com&lt;/a&gt; internet sitesine üye olduğunuzda siparişinizin durumu, Çizgi Albüm güncellemeleri ve yeni ürünler hakkında spam yapmamak şartı ile kullanıcının mail adresine emailler gönderilmektedir. Siteye üye olan kullanıcı kendisine Çizgi Albüm tarafından mailler gönderileceğini kabul eder,&lt;/p&gt;&lt;p&gt;&lt;a href="http://www.cizgialbum.com/"&gt;http://www.cizgialbum.com&lt;/a&gt; sitesi kullanıcı sitede gezinirken sadece Çizgi Albüm tarafından kullanıcıyı tanımlamak ve siparişin verilirken sağlıklı olması için cookie (çerez) kullanmaktadır. Çizgi Albüm sitesinde kullanılan çerezlerin reklam amaçlı kullanılmadığını taahhüt eder.&lt;/p&gt;&lt;p&gt;Bu yayın, Çizgi Albüm izni olmadan kopyalanamaz, dağıtılamaz, ticari bir amaçla kaynak gösterilmek suretiyle veya kaynak gösterilmeksizin kullanılamaz ve hiçbir format altında bilgisayar sistemlerine aktarılamaz.&lt;/p&gt;&lt;p&gt;&lt;a href="http://www.cizgialbum.com/"&gt;http://www.cizgialbum.com&lt;/a&gt; web sitesine girmekle site ziyaretçileri yukarıdaki uyarı ve beyanları okumuş ve kabul etmiş addedilecektir. Bu hususta herhangi bir anlaşmazlık, iddia ve talep olduğu takdirde, iş bu web sayfasında yazılı bulunan bu ibarelerin ve Çizgi Albüm'e ait diğer tüm bilgisayar kayıtlarının tek ve gerçek münhasır delil olarak HUMK Madde 287'ye uygun olarak İstanbul Mahkemeleri ve İcra ve İflas Dairelerinin yetkisine sunulacağı Çizgi Albüm  tarafından beyan ve işbu &lt;a href="http://www.cizgialbum.com/"&gt;http://www.cizgialbum.com&lt;/a&gt; web Sitesi'ne giren kişi(ler), kuruluş(lar) tarafından kabul ve taahhüt edilir. &lt;/p&gt;&lt;p&gt;&lt;strong&gt;ÇİZGİ ALBÜM&lt;/strong&gt;&lt;/p&gt;&lt;/br&gt;</value>
+  </data>
+  <data name="sayfaUyelikSTitle" xml:space="preserve">
+    <value>Üyelik Sözleşmesi</value>
+  </data>
+  <data name="siparisKagitfart270gbrightwhite" xml:space="preserve">
+    <value>&lt;strong&gt;Fine Art 270g Bright White&lt;/strong&gt;&lt;/br&gt;&lt;span class='text-danger'&gt;Fine Art 270g Bright White Kağıt Seçiminde Paket Ücretine {0}% Fark Eklenir, &lt;/br&gt;(Extra cep veya Extra Aile istemeniz durumunda bu ürünlerede {0}% fark yansıtılır.)&lt;/span&gt;</value>
+  </data>
+  <data name="siparisKagitfartradiant270gwhite" xml:space="preserve">
+    <value>&lt;strong&gt;Radiant White 270g White&lt;/strong&gt;&lt;/br&gt;&lt;span class='text-danger'&gt;Radiant White 270g White Kağıt Seçiminde Paket Ücretine {0}% Fark Eklenir, &lt;/br&gt;(Extra cep veya Extra Aile istemeniz durumunda bu ürünlerede {0}% fark yansıtılır.)&lt;/span&gt;</value>
+  </data>
+  <data name="siparisKagitfartsatin270gbrightwhite" xml:space="preserve">
+    <value>&lt;strong&gt;Photo White SATIN 270g Bright White&lt;/strong&gt;&lt;/br&gt;&lt;span class='text-danger'&gt;Photo White SATIN 270g Bright White Kağıt Seçiminde Paket Ücretine {0}% Fark Eklenir, &lt;/br&gt;(Extra cep veya Extra Aile istemeniz durumunda bu ürünlerede {0}% fark yansıtılır.)&lt;/span&gt;</value>
+  </data>
+  <data name="siparisKagitfarttoscana210gnaturalwhite" xml:space="preserve">
+    <value>&lt;strong&gt;Toscana 210g Natural White&lt;/strong&gt;&lt;/br&gt;&lt;span class='text-danger'&gt;Toscana 210g Natural White Kağıt Seçiminde Paket Ücretine {0}% Fark Eklenir, &lt;/br&gt;(Extra cep veya Extra Aile istemeniz durumunda bu ürünlerede {0}% fark yansıtılır.)&lt;/span&gt;</value>
+  </data>
+  <data name="siparisKagitfartwatercolour240gnaturalwhite" xml:space="preserve">
+    <value>&lt;strong&gt;WaterColour 240g Natural White&lt;/strong&gt;&lt;/br&gt;&lt;span class='text-danger'&gt;WaterColour 240g Natural White Kağıt Seçiminde Paket Ücretine {0}% Fark Eklenir, &lt;/br&gt;(Extra cep veya Extra Aile istemeniz durumunda bu ürünlerede {0}% fark yansıtılır.)&lt;/span&gt;</value>
+  </data>
+  <data name="siparisKagitfartwhitevelvet270gwhite" xml:space="preserve">
+    <value>&lt;strong&gt;White Velvet 270g White&lt;/strong&gt;&lt;/br&gt;&lt;span class='text-danger'&gt;WaterColour 240g Natural White Kağıt Seçiminde Paket Ücretine {0}% Fark Eklenir, &lt;/br&gt;(Extra cep veya Extra Aile istemeniz durumunda bu ürünlerede {0}% fark yansıtılır.)&lt;/span&gt;</value>
+  </data>
+  <data name="siparisKagitKristalYazi" xml:space="preserve">
+    <value>&lt;strong&gt;Kristal Print&lt;/strong&gt;&lt;/br&gt;&lt;span class='text-danger'&gt;Kristal Kağıt Seçiminde Paket Ücretine {0}% Fark Eklenir, &lt;/br&gt;(Extra cep veya Extra Aile istemeniz durumunda bu ürünlerede {0}% fark yansıtılır.)&lt;/span&gt;</value>
+  </data>
+  <data name="siparisKagitMatYazi" xml:space="preserve">
+    <value>&lt;strong&gt;Matt Print&lt;/strong&gt;&lt;/br&gt;Siparişiniz Matt kağıda basılır.</value>
+  </data>
+  <data name="siparisKagitMetalikYazi" xml:space="preserve">
+    <value>&lt;strong&gt;Metalik Print&lt;/strong&gt;&lt;/br&gt;&lt;span class='text-danger'&gt;Metalik Kağıt Seçiminde Paket Ücretine {0}% Fark Eklenir, &lt;/br&gt;(Extra cep veya Extra Aile istemeniz durumunda bu ürünlerede {0}% fark yansıtılır.)&lt;/span&gt;</value>
+  </data>
+  <data name="siparisKagitProKristalYazi" xml:space="preserve">
+    <value>&lt;strong&gt;Pro Kristal Print&lt;/strong&gt;&lt;/br&gt;&lt;span class='text-danger'&gt;Pro Kristal Kağıt Seçiminde Paket Ücretine {0}% Fark Eklenir, &lt;/br&gt;(Extra cep veya Extra Aile istemeniz durumunda bu ürünlerede {0}% fark yansıtılır.)&lt;/span&gt;</value>
+  </data>
+  <data name="siparisKagitSecilmedi" xml:space="preserve">
+    <value>Kağıt tipini seçmediniz.</value>
+  </data>
+  <data name="siparisKagitSedefYazi" xml:space="preserve">
+    <value>&lt;strong&gt;Sedef Print&lt;/strong&gt;&lt;/br&gt;&lt;span class='text-danger'&gt;Sedef Kağıt Seçiminde Paket Ücretine {0}% Fark Eklenir, &lt;/br&gt;(Extra cep veya Extra Aile istemeniz durumunda bu ürünlerede {0}% fark yansıtılır.)&lt;/span&gt;</value>
+  </data>
+  <data name="siparisKagitSilkYazi" xml:space="preserve">
+    <value>&lt;strong&gt;Silk Print&lt;/strong&gt;&lt;/br&gt;&lt;span class='text-danger'&gt;Silk Kağıt Seçiminde Paket Ücretine {0}% Fark Eklenir, &lt;/br&gt;(Extra cep veya Extra Aile istemeniz durumunda bu ürünlerede {0}% fark yansıtılır.)&lt;/span&gt;</value>
+  </data>
+  <data name="siparisKagitsofttouch" xml:space="preserve">
+    <value>&lt;strong&gt;Soft Touch Print&lt;/strong&gt;&lt;/br&gt;&lt;span class='text-danger'&gt;Soft Touch Print Kağıt Seçiminde Paket Ücretine {0}% Fark Eklenir, &lt;/br&gt;(Extra cep veya Extra Aile istemeniz durumunda bu ürünlerede {0}% fark yansıtılır.)&lt;/span&gt;</value>
+  </data>
+  <data name="siparisKagitTipi" xml:space="preserve">
+    <value>Kağıt Tipi</value>
+  </data>
+  <data name="siparisKagitXMattYazi" xml:space="preserve">
+    <value>&lt;strong&gt;X-Matt Print&lt;/strong&gt;&lt;/br&gt;&lt;span class='text-danger'&gt;X-Matt Kağıt Seçiminde Paket Ücretine {0}% Fark Eklenir, &lt;/br&gt;(Extra cep veya Extra Aile istemeniz durumunda bu ürünlerede {0}% fark yansıtılır.)&lt;/span&gt;</value>
+  </data>
+  <data name="siparisKristalPlusSeriOlcuList" xml:space="preserve">
+    <value>Kristal Plus Seri Albüm Ölçüleri</value>
+  </data>
+  <data name="sistemHataMesaj" xml:space="preserve">
+    <value>Sistemimizde beklenmeyen bir hata oluştu.</value>
+  </data>
+  <data name="sistemHataMesaj2" xml:space="preserve">
+    <value>Hata kodu : &lt;strong&gt;{0}&lt;/strong&gt; olarak kaydedildi.</value>
+  </data>
+  <data name="sistemHataMesaj3" xml:space="preserve">
+    <value>Hatanın devam etmesi durumunda Hata kodu ve tarihi info@cizgialbum.com adresine mail göndererek yardım alabilirsiniz.</value>
+  </data>
+  <data name="sistemHataMesaj4" xml:space="preserve">
+    <value>Anlayışınız için teşekkür ederiz.</value>
+  </data>
+  <data name="sistemHataTitle" xml:space="preserve">
+    <value>Bir sorun oluştu</value>
+  </data>
+  <data name="banneranasayfaKampAciklama" xml:space="preserve">
+    <value>Kampanyalı ürünlerimiz için detaylı bilgiye bu kısımdan ulaşabilirsiniz.</value>
+  </data>
+  <data name="banneranasayfaKampTitle" xml:space="preserve">
+    <value>Kampanyalı Ürünlerimiz</value>
+  </data>
+  <data name="banneranasayfaKPAciklama" xml:space="preserve">
+    <value>35x65, 30x80 ve 30x90 ölçülerinden oluşan Kristal Plus serisi hakkında detaylı bilgiye bu kısımdan ulaşabilirsiniz.</value>
+  </data>
+  <data name="banneranasayfaKPTitle" xml:space="preserve">
+    <value>Kristal Plus Seri</value>
+  </data>
+  <data name="banneranasayfaPPAciklama" xml:space="preserve">
+    <value>35x65, 30x80 ve 30x90 ölçülerinden oluşan Premium Plus serisi hakkında detaylı bilgiye bu kısımdan ulaşabilirsiniz.</value>
+  </data>
+  <data name="banneranasayfaPPTitle" xml:space="preserve">
+    <value>Premium Plus Seri</value>
+  </data>
+  <data name="siparisGonder631" xml:space="preserve">
+    <value>Sipariş Gönder</value>
+  </data>
+  <data name="urunTanitimKampanyali" xml:space="preserve">
+    <value>&lt;p&gt;Kampanyalı seri kampanyalı olarak satılan ürünlerimizin bulunduğu ürün grubumuzdur.&lt;/p&gt;
+&lt;p&gt;Kampanyalı seride 35x65, 30x45, 30x70, 32x55, 30x60, 30x90, 30x80, 41x76, 25x50 ve 25x64 ölçülerinde paketlerimiz bulunmaktadır.&lt;/p&gt;
+&lt;p&gt;25x50 tek albüm olarak gönderilmektedir. Büyük ebat, kağıt, cep albüm, sayfa sayısı değişimi vb. ekstraların seçimi bulunmamaktadır.&lt;/p&gt;
+&lt;p&gt;Diğer albüm ölçülerinde ise Ekstra seçenekler mevcuttur.&lt;/p&gt;
+&lt;p&gt;Siparişinizi gönderirken dilerseniz uygun kutu seçeneklerinden birini seçebilir veya diğer ekstra seçeneklerimizden birini siparişinize ekleyebilirsiniz. Örneğin Büyük Ebat Kanvas, Saat vb.&lt;/p&gt;</value>
+  </data>
+  <data name="urunTanitimKristalAciklama" xml:space="preserve">
+    <value>&lt;p&gt;Kristal (Reina) serisi diğer kristal sayfalı ürün grubumuzdur.&lt;/p&gt;
+&lt;p&gt;Tüm Kristal (Reina) albüm paketlerindeki ürünlerimizde Deri Sırt kullanılmaktadır.&lt;/p&gt;
+&lt;p&gt;Bu serideki albüm modellerimizde dilerseniz Standart dilerseniz Aile albümlü paketlerimizden birini seçebilirsiniz.&lt;/p&gt;
+&lt;p&gt;Siparişinizi gönderirken dilerseniz uygun kutu seçeneklerinden birini seçebilir veya diğer ekstra seçeneklerimizden birini siparişinize ekleyebilirsiniz. Örneğin Büyük Ebat Kanvas, Saat vb.&lt;/p&gt;
+&lt;p&gt;Kristal (Reina) serisi ürünlerimizde farklı kağıt seçeneği yoktur. Kristal baskı yapılmaktadır.&lt;/p&gt;</value>
+  </data>
+  <data name="urunTanitimKristalPlus" xml:space="preserve">
+    <value>&lt;p&gt;Kristal Plus serisi müşterilerinize sunabileceğiniz özel seri albümlerimizdendir.&lt;/p&gt;
+&lt;p&gt;Tüm Kristal Plus albüm paketlerinde Plexy Kapak kullanılmaktadır.&lt;/p&gt;
+&lt;p&gt;Bu serideki albüm modellerimizde dilerseniz Standart dilerseniz Aile albümlü paketlerimizden birini seçebilirsiniz.&lt;/p&gt;
+&lt;p&gt;Siparişinizi gönderirken dilerseniz uygun kutu seçeneklerinden birini seçebilir veya diğer ekstra seçeneklerimizden birini siparişinize ekleyebilirsiniz. Örneğin Büyük Ebat Kanvas, Saat vb.&lt;/p&gt;
+&lt;p&gt;Kristal Plus serisi ürünlerimizde farklı kağıt seçeneği yoktur. Kristal baskı yapılmaktadır.&lt;/p&gt;</value>
+  </data>
+  <data name="urunTanitimPremiumAciklama" xml:space="preserve">
+    <value>&lt;p&gt;Premium serisi albümlerimiz geniş ölçü seçeneğine sahip ürün grubumuzdur.&lt;/p&gt;
+&lt;p&gt;35x65, 30x80 ve 30x90 gibi standart ölçülerimizden farklı olarak 41x76 ve 45x70 ölçülerine sahip albüm paketlerimiz mevcuttur.&lt;/p&gt;
+&lt;p&gt;Bu serideki albüm modellerimizde dilerseniz Standart dilerseniz Aile albümlü paketlerimizden birini seçebilirsiniz.&lt;/p&gt;
+&lt;p&gt;Siparişinizi gönderirken dilerseniz uygun kutu seçeneklerinden birini seçebilir veya diğer ekstra seçeneklerimizden birini siparişinize ekleyebilirsiniz. Örneğin Büyük Ebat Kanvas, Saat vb.&lt;/p&gt;</value>
+  </data>
+  <data name="urunTanitimStandart" xml:space="preserve">
+    <value>&lt;p&gt;Standart seri ekonomik ürünlerimizin bulunduğu ürün grubumuzdur.&lt;/p&gt;
+&lt;p&gt;35x65, 30x80, 31x50 ve 30x45 ölçülerine sahip albüm paketlerimiz bulunmaktadır.&lt;/p&gt;
+&lt;p&gt;35x65, 30x80 ve 31x50 ölçülerinde dilerseniz Standart dilerseniz Aile albümlü paketlerimizden birini seçebilirsiniz. 30x45 ölçüsünde ise ekonomik 5 ve 10 yapraklı paketlerimiz mevcuttur.&lt;/p&gt;
+&lt;p&gt;Siparişinizi gönderirken dilerseniz uygun kutu seçeneklerinden birini seçebilir veya diğer ekstra seçeneklerimizden birini siparişinize ekleyebilirsiniz. Örneğin Büyük Ebat Kanvas, Saat vb.&lt;/p&gt;</value>
+  </data>
+  <data name="urunTanitLoginOk" xml:space="preserve">
+    <value>&lt;strong&gt;Ürün grubuna ait albüm ölçülerini  ve seçtiğiniz pakete uygun kapak modellerini aşağıda görebilirsiniz.&lt;/strong&gt;</value>
+  </data>
+  <data name="urunTanitLoginReq" xml:space="preserve">
+    <value>Sisteme &lt;a href='/uye-giris' class='alert-link'&gt;üye girişi&lt;/a&gt; yaparak albüm ölçülerini, paketleri ve seçtiğiniz pakete uygun kapakları aşağıda görebilirsiniz.</value>
+  </data>
+  <data name="urunTanitMasterAciklama" xml:space="preserve">
+    <value>&lt;p&gt;Master Serisi müşterilerinize sunabileceğiz özel seri albümlerimizdir,&lt;/p&gt;
+&lt;p&gt;Dilerseniz Master serisinde bulunan bazı modellerimizde şık metal üzerine gelin&amp;damat ismini lazer ile yazdırabilirsiniz, metal bulunmayan ürünlerimizin çoğunda yine lazer ile derinin üzerine gelin&amp;damat ismini yazdırabilirsiniz. Bazı albüm modellerimizde deri üzerine komple veya bazı bölümlerine fotoğraf baskısı yapılabilmektedir.&lt;/p&gt;
+&lt;p&gt;Ayrıca Master serisi albümlerde en kaliteli Fine ART kağıt kullanmaktayız. Dilerseniz siparişinizi gönderirken uygun kağıt seçeneklerinden biri ile basılacak kağıdı değiştirebilirsiniz.&lt;/p&gt;
+&lt;p&gt;Master serisi albüm paketlerimizin içeriğine albüme uygun kutu dahildir.&lt;/p&gt;</value>
+  </data>
+  <data name="urunTanitPaketButon" xml:space="preserve">
+    <value>Bu paketde bulunan albümleri listele</value>
+  </data>
+  <data name="urunTanitPremiumPlusAciklama" xml:space="preserve">
+    <value>&lt;p&gt;Premium Plus serisi yine müşterilerinize sunabileceğiniz özel seri albümlerimizdendir.&lt;/p&gt;
+&lt;p&gt;Premium Plus serisi albümlerimizde Plexy kapak kullanılmaktadır.&lt;/p&gt;
+&lt;p&gt;Bu seride bulunan tüm paketlerimizde 1 Albüm, 2 Aile, 1 Cep ve 1 Büyük Ebat (50x60/50x70/50x75)  bulunmaktadır.&lt;/p&gt;
+&lt;p&gt;Siparişinizi gönderirken dilerseniz uygun kutu seçeneklerinden birini seçebilir veya diğer ekstra seçeneklerimizden birini siparişinize ekleyebilirsiniz. Örneğin Büyük Ebat Kanvas, Saat vb.&lt;/p&gt;</value>
+  </data>
+  <data name="err404Sec1" xml:space="preserve">
+    <value>Neler Yapabilirim ?</value>
+  </data>
+  <data name="err404Sec2" xml:space="preserve">
+    <value>Merak etmeyin, aşağıdaki linkleri kullanarak üye sayfanıza veya site ana sayfasına erişebilirsiniz.</value>
+  </data>
+  <data name="err404sec3" xml:space="preserve">
+    <value>Ana Sayfaya Geri Dön</value>
+  </data>
+  <data name="err404sec4" xml:space="preserve">
+    <value>Üye Sayfama Geri Dön</value>
+  </data>
+  <data name="err404sec5" xml:space="preserve">
+    <value>Dilediğiniz sayfaya gitmek için sayfa tepesindeki menüyüde kullanabilirsiniz.</value>
+  </data>
+  <data name="err404Title1" xml:space="preserve">
+    <value>Sayfa Bulunamadı !</value>
+  </data>
+  <data name="err404Title2" xml:space="preserve">
+    <value>Aradığınız sayfa bulunamadı...</value>
+  </data>
+  <data name="err404Title3" xml:space="preserve">
+    <value>Sayfanın neden bulunamadığı hakkında bazı tahminlerimiz var.</value>
+  </data>
+  <data name="err404Title4" xml:space="preserve">
+    <value>Sayfa adresini tarayıcınızın adres kısmına direk olarak yazdıysanız, lütfen yazım hatalarını kontrol ederek tekrar deneyiniz.</value>
+  </data>
+  <data name="err404Title5" xml:space="preserve">
+    <value>Sitemiz üzerinden bir linke tıklayarak bu sayfaya geldi iseniz, gelmeye çalıştığınız sayfa yönetici tarafından silinmiş olabilir.</value>
+  </data>
+  <data name="memberRightBarVitrinlik" xml:space="preserve">
+    <value>Vitrinlik Gönder</value>
+  </data>
+  <data name="sayfaHakkimizdaContent" xml:space="preserve">
+    <value>&lt;p&gt;&lt;b&gt;Sevgili Ziyaretçi ,&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Çizgi Album 1989 yılında kurulmuş olup 21 yıllık deneyimini sizlerle paylaşmaktan gurur duyar.&lt;/p&gt;&lt;p&gt;Size Mert Foto Albüm ürünlerini kıvançla sunuyoruz.&lt;/p&gt;&lt;p&gt;Yeni ürünlerimiz en kaliteli deriden mamul edilmiş albümlerden, cepli amatör albümlere kadar çok geniş bir ürün yelpazesi içermektedir.&lt;/p&gt;&lt;p&gt;Yeni dizaynlarımızı müşteri beklentileri ile buluşturmak için elimizden gelenin en iyisini yaptığımıza inanıyoruz.&lt;/p&gt;&lt;p&gt;Yeniliklere adapte olan firmamız &lt;strong&gt;Panaromik Albüm&lt;/strong&gt;, &lt;strong&gt;Kristal Albüm&lt;/strong&gt; ve &lt;strong&gt;Master Seri Albümleri&lt;/strong&gt; de ürün yelpazesine eklemiş bulunmaktadır.&lt;/p&gt;&lt;p&gt;Türkiye piyasasında 1989 yılından bu yana üretim yapmaktayız. Kalite ve uygun fiyat politikamızın ödülü olarak pazarda elde ettiğimiz güçlü pozisyonun yanında Dünyanın farklı ülkelerinden de talepler ve olumlu tepkiler almaktayız.&lt;/p&gt;&lt;p&gt;Bugün 100'ü aşkın çalışanımız ve yüksek teknoloji ile entegre edilmiş makine ve ekipmanlarımızla ve kılı kırk yaran kalite kontrol anlayışımızla, sürekli gelişen yerli ve uluslararası piyasalara süratle uyum sağlamaktayız.&lt;/p&gt;&lt;p&gt;Mert Foto Albüm, geleneksel el yapımı ürünleri ve yüksek teknoloji yatırımları ile elde ettiği bu başarıları daha çok çalışarak, daima ileri götürmek azmindedir.&lt;/p&gt;&lt;p&gt;Saygılarmızla,&lt;/p&gt;&lt;b&gt;Çizgi Album&lt;/b&gt;</value>
+  </data>
+  <data name="sayfaHakkimizdaTitle" xml:space="preserve">
+    <value>Hakkımızda</value>
+  </data>
+  <data name="sayfailetisimAdres1" xml:space="preserve">
+    <value>Adres</value>
+  </data>
+  <data name="sayfailetisimAdres2" xml:space="preserve">
+    <value>Karayolları Mahallesi 569 Sokak No : 8 Gaziosmanpaşa İstanbul Türkiye</value>
+  </data>
+  <data name="sayfailetisimEmailAdresler" xml:space="preserve">
+    <value>Email Adreslerimiz</value>
+  </data>
+  <data name="sayfailetisimEmailAdresler2" xml:space="preserve">
+    <value>Email 1 : info@cizgialbum.com</value>
+  </data>
+  <data name="sayfailetisimEmailAdresler3" xml:space="preserve">
+    <value>Email 2 : info@cizgialbum.com</value>
+  </data>
+  <data name="sayfailetisimTelveFax" xml:space="preserve">
+    <value>Telefon ve Fax</value>
+  </data>
+  <data name="sayfailetisimTelveFax2" xml:space="preserve">
+    <value>Tel 1 : +90 212 0000000</value>
+  </data>
+  <data name="sayfailetisimTelveFax3" xml:space="preserve">
+    <value>Tel 2 : +90 212 0000000</value>
+  </data>
+  <data name="sayfailetisimTelveFax4" xml:space="preserve">
+    <value>Fax : +90 212 0000000</value>
+  </data>
+  <data name="sayfailetisimTitle" xml:space="preserve">
+    <value>İletişim Bilgilerimiz</value>
+  </data>
+  <data name="siparisKKOdeme" xml:space="preserve">
+    <value>{0} Numaralı siparişinizin ücretini Kredi Kartınızla hemen ödemek için tıklayın.</value>
+  </data>
+  <data name="sipDetayBaskida" xml:space="preserve">
+    <value>Baskı Bölümünde</value>
+  </data>
+  <data name="sipDetayGonderiBekliyor" xml:space="preserve">
+    <value>Muhasebeleştiriliyor</value>
+  </data>
+  <data name="sipDetayGonderildi" xml:space="preserve">
+    <value>Siparişiniz Tamamlandı</value>
+  </data>
+  <data name="sipDetayImalatta" xml:space="preserve">
+    <value>İmalata Alındı</value>
+  </data>
+  <data name="sipDetayIptalEdildi" xml:space="preserve">
+    <value>İptal Edildi</value>
+  </data>
+  <data name="sipDetayOnayBekliyor" xml:space="preserve">
+    <value>İndirme Bekliyor</value>
+  </data>
+  <data name="sipDetayOnaylandi" xml:space="preserve">
+    <value>Onaylandi</value>
+  </data>
+  <data name="sipDetayPaketleme" xml:space="preserve">
+    <value>Paketleme Bölümünde</value>
+  </data>
+  <data name="sipDetayPhotoshopda" xml:space="preserve">
+    <value>Photoshop Bölümünde</value>
+  </data>
+  <data name="sipDetaytitle" xml:space="preserve">
+    <value>{0} Numaralı Siparişin Detayları</value>
+  </data>
+  <data name="registerCheckUnvan" xml:space="preserve">
+    <value>Firma Adını Yazmadınız.</value>
+  </data>
+  <data name="memberACTBilgilerDesc" xml:space="preserve">
+    <value>SMS Sistemine kayıtlısınız, Kayıtlı cep telefonunuz ve ayarlarınız aşağıda listelenmiştir.</value>
+  </data>
+  <data name="memberACTBilgilerDesc2" xml:space="preserve">
+    <value>Aşağıdaki butonu kullanarak gönderilen siparişlerinin sms bilgilerini almayı kesebilir veya devam ettirebilirsiniz.</value>
+  </data>
+  <data name="memberACTBilgilerDesc3" xml:space="preserve">
+    <value>Kayıtlı telefon numaranızı değiştirmek için yukarıdaki formu kullanabilirsiniz. Telefon numaranızı değiştirmeniz durumunda tekrar aktivasyon yapmanız gerekmektedir.</value>
+  </data>
+  <data name="memberACTBilgilerTitle" xml:space="preserve">
+    <value>SMS Sistemi Bilgileriniz</value>
+  </data>
+  <data name="memberACTBos" xml:space="preserve">
+    <value>Aktivasyon kodunu girmediniz.</value>
+  </data>
+  <data name="memberACTBtn" xml:space="preserve">
+    <value>Aktivasyonu Tamamla</value>
+  </data>
+  <data name="memberACTCheckbox" xml:space="preserve">
+    <value>Sipariş SMS bildirimlerini almak veya iptal etmek için buraya tıklayın.</value>
+  </data>
+  <data name="memberACTDesc1" xml:space="preserve">
+    <value>Lütfen cep telefonunuza gelen 4 haneli kodu aşağıdaki forma girin.</value>
+  </data>
+  <data name="memberACTEksikFazla" xml:space="preserve">
+    <value>Aktivasyon kodunuz 4 rakamdan oluşmalıdır. Kodu eksik veya fazla girdiniz lütfen kontrol ederek tekrar deneyin.</value>
+  </data>
+  <data name="memberACTFinal1" xml:space="preserve">
+    <value>SMS Aktivasyonunuz başarı ile tamamlandı.</value>
+  </data>
+  <data name="memberACTFinal2" xml:space="preserve">
+    <value>Artık siparişleriniz kargolandığında Çizgi Albüm tarafından siparişinizin gönderildiğine dair SMS Alacaksınız.</value>
+  </data>
+  <data name="memberACTFinal3" xml:space="preserve">
+    <value>SMS servisi siz değerli müşterilerimize daha iyi hizmet amacı ile Çizgi Albüm tarafından ücretsiz olarak sunulmaktadır.</value>
+  </data>
+  <data name="memberACTFinalBof" xml:space="preserve">
+    <value>Bir sorun oluştu. Lütfen yeni aktivasyon kodu isteyerek tekrar deneyiniz.</value>
+  </data>
+  <data name="memberACTFinalHata" xml:space="preserve">
+    <value>Hata !</value>
+  </data>
+  <data name="memberACTFinalHataDesc" xml:space="preserve">
+    <value>Aktivasyon kodlarınız uyuşmuyor. Lütfen kontrol ederek tekrar deneyiniz.</value>
+  </data>
+  <data name="memberACTFinalTitle" xml:space="preserve">
+    <value>Aktivasyon Başarılı</value>
+  </data>
+  <data name="memberACTHata" xml:space="preserve">
+    <value>Girdiğiniz Aktivasyon kodu hatalı. Aktivasyon kodu 4 haneli ve sadece rakamlardan oluşabilir.</value>
+  </data>
+  <data name="memberActivasyonMesaj" xml:space="preserve">
+    <value>Aktivasyon kodunuz cep telefonunuza gönderilmiştir. Lütfen telefonunuza gelen 4 haneli kodu aşağıda bulunan aktivasyon bölümüne girin.</value>
+  </data>
+  <data name="memberActivasyonMesajHata" xml:space="preserve">
+    <value>Aktivasyon mesajınız gönderilemedi. Lütfen daha sonra tekrar deneyiniz.</value>
+  </data>
+  <data name="memberActivasyonTitle" xml:space="preserve">
+    <value>Mesaj Gönderildi</value>
+  </data>
+  <data name="memberActivasyonTitleHata" xml:space="preserve">
+    <value>Mesaj Gönderilemedi !</value>
+  </data>
+  <data name="memberACTKayitliTel" xml:space="preserve">
+    <value>Kayıtlı Telefon Numaranız : </value>
+  </data>
+  <data name="memberACTSipStatus1" xml:space="preserve">
+    <value>Başarılı</value>
+  </data>
+  <data name="memberACTSipStatus2" xml:space="preserve">
+    <value>Yaptığınız seçim sonucunda siparişleriniz gönderildiğinde SMS alacaksınız.</value>
+  </data>
+  <data name="memberACTSipStatus3" xml:space="preserve">
+    <value>Yaptığınız seçim sonucunda siparişleriniz gönderildiğinde SMS almayacaksınız.</value>
+  </data>
+  <data name="memberACTSMSDurumu" xml:space="preserve">
+    <value>SMS Gönderim Durumu : </value>
+  </data>
+  <data name="memberACTSMSDurumuAktif" xml:space="preserve">
+    <value>SMS Gönderimi Aktif</value>
+  </data>
+  <data name="memberACTSMSDurumuPasif" xml:space="preserve">
+    <value>SMS Gönderimi Devre Dışı Bırakılmış</value>
+  </data>
+  <data name="memberACTTextbox" xml:space="preserve">
+    <value>Aktivasyon Kodunuz</value>
+  </data>
+  <data name="memberACTTitle" xml:space="preserve">
+    <value>Aktivasyon Bölümü</value>
+  </data>
+  <data name="memberAktivasyonMesaj" xml:space="preserve">
+    <value>Aktivasyon kodunuz : {0} www.cizgialbum.com adresini ziyaret ederek SMS bölümüne aktivasyon kodunu girebilirsiniz.</value>
+  </data>
+  <data name="memberDTKargoBekliyor" xml:space="preserve">
+    <value>Kargo bilgisinin girilmesi bekleniyor. Lütfen daha sonra tekrar kontrol edin. SMS Sistemine üye iseniz siparişiniz gönderildiğinde tarafımızdan siparişinizin gönderildiğine dair bir kısa mesaj alacaksınız.</value>
+  </data>
+  <data name="memberDTKargoBilgiTitle" xml:space="preserve">
+    <value>Kargo Bilgileri</value>
+  </data>
+  <data name="memberDTKargoEski" xml:space="preserve">
+    <value>Siparişiniz yeni kargo sisteminden önce gönderildiği için kargo bilgileri listenemiyor.</value>
+  </data>
+  <data name="memberDTKargoHata" xml:space="preserve">
+    <value>Kargo bilgileri ARAS Kargo sitesinden alınırken bir sorun oluştu. Lütfen daha sonra tekrar deneyin.</value>
+  </data>
+  <data name="memberDtKargoPazarlamaci" xml:space="preserve">
+    <value>Siparişiniz {0} tarihinde tarafınıza iletilmek üzere ilgili kişiye teslim edilmiştir.</value>
+  </data>
+  <data name="memberDtKargoYurtdisi" xml:space="preserve">
+    <value>Siparişiniz {0} tarihinde yurtdışına gönderilmek amacı ile şirketimizden yola çıkmıştır.</value>
+  </data>
+  <data name="memberSMSAciklama1" xml:space="preserve">
+    <value>Aşağıdaki formu kullanarak siparişiniz gönderildiğinde cep telefonunuza sms gönderilmesini sağlayabilirsiniz.</value>
+  </data>
+  <data name="memberSMSAciklama2" xml:space="preserve">
+    <value>Bu hizmet Çizgi Albüm tarafından ücretsiz olarak sunulmaktadır.</value>
+  </data>
+  <data name="memberSMSAciklama3" xml:space="preserve">
+    <value>Cep telefonunuzu girerken lütfen başında 0 olmadan ve birleşik olarak yazınız.</value>
+  </data>
+  <data name="memberSMSAciklama4" xml:space="preserve">
+    <value>Örneğin : 55510xxxx gibi.</value>
+  </data>
+  <data name="memberSMSAciklama5" xml:space="preserve">
+    <value>İlk defa kayıt oluyorsanız telefon numarasının size ait olduğunu doğrulamak için bir aktivasyon kodu yollayacağız. Lütfen aktivasyon kodunu gerekli alana giriniz.</value>
+  </data>
+  <data name="memberSMSAciklama6" xml:space="preserve">
+    <value>Bu servis şuan sadece Türkiye ' deki müşterilerimiz kullanabilir yabancı menşeli operatörlere sms gönderilimi yapılmamaktadır.</value>
+  </data>
+  <data name="memberSMSBtn" xml:space="preserve">
+    <value>Telefon Numaramı Kaydet</value>
+  </data>
+  <data name="memberSMSerrorTelefonBos" xml:space="preserve">
+    <value>Telefon numaranızı yazmadınız.</value>
+  </data>
+  <data name="memberSMSerrorTelefonEksikNo" xml:space="preserve">
+    <value>Telefon numaranız 10 rakamdan oluşmalıdır. Numaranızı eksik veya fazla girdiniz lütfen kontrol ederek tekrar deneyin.</value>
+  </data>
+  <data name="memberSMSerrorTelefonHatali" xml:space="preserve">
+    <value>Girdiğiniz numara hatalı. Telefon numaranız sadece sayılardan oluşabilir.</value>
+  </data>
+  <data name="memberSMSLink" xml:space="preserve">
+    <value>SMS Bilgi Servisi</value>
+  </data>
+  <data name="memberSMSTelefon" xml:space="preserve">
+    <value>Telefon Numaranız</value>
+  </data>
+  <data name="memberSMStitle" xml:space="preserve">
+    <value>SMS Ayar Sayfası</value>
+  </data>
+  <data name="memberSMStitle2" xml:space="preserve">
+    <value>Kısa Mesaj Ayarlarınız</value>
+  </data>
+  <data name="paket239" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket240" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket241" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket242" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket243" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket244" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket245" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket246" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket247" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket248" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket249" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket250" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket251" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket252" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket253" xml:space="preserve">
+    <value />
+  </data>
+  <data name="siparisBitisLoading" xml:space="preserve">
+    <value>Siparişiniz işleniyor, lütfen bekleyin...</value>
+  </data>
+  <data name="paket254" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket255" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket256" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket257" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket258" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket259" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket260" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket261" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket262" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket263" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket264" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket265" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket266" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket267" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket268" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket269" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket270" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket271" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket272" xml:space="preserve">
+    <value />
+  </data>
+  <data name="siparisBabyKidsBeniusOlcuList" xml:space="preserve">
+    <value>Baby Kids Genius</value>
+  </data>
+  <data name="siparisSTDSeriOlcuList" xml:space="preserve">
+    <value>Save The Date</value>
+  </data>
+  <data name="siparisTekAlbumKaOlcuList" xml:space="preserve">
+    <value>Tek Albüm ve Kutu Kampanyalı</value>
+  </data>
+  <data name="siparisVintageSeriOlcuList" xml:space="preserve">
+    <value>Vintage Seri</value>
+  </data>
+  <data name="siparisYeniKampanyaliOlcuList" xml:space="preserve">
+    <value>Standart Seri (Kampanyalı)</value>
+  </data>
+  <data name="paket274" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket275" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket276" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket277" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket278" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket279" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket280" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket281" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket282" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket283" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket284" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket285" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket286" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket287" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket288" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket289" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket290" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket291" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket292" xml:space="preserve">
+    <value />
+  </data>
+  <data name="siparisGonder2" xml:space="preserve">
+    <value>Yeni Sipariş Sistemi</value>
+  </data>
+  <data name="paket293" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket294" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket295" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket296" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket297" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket298" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket299" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket300" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket301" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket302" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket303" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket304" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket305" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket306" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket307" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket308" xml:space="preserve">
+    <value />
+  </data>
+  <data name="siparisKagitKristalBedavaYazi" xml:space="preserve">
+    <value>&lt;strong class='text-danger'&gt;Kristal Print&lt;/strong&gt;&lt;/br&gt;Seçtiğiniz paket kristal albüm olduğundan ek fiyat yansıtılmayacaktır.</value>
+  </data>
+  <data name="banneranasayfaBabyKidsSeriTitle" xml:space="preserve">
+    <value>Baby Kids Genius</value>
+  </data>
+  <data name="banneranasayfaSaveTheDateSeriTitle" xml:space="preserve">
+    <value>Save The Date Serisi</value>
+  </data>
+  <data name="banneranasayfaTAKTitle" xml:space="preserve">
+    <value>Tek Albüm Kampanyalı</value>
+  </data>
+  <data name="banneranasayfaVintageAlbumTitle" xml:space="preserve">
+    <value>Vintage Serisi</value>
+  </data>
+  <data name="banneranasayfaYeniKampanyaliTitle" xml:space="preserve">
+    <value>Yeni Kampanyalı</value>
+  </data>
+  <data name="menuurunlerBabyKidsGenius" xml:space="preserve">
+    <value>Baby Kids Genius Serisi</value>
+  </data>
+  <data name="menuurunlerSaveTheDate" xml:space="preserve">
+    <value>Save The Date Serisi</value>
+  </data>
+  <data name="menuurunlerTekAlbumKampanyali" xml:space="preserve">
+    <value>Tek Albüm Kampanyalı</value>
+  </data>
+  <data name="menuurunlerVintage" xml:space="preserve">
+    <value>Vintage Serisi</value>
+  </data>
+  <data name="menuurunlerYeniKampanyali" xml:space="preserve">
+    <value>Yeni Kampanyalı Serisi</value>
+  </data>
+  <data name="siparisformkapakzorunlu1" xml:space="preserve">
+    <value>Değerli müşterimiz seçtiğiniz &lt;strong class='text-info'&gt;{0}&lt;/strong&gt; ürününde lazer yazı vb. işlem yapıldığından dolayı, siparişinizin hızlıca üretilmesi için lütfen &lt;strong class='text-danger'&gt;Kapak Yazısı&lt;/strong&gt; kısmını boş bırakmayınız.</value>
+  </data>
+  <data name="siparisformkapakzorunluTitle" xml:space="preserve">
+    <value>Lazer işlemli vb. ürün</value>
+  </data>
+  <data name="siparisKapakYaziEksik" xml:space="preserve">
+    <value>Seçtiğiniz kapak modeline lazer işlem vb. yapıldığından dolayı &lt;strong class='text-danger'&gt;Kapak Yazısı&lt;/strong&gt; bölümünü doldurmanız gerekmektedir.</value>
+  </data>
+  <data name="urunTanitimBabyKidsGeniusSeries" xml:space="preserve">
+    <value>&lt;p&gt;Baby Kids Genius serisi, bebek albümleri için kullanabileceğiniz ürün grubumuzdur.&lt;/p&gt;
+&lt;p&gt;Bu serideki albüm paketlerinde 5 veya 10 yapraklı paket seçenekleri bulunmaktadır.&lt;/p&gt;
+&lt;p&gt;Siparişinizi gönderirken dilerseniz ekstra seçeneklerimizden birisini siparişinize ekleyebilirsiniz. Örneğin Büyük Ebat Kanvas, Saat vb.&lt;/p&gt;
+&lt;p&gt;Baby Kids Genius serisi ürünlerimizde farklı kağıt seçenekleri bulunmaktadır.&lt;/p&gt;</value>
+  </data>
+  <data name="urunTanitimSaveTheDateSeries" xml:space="preserve">
+    <value>&lt;p&gt;Save The Date serisi, özel albümlerden oluşan ürün grubumuzdur.&lt;/p&gt;
+&lt;p&gt;Bu serideki albüm paketlerimiz en az 10 yapraklı olup 5 yapraklı paket seçeneğinimiz bulunmamaktadır.&lt;/p&gt;
+&lt;p&gt;Siparişinizi gönderirken dilerseniz ekstra seçeneklerimizden birisini siparişinize ekleyebilirsiniz. Örneğin Büyük Ebat Kanvas, Saat vb.&lt;/p&gt;
+&lt;p&gt;Save The Date serisi ürünlerimizde farklı kağıt seçenekleri bulunmaktadır.&lt;/p&gt;
+&lt;p&gt;Ayrıca Save The Date serisi albüm paketlerinde Ahşap kutu, Ahşap Usb ve Ahşap Çerçeve paket içeriğine dahildir.&lt;/p&gt;</value>
+  </data>
+  <data name="urunTanitimTekAlbumKampanyali" xml:space="preserve">
+    <value>&lt;p&gt;Tek Albüm Kampanyalı serisi, Luka Albümlerden oluşan ürün grubumuzdur.&lt;/p&gt;
+&lt;p&gt;Bu serideki albüm paketlerimizde 5 veya 10 yapraklı albüm seçeneklerimiz bulunmaktadır.&lt;/p&gt;
+&lt;p&gt;Siparişinizi gönderirken dilerseniz kutu ekleyebilir veya ekstra seçeneklerimizden birisini siparişinize ekleyebilirsiniz. Örneğin Büyük Ebat Kanvas, Saat vb.&lt;/p&gt;
+&lt;p&gt;Tek Albüm Kampanyalı serisi ürünlerimizde farklı kağıt seçenekleri bulunmaktadır.&lt;/p&gt;</value>
+  </data>
+  <data name="urunTanitimVintageSeries" xml:space="preserve">
+    <value>&lt;p&gt;Vintage serisi, çeşitli albümlerden oluşan ürün grubumuzdur.&lt;/p&gt;
+&lt;p&gt;Bu serideki albüm paketlerimiz en az 10 yapraklı olup 5 yapraklı paket seçeneğinimiz bulunmamaktadır.&lt;/p&gt;
+&lt;p&gt;Siparişinizi gönderirken dilerseniz ahşap kutu ekleyebilir veya ekstra seçeneklerimizden birisini siparişinize ekleyebilirsiniz. Örneğin Büyük Ebat Kanvas, Saat vb.&lt;/p&gt;
+&lt;p&gt;Vintage serisi ürünlerimizde farklı kağıt seçenekleri bulunmaktadır.&lt;/p&gt;
+&lt;p&gt;Ayrıca Vintage serisi albüm paketlerinde Ahşap Usb içerek paketlerimiz de mevcuttur.&lt;/p&gt;</value>
+  </data>
+  <data name="urunTanitimYeniKampanyali" xml:space="preserve">
+    <value>&lt;p&gt;Yeni Kampanyalı serisi, çeşitli albümlerden oluşan ürün grubumuzdur.&lt;/p&gt;
+&lt;p&gt;Bu serideki albüm paketlerimiz 10 yapraklı olup 5 yapraklı paket seçeneğinimiz bulunmamaktadır.&lt;/p&gt;
+&lt;p&gt;Siparişinizi gönderirken dilerseniz kutu ekleyebilir veya ekstra seçeneklerimizden birisini siparişinize ekleyebilirsiniz. Örneğin Büyük Ebat Kanvas, Saat vb.&lt;/p&gt;
+&lt;p&gt;Yeni Kampanyalı serisi ürünlerimizde farklı kağıt seçenekleri bulunmaktadır.&lt;/p&gt;</value>
+  </data>
+  <data name="memberRightBarVitrinlikSip" xml:space="preserve">
+    <value>Vitrinlik Siparişi</value>
+  </data>
+  <data name="vitrinKategori1" xml:space="preserve">
+    <value>Büyük Ebat</value>
+  </data>
+  <data name="vitrinKategori2" xml:space="preserve">
+    <value>Kanvas</value>
+  </data>
+  <data name="vitrinKategori3" xml:space="preserve">
+    <value>Fotoblok</value>
+  </data>
+  <data name="vitrinKategori4" xml:space="preserve">
+    <value>Kanvas Saat</value>
+  </data>
+  <data name="vitrinKategori5" xml:space="preserve">
+    <value>Portfolio Box</value>
+  </data>
+  <data name="vitrinKategori6" xml:space="preserve">
+    <value>Özel Ölçüleriniz</value>
+  </data>
+  <data name="vitrinlikformbuton" xml:space="preserve">
+    <value>Siparişe Ekle</value>
+  </data>
+  <data name="vitrinlikGonderTitle" xml:space="preserve">
+    <value>Vitrinlik Gönderimi</value>
+  </data>
+  <data name="footerCerezPol" xml:space="preserve">
+    <value>Çerez Politikamız</value>
+  </data>
+  <data name="sayfaCerezBody" xml:space="preserve">
+    <value>&lt;h4&gt;Çerez (Cookie) nedir?&lt;/h4&gt;
+
+&lt;p&gt;Çerez bir internet sitesinin kullanıcının bilgilerini hatırlamak için siteyi ziyaret ettiğinizde site tarafından kullanıcının bilgisayarına (tablet, telefon vb.) gönderilen küçük metin dosyalarıdır. Gönderdiğimiz çerezler www.cizgialbum.com adresini gezerken siz ve internet sitesi arasındaki etkileşimin daha kolay olmasını sağlamak için kullanılmaktadır.&lt;/p&gt;
+
+&lt;h4&gt;Ne tür çerezler kullanıyoruz?&lt;/h4&gt;
+
+&lt;p&gt; Çizgi Albüm olarak çerezleri sitemizde ziyaretçiyi tanımlamak ve analitik data amacıyla kullanılmaktadır. &lt;/p&gt;
+
+&lt;h4&gt;Kullanıcı çerezleri&lt;/h4&gt;
+
+&lt;p&gt;Sitemize giriş yaptığınızda bilgisayarınıza gönderilen çerezlerdir, bu çerezler sitemizin düzgün çalışması için zorunludur. Çerezleri tarayıcınız üzerinden devre dışı bırakmanız durumunda sitemizdeki bazı sayfalara erişemeyebilir ya da kullanıcı girişi yapamayabilirsiniz.&lt;/p&gt;
+
+&lt;h4&gt;Analitik çerezler&lt;/h4&gt;
+
+&lt;p&gt;Bu çerezler sitemize geliştirmemize yardımcı olması için kullandığımız çerezlerdir. Bunlar sitemize ziyaretçinin nasıl geldiğini ve siteyi nasıl gezdiğini anlamamızı kolaylaştırmak için kullanırız. Bu çerezlerde gelen ziyaretçinin kimliğini tespit edilmesine yarayacak her hangi bir kişisel bilgi tutulmamaktadır.&lt;/p&gt;
+
+&lt;h4&gt;Pazarlama amacıyla kullanılan çerezler&lt;/h4&gt;
+
+&lt;p&gt;Sitemizde pazarlama amacıyla her hangi bir çerez kullanılmaktadır.&lt;/p&gt;
+
+&lt;h4&gt;Çerezleri nasıl kontrol edebilir veya silebilirim?&lt;/h4&gt;
+
+&lt;p&gt;Genel olarak çoğu internet tarayıcısı çerezleri otomatik kabul etmeye ayarlı olarak gelir. Bu ayarları çerezleri engelleyecek ya da çerez gönderildiğinde haber verecek şekilde değiştirebilirsiniz. Detaylı bilgi için kullandığınız tarayıcının bilgi sayfasına bakabilirsiniz.&lt;/p&gt;
+
+&lt;h4&gt;Çerezleri kabul etmezsem ne olur?&lt;/h4&gt;
+
+&lt;p&gt;Çerezleri kabul etmemeniz durumunda sitemizdeki bazı sayfalara erişemeyebilirsiniz.&lt;/p&gt;
+
+&lt;p&gt;www.cizgialbum.com adresini ziyaret eden kullanıcı bu safyada bulunan çerez politikasını kabul etmiş sayılır.&lt;/p&gt;</value>
+  </data>
+  <data name="sayfaCerezTitle" xml:space="preserve">
+    <value>Çerez Politikalarımız</value>
+  </data>
+  <data name="paket309" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket310" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket311" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket312" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket313" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket314" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket315" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket316" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket317" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket318" xml:space="preserve">
+    <value />
+  </data>
+  <data name="siparisEkoKampanyaliOlcuList" xml:space="preserve">
+    <value>Eko Kampanyalı Seri Albüm Ölçüleri</value>
+  </data>
+  <data name="paket319" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket320" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket321" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket322" xml:space="preserve">
+    <value />
+  </data>
+  <data name="sipAhsapRenkEksik" xml:space="preserve">
+    <value>Seçtiğiniz kapak modelinde ahşap rengi seçilmesi gerektiğinden &lt;strong class='text-danger'&gt;Albümünüzün Ahşap Rengini Seçiniz&lt;/strong&gt; kısmında seçim yapmanız gerekmektedir.</value>
+  </data>
+  <data name="siparisAhsap0" xml:space="preserve">
+    <value>&lt;strong&gt;Seçim Yok&lt;/strong&gt;</value>
+  </data>
+  <data name="siparisAhsap1" xml:space="preserve">
+    <value>&lt;strong&gt;Siyah Ahşap&lt;/strong&gt;</value>
+  </data>
+  <data name="siparisAhsap2" xml:space="preserve">
+    <value>&lt;strong&gt;Beyaz Ahşap&lt;/strong&gt;</value>
+  </data>
+  <data name="siparisAhsap3" xml:space="preserve">
+    <value>&lt;strong&gt;Ceviz Ahşap&lt;/strong&gt;</value>
+  </data>
+  <data name="siparisAhsapTipiSec" xml:space="preserve">
+    <value>Albümünüzün Ahşap Rengini Seçiniz</value>
+  </data>
+  <data name="siparisformahsapzorunlu1" xml:space="preserve">
+    <value>Değerli müşterimiz seçtiğiniz &lt;strong class='text-info'&gt;{0}&lt;/strong&gt; ürününde ahşap rengi seçilmesi gerekmektedir. Siparişinizin hızlıca üretilmesi için lütfen &lt;strong class='text-danger'&gt;Albümünüzün Ahşap Rengini Seçiniz&lt;/strong&gt; kısmında seçim yapmayı unutmayın.</value>
+  </data>
+  <data name="siparisGoldSeriOlcuList" xml:space="preserve">
+    <value>Gold Serisi</value>
+  </data>
+  <data name="siparisJumboSeriOlcuList" xml:space="preserve">
+    <value>Jumbo Seri (Kampanyalı)</value>
+  </data>
+  <data name="paket323" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket324" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket325" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket326" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket327" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket328" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket329" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket330" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket331" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket332" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket333" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket334" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket335" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket336" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket337" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket338" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket339" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket340" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket341" xml:space="preserve">
+    <value />
+  </data>
+  <data name="paket342" xml:space="preserve">
+    <value />
+  </data>
+  <data name="siparisyenipremium19olculist" xml:space="preserve">
+    <value>Yeni Premium Seri</value>
+  </data>
+  <data name="yuklenenBekleyenSiparis" xml:space="preserve">
+    <value>&lt;p&gt;Yükleme bekleyen siparişleriniz aşağıda listelenmiştir.&lt;/p&gt;&lt;p&gt;Siparişinizin dosyası yüklendikten sonra tarafımızdan işleme alınacaktır.&lt;/p&gt;&lt;p class='text-danger'&gt;Yükleme bekleyen siparişlerinize 2 hafta için yükleme yapmazsanız bu listeden silinecektir.&lt;/p&gt;</value>
+  </data>
+  <data name="yuklenenSiparis" xml:space="preserve">
+    <value>&lt;p&gt;Dosyası yüklenmiş ve tarafımızdan işleme alınmış siparişleriniz bu alanda gözükmektedir.&lt;/p&gt;&lt;p&gt;Bu alanda siparişlerinizi takip edebilir ve durumlarını görebilirsiniz.&lt;/p&gt;</value>
+  </data>
+  <data name="paket10" xml:space="preserve">
+    <value>30x76 Magazin Ekonomik Paketi</value>
+  </data>
+  <data name="paket11" xml:space="preserve">
+    <value>30x76 Magazin Aile Paketi</value>
+  </data>
+  <data name="paket12" xml:space="preserve">
+    <value>25x50 Legend-Nayla Ekonomik Paketi</value>
+  </data>
+  <data name="paket13" xml:space="preserve">
+    <value>25x70 Legend-Nayla Ekonomik Paketi</value>
+  </data>
+  <data name="paket14" xml:space="preserve">
+    <value>25x70 Legend-Nayla Aile Paketi</value>
+  </data>
+  <data name="paket15" xml:space="preserve">
+    <value>30x50 Legend-Nayla Ekonomik Paketi</value>
+  </data>
+  <data name="paket16" xml:space="preserve">
+    <value>30x50 Legend-Nayla Aile Paketi</value>
+  </data>
+  <data name="paket17" xml:space="preserve">
+    <value>30x60 Legend-Nayla Ekonomik Paketi</value>
+  </data>
+  <data name="paket18" xml:space="preserve">
+    <value>30x60 Legend-Nayla Aile Paketi</value>
+  </data>
+  <data name="paket19" xml:space="preserve">
+    <value>35x65 Legend-Nayla Ekonomik Paketi</value>
+  </data>
+  <data name="paket2" xml:space="preserve">
+    <value>25x70 Magazin Ekonomik Paketi</value>
+  </data>
+  <data name="paket20" xml:space="preserve">
+    <value>35x65 Legend-Nayla Aile Paketi</value>
+  </data>
+  <data name="paket21" xml:space="preserve">
+    <value>30x76 Legend-Nayla Ekonomik Paketi</value>
+  </data>
+  <data name="paket22" xml:space="preserve">
+    <value>30x76 Legend-Nayla Aile Paketi</value>
+  </data>
+  <data name="paket24" xml:space="preserve">
+    <value>25x70 Standart Cepli Paket</value>
+  </data>
+  <data name="paket25" xml:space="preserve">
+    <value>25x70 Standart Aile Paketi</value>
+  </data>
+  <data name="paket26" xml:space="preserve">
+    <value>30x50 Standart Ekonomik Paketi</value>
+  </data>
+  <data name="paket27" xml:space="preserve">
+    <value>30x50 Standart Cepli Paket</value>
+  </data>
+  <data name="paket28" xml:space="preserve">
+    <value>30x50 Standart Aile Paketi</value>
+  </data>
+  <data name="paket29" xml:space="preserve">
+    <value>30x60 Standart Ekonomik Paketi</value>
+  </data>
+  <data name="paket3" xml:space="preserve">
+    <value>25x70 Magazin Aile Paketi</value>
+  </data>
+  <data name="paket30" xml:space="preserve">
+    <value>30x60 Standart Aile Paketi</value>
+  </data>
+  <data name="paket31" xml:space="preserve">
+    <value>35x65 Standart Ekonomik Paketi</value>
+  </data>
+  <data name="paket32" xml:space="preserve">
+    <value>35x65 Standart Küçük Aile Paketi</value>
+  </data>
+  <data name="paket33" xml:space="preserve">
+    <value>35x65 Standart Aile Paketi</value>
+  </data>
+  <data name="paket34" xml:space="preserve">
+    <value>30x80 Standart Ekonomik Paketi</value>
+  </data>
+  <data name="paket35" xml:space="preserve">
+    <value>30x80 Standart Küçük Aile Paketi</value>
+  </data>
+  <data name="paket36" xml:space="preserve">
+    <value>30x80 Standart Aile Paketi</value>
+  </data>
+  <data name="paket37" xml:space="preserve">
+    <value>25x70 Line Aile Paketi</value>
+  </data>
+  <data name="paket38" xml:space="preserve">
+    <value>30x60 Line Aile Paketi</value>
+  </data>
+  <data name="paket39" xml:space="preserve">
+    <value>35x65 Line Aile Paketi</value>
+  </data>
+  <data name="paket4" xml:space="preserve">
+    <value>30x50 Magazin Ekonomik Paketi</value>
+  </data>
+  <data name="paket40" xml:space="preserve">
+    <value>30x80 Line Aile Paketi</value>
+  </data>
+  <data name="paket41" xml:space="preserve">
+    <value>25x70 Line Ekonomik Paketi</value>
+  </data>
+  <data name="paket42" xml:space="preserve">
+    <value>30x60 Line Ekonomik Paketi</value>
+  </data>
+  <data name="paket43" xml:space="preserve">
+    <value>35x65 Line Ekonomik Paketi</value>
+  </data>
+  <data name="paket44" xml:space="preserve">
+    <value>30x80 Line Ekonomik Paketi</value>
+  </data>
+  <data name="paket47" xml:space="preserve">
+    <value>25x60 Magazin Aile Paketi</value>
+  </data>
+  <data name="paket5" xml:space="preserve">
+    <value>30x50 Magazin Aile Paketi</value>
+  </data>
+  <data name="paket50" xml:space="preserve">
+    <value>25x60 Loft Ekonomik Paketi</value>
+  </data>
+  <data name="paket51" xml:space="preserve">
+    <value>25x60 Loft Aile Paketi</value>
+  </data>
+  <data name="paket52" xml:space="preserve">
+    <value>30x50 Loft Ekonomik Paketi</value>
+  </data>
+  <data name="paket53" xml:space="preserve">
+    <value>30x50 Loft Aile Paketi</value>
+  </data>
+  <data name="paket58" xml:space="preserve">
+    <value>31x50 Loft Aile Paketi + Kutu</value>
+  </data>
+  <data name="paket6" xml:space="preserve">
+    <value>30x60 Magazin Ekonomik Paketi</value>
+  </data>
+  <data name="paket7" xml:space="preserve">
+    <value>30x60 Magazin Aile Paketi</value>
+  </data>
+  <data name="paket8" xml:space="preserve">
+    <value>35x65 Magazin Ekonomik Paketi</value>
+  </data>
+  <data name="paket9" xml:space="preserve">
+    <value>35x65 Magazin Aile Paketi</value>
+  </data>
+  <data name="paket59" xml:space="preserve">
+    <value>25x50 Baby Ekonomik Paket</value>
+  </data>
+  <data name="paket62" xml:space="preserve">
+    <value>30x60 Baby Aile Paket</value>
+  </data>
+  <data name="paket63" xml:space="preserve">
+    <value>25x70 Trend Aile Paket Kutulu</value>
+  </data>
+  <data name="paket64" xml:space="preserve">
+    <value>30x80 Trend Aile Paket Kutulu</value>
+  </data>
+  <data name="paket65" xml:space="preserve">
+    <value>25x60 Loft Aile Paketi + Kutu</value>
+  </data>
+  <data name="paket76" xml:space="preserve">
+    <value>30x76 Kampanyalı Ekonomik Paket</value>
+  </data>
+  <data name="paket77" xml:space="preserve">
+    <value>35x65 Magazin Küçük Aile Paketi</value>
+  </data>
+  <data name="paket81" xml:space="preserve">
+    <value>25x60 Standart Aile Paketi</value>
+  </data>
+  <data name="paket82" xml:space="preserve">
+    <value>30x60 Loft Ekonomik Paketi</value>
+  </data>
+  <data name="paket83" xml:space="preserve">
+    <value>30x60 Loft Aile Paketi</value>
+  </data>
+  <data name="paket84" xml:space="preserve">
+    <value>30x60 Kampanyalı Ekonomik Paket</value>
+  </data>
+  <data name="paket85" xml:space="preserve">
+    <value>30x60 Kampanyalı Aile Paket</value>
+  </data>
+</root>

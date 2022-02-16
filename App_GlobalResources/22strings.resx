@@ -1,0 +1,843 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="banneranasayfakris1" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="banneranasayfakris2" xml:space="preserve">
+    <value>/img/banner-ana-sayfa/tr/albumfotoornek1.jpg</value>
+  </data>
+  <data name="banneranasayfakris3" xml:space="preserve">
+    <value>Kristal Albümler</value>
+  </data>
+  <data name="banneranasayfakris4" xml:space="preserve">
+    <value>50x60, 45x70, 35x65, 30x80 ve 30x90 ölçü seçenekleri ile Kristal Albümlerimizi incelemek için tıklayın.</value>
+  </data>
+  <data name="banneranasayfaluna1" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="banneranasayfaluna2" xml:space="preserve">
+    <value>/img/banner-ana-sayfa/tr/albumfotoornek1.jpg</value>
+  </data>
+  <data name="banneranasayfaluna3" xml:space="preserve">
+    <value>Luna Serisi</value>
+  </data>
+  <data name="banneranasayfaluna4" xml:space="preserve">
+    <value>35x65, 30x45, 30x70, 30x90 ve 41x76 ölçü seçenekleri ile Luna Serisi Albümlerimizi incelemek için tıklayın.</value>
+  </data>
+  <data name="banneranasayfamaster1" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="banneranasayfamaster2" xml:space="preserve">
+    <value>/img/banner-ana-sayfa/tr/albumfotoornek1.jpg</value>
+  </data>
+  <data name="banneranasayfamaster3" xml:space="preserve">
+    <value>Master Serisi</value>
+  </data>
+  <data name="banneranasayfamaster4" xml:space="preserve">
+    <value>30x90, 42x63 ve 35x70 ölçü ve FineArt kağıt seçenekleri bulunan Master Serisi Albümlerimizi incelemek için tıklayın.</value>
+  </data>
+  <data name="banneranasayfanova1" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="banneranasayfanova2" xml:space="preserve">
+    <value>/img/banner-ana-sayfa/tr/albumfotoornek1.jpg</value>
+  </data>
+  <data name="banneranasayfanova3" xml:space="preserve">
+    <value>Nova Serisi</value>
+  </data>
+  <data name="banneranasayfanova4" xml:space="preserve">
+    <value>35x65, 30x45, 30x70, 30x90, 30x60 ve 41x76 ölçü seçenekleri ile Nova Serisi Albümlerimizi incelemek için tıklayın.</value>
+  </data>
+  <data name="banneranasayfapan1" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="banneranasayfapan2" xml:space="preserve">
+    <value>/img/banner-ana-sayfa/tr/albumfotoornek1.jpg</value>
+  </data>
+  <data name="banneranasayfapan3" xml:space="preserve">
+    <value>Panoramik Albümler</value>
+  </data>
+  <data name="banneranasayfapan4" xml:space="preserve">
+    <value>35x65, 30x45 ve 31x50 ölçü seçenekleri bulunan Panoramik Albümlerimizi incelemek için tıklayın.</value>
+  </data>
+  <data name="banneranasayfapre1" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="banneranasayfapre2" xml:space="preserve">
+    <value>/img/banner-ana-sayfa/tr/albumfotoornek1.jpg</value>
+  </data>
+  <data name="banneranasayfapre3" xml:space="preserve">
+    <value>Premium Albümler</value>
+  </data>
+  <data name="banneranasayfapre4" xml:space="preserve">
+    <value>50x60, 35x65, 30x90 ve 45x70 ölçü seçenekleri bulunan Premium Albümlerimizi incelemek için tıklayın.</value>
+  </data>
+  <data name="footercopyright1" xml:space="preserve">
+    <value>Çizgi Albüm Fotoğrafçılık Kırtasiye İnşaat Gıda ve Sanayi Ticaret Limited Şirketi Tüm Hakları Saklıdır © 1989 - 2015</value>
+  </data>
+  <data name="footercopyright2" xml:space="preserve">
+    <value>Bizi Arayın:</value>
+  </data>
+  <data name="footercopyright3" xml:space="preserve">
+    <value>+90 (212) 618-01-08 &lt;br&gt;&lt;strong&gt;veya&lt;/strong&gt; +90 (212) 618-11-13</value>
+  </data>
+  <data name="footercopyright4" xml:space="preserve">
+    <value>Yeni Mah. 542/1 Sk. No : 3 Kat : 1 Küçükköy&lt;br&gt; İstanbul, Türkiye</value>
+  </data>
+  <data name="footerfollowus1" xml:space="preserve">
+    <value>Bizi Takip Edin</value>
+  </data>
+  <data name="footerfollowus2" xml:space="preserve">
+    <value>Sosyal Medyada Bizi Takip Edin</value>
+  </data>
+  <data name="footerHesabim1" xml:space="preserve">
+    <value>Hesabım</value>
+  </data>
+  <data name="footerHesabim2" xml:space="preserve">
+    <value>Üye Sayfam</value>
+  </data>
+  <data name="footerHesabim3" xml:space="preserve">
+    <value>Sipariş Geçmişi</value>
+  </data>
+  <data name="footerHesabim4" xml:space="preserve">
+    <value>Çıkış</value>
+  </data>
+  <data name="footermaillist1" xml:space="preserve">
+    <value>Email Listesi</value>
+  </data>
+  <data name="footermaillist2" xml:space="preserve">
+    <value>Yeniliklerden haberdar olmak için mail listemize kayıt olun!</value>
+  </data>
+  <data name="footerSayfalar1" xml:space="preserve">
+    <value>Bilgiler</value>
+  </data>
+  <data name="footerSayfalar2" xml:space="preserve">
+    <value>Gizlilik ve Güvenlik</value>
+  </data>
+  <data name="footerSayfalar3" xml:space="preserve">
+    <value>Üyelik Sözleşmesi</value>
+  </data>
+  <data name="footerSayfalar4" xml:space="preserve">
+    <value>Mesafeli Satış Sözleşmesi</value>
+  </data>
+  <data name="footerSayfalar5" xml:space="preserve">
+    <value>İade ve Garanti</value>
+  </data>
+  <data name="footerSayfalar6" xml:space="preserve">
+    <value>Ödeme ve Teslimat</value>
+  </data>
+  <data name="footerSayfalar7" xml:space="preserve">
+    <value>3D Secure</value>
+  </data>
+  <data name="headerdefaultdesc" xml:space="preserve">
+    <value>Çizgi Album Düğün, Nişan, Kristal, Premium ve Panoramik Albüm İmalatı</value>
+  </data>
+  <data name="headerdefaultkeywords" xml:space="preserve">
+    <value>fotograf,fotoğraf, albüm, düğün albüm, bebek albüm, cep albüm, profesyonel, profesyonel albüm, promosyon albüm, dijital albüm, panaromik albüm, fotoğrafçılık, çizgi albüm, orjinal dizayn, albüm imalat,albüm üretimi,amatör albüm, evlilik fotoğrafları</value>
+  </data>
+  <data name="headerdefaulttitle" xml:space="preserve">
+    <value>Çizgi Album - Panoramik Albüm, Kristal Albüm, Düğün Albümleri, Lüx Premium Albümler, Avangard Albümler, Fotoğraf Albümleri, Stüdyo Albümleri ve Nişan Albümleri İmalatı</value>
+  </data>
+  <data name="headerenglish" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="headerfrance" xml:space="preserve">
+    <value>France</value>
+  </data>
+  <data name="headergerman" xml:space="preserve">
+    <value>Germany</value>
+  </data>
+  <data name="headergirisyap" xml:space="preserve">
+    <value>Giriş Yap</value>
+  </data>
+  <data name="headerkayitol" xml:space="preserve">
+    <value>Kayıt Ol</value>
+  </data>
+  <data name="headerlanguage" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="headerturkce" xml:space="preserve">
+    <value>Türkçe 111</value>
+  </data>
+  <data name="headeruyesayfam" xml:space="preserve">
+    <value>Hoşgeldin</value>
+  </data>
+  <data name="languagekisaltma" xml:space="preserve">
+    <value>tr</value>
+  </data>
+  <data name="menuanasayfa" xml:space="preserve">
+    <value>Ana Sayfa</value>
+  </data>
+  <data name="menuanasayfalink" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="menuhakkimizda" xml:space="preserve">
+    <value>Hakkımızda</value>
+  </data>
+  <data name="menuhakkimizdaurl" xml:space="preserve">
+    <value>/tr/Hakkimizda</value>
+  </data>
+  <data name="menuiletisim" xml:space="preserve">
+    <value>İletişim</value>
+  </data>
+  <data name="menuiletisimurl" xml:space="preserve">
+    <value>/tr/Iletisim</value>
+  </data>
+  <data name="menumegamasterserisrc" xml:space="preserve">
+    <value>/img/headercontent/tr/menu-master-series.jpg</value>
+  </data>
+  <data name="menusayfalar" xml:space="preserve">
+    <value>Sayfalar</value>
+  </data>
+  <data name="menusayfalarurl" xml:space="preserve">
+    <value>/tr/Sayfalar</value>
+  </data>
+  <data name="menuurunler" xml:space="preserve">
+    <value>Ürünlerimiz</value>
+  </data>
+  <data name="menuurunlerkri1" xml:space="preserve">
+    <value>Kristal Serisi</value>
+  </data>
+  <data name="menuurunlerkrisrc1" xml:space="preserve">
+    <value>/img/headercontent/tr/albumfotoornek2.jpg</value>
+  </data>
+  <data name="menuurunlerkriurl1" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="menuurunlerluna1" xml:space="preserve">
+    <value>Luna Serisi</value>
+  </data>
+  <data name="menuurunlerlunasrc1" xml:space="preserve">
+    <value>/img/headercontent/tr/albumfotoornek2.jpg</value>
+  </data>
+  <data name="menuurunlerlunaurl1" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="menuurunlermaster" xml:space="preserve">
+    <value>Master Serisi</value>
+  </data>
+  <data name="menuurunlermastersrc" xml:space="preserve">
+    <value>/img/headercontent/tr/albumfotoornek2.jpg</value>
+  </data>
+  <data name="menuurunlermasterurl" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="menuurunlernova1" xml:space="preserve">
+    <value>Nova Serisi</value>
+  </data>
+  <data name="menuurunlernovasrc1" xml:space="preserve">
+    <value>/img/headercontent/tr/albumfotoornek2.jpg</value>
+  </data>
+  <data name="menuurunlernovaurl1" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="menuurunlerpan1" xml:space="preserve">
+    <value>Panoramik Serisi</value>
+  </data>
+  <data name="menuurunlerpansrc1" xml:space="preserve">
+    <value>/img/headercontent/tr/albumfotoornek2.jpg</value>
+  </data>
+  <data name="menuurunlerpanurl1" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="menuurunlerpre1" xml:space="preserve">
+    <value>Premium Serisi</value>
+  </data>
+  <data name="menuurunlerpresrc1" xml:space="preserve">
+    <value>/img/headercontent/tr/albumfotoornek2.jpg</value>
+  </data>
+  <data name="menuurunlerpreurl1" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="litRegisterTitle1" xml:space="preserve">
+    <value>Sitemize Üye Olun</value>
+  </data>
+  <data name="litRegisterTitle2" xml:space="preserve">
+    <value>Lütfen sitemize üye olmak için aşağıdaki formu doldurun.</value>
+  </data>
+  <data name="litUsernameLogin1" xml:space="preserve">
+    <value>Kullanıcı Adınız</value>
+  </data>
+  <data name="litUsernameLogin2" xml:space="preserve">
+    <value>Şifreniz</value>
+  </data>
+  <data name="litUsernameLogin3" xml:space="preserve">
+    <value>Gerekli Alan</value>
+  </data>
+  <data name="litUsernameLoginBtn" xml:space="preserve">
+    <value>Giriş Yap</value>
+  </data>
+  <data name="litUsernameLoginForgetten" xml:space="preserve">
+    <value>Şifremi Unuttum !</value>
+  </data>
+  <data name="loginBread1" xml:space="preserve">
+    <value>Üye Girişi</value>
+    <comment>breadcrumb</comment>
+  </data>
+  <data name="loginBread2" xml:space="preserve">
+    <value>Ana Sayfa</value>
+    <comment>breadcrumb</comment>
+  </data>
+  <data name="loginForgettenUrl" xml:space="preserve">
+    <value>Sifremi-Unuttum</value>
+  </data>
+  <data name="loginPageName" xml:space="preserve">
+    <value>uye-giris</value>
+  </data>
+  <data name="loginTitle" xml:space="preserve">
+    <value>Üye girişi yapın veya Yeni hesap açın !</value>
+    <comment>login top</comment>
+  </data>
+  <data name="loginTitle2" xml:space="preserve">
+    <value>Yeni Hesap Açın</value>
+  </data>
+  <data name="loginTitle3" xml:space="preserve">
+    <value>Çizgi Albüm sitemizde hesabınız yok ise, yeni hesap açarak Üye sayfanızdan Panoramik Albüm veya diğer ürünlerimizi sipariş edebilirsiniz.</value>
+  </data>
+  <data name="loginTitle4" xml:space="preserve">
+    <value>Yeni Hesap Aç</value>
+  </data>
+  <data name="loginTitle5" xml:space="preserve">
+    <value>Üye Girişi Yapın</value>
+  </data>
+  <data name="loginTitle6" xml:space="preserve">
+    <value>Mevcut hesabınızı ile giriş yapmak için aşağıdaki formu kullanabilirsiniz.</value>
+  </data>
+  <data name="loginTitle7" xml:space="preserve">
+    <value>Üye Girişi</value>
+  </data>
+  <data name="loginTitle8" xml:space="preserve">
+    <value>Çizgi Albüm üye girişi yaparak, Üye sayfanızdan Panoramik Albüm veya diğer ürünlerimizi sipariş edebilirsiniz.</value>
+  </data>
+  <data name="loginTitle9" xml:space="preserve">
+    <value>Hesabıma Giriş Yap</value>
+  </data>
+  <data name="memberPageName" xml:space="preserve">
+    <value>uye-sayfam</value>
+  </data>
+  <data name="regFormErrorTitle" xml:space="preserve">
+    <value>Lütfen aşağıdaki uyarıları kontrol ederek tekrar deneyiniz.</value>
+  </data>
+  <data name="registerCheckAdres" xml:space="preserve">
+    <value>Adresinizi yazmadınız.</value>
+  </data>
+  <data name="registerCheckEposta" xml:space="preserve">
+    <value>Email adresinizi yazmadınız.</value>
+  </data>
+  <data name="registerCheckEpostaHatali" xml:space="preserve">
+    <value>Yazdığınız mail adresi &lt;strong class="text-danger"&gt;{0}&lt;/strong&gt; hatalıdır. Lütfen düzeltip tekrar deneyin.</value>
+  </data>
+  <data name="registerCheckIsim" xml:space="preserve">
+    <value>Adınızı yazmadınız.</value>
+  </data>
+  <data name="registerCheckMailRegistered" xml:space="preserve">
+    <value>Yazdığınız mail adresi &lt;strong class="text-danger"&gt;{0}&lt;/strong&gt; ile daha önceden sitemize kayıt olunmuş. Mail adresine erişiminiz var ise Şifremi unuttum kısmından &lt;strong class="text-danger"&gt;{0}&lt;/strong&gt; kayıtlı mail adresine yeni şifre gönderimi yapabilirsiniz.</value>
+    <comment>{0} olan yere mail adresi gelecek</comment>
+  </data>
+  <data name="registerCheckSehir" xml:space="preserve">
+    <value>Şehir seçimi yapmadınız.</value>
+  </data>
+  <data name="registerCheckSifre" xml:space="preserve">
+    <value>Şifrenizi yazmadınız.</value>
+  </data>
+  <data name="registerCheckSifre2" xml:space="preserve">
+    <value>Şifrenizi Tekrar kısmına yazmadınız.</value>
+  </data>
+  <data name="registerCheckSifreNot6" xml:space="preserve">
+    <value>Şifreniz en az &lt;strong class="text-danger"&gt;6&lt;/strong&gt; karakter uzunluğunda olmalıdır.</value>
+  </data>
+  <data name="registerCheckSifreNotMatch" xml:space="preserve">
+    <value>Şifreleriniz uyuşmuyor.</value>
+  </data>
+  <data name="registerCheckSoyIsim" xml:space="preserve">
+    <value>Soyadınızı yazmadınız.</value>
+  </data>
+  <data name="registerCheckTel" xml:space="preserve">
+    <value>Telefon numaranızı yazmadınız.</value>
+  </data>
+  <data name="registerCheckUlke" xml:space="preserve">
+    <value>Ülke seçimi yapmadınız.</value>
+  </data>
+  <data name="registerCheckUsernameRegistered" xml:space="preserve">
+    <value>Seçtiğiniz kullanıcı adı &lt;strong class="text-danger"&gt;{0}&lt;/strong&gt; daha önceden alınmış. Lütfen farklı bir kullanıcı adı ile tekrar deneyin. Kullanıcı adının size ait olduğunu düşünüyorsanız Şifremi unuttum kısmından mail adresinize yeni şifre gönderimi yapabilirsiniz.</value>
+    <comment>{0} olan yere kullanıcı adı gelecek</comment>
+  </data>
+  <data name="registerCheckUsr" xml:space="preserve">
+    <value>Kullanıcı adı yazmadınız.</value>
+  </data>
+  <data name="registerCheckUsrNot3" xml:space="preserve">
+    <value>Kullanıcı adınız en az 3 karakter uzunluğunda olmalıdır.</value>
+  </data>
+  <data name="registerCheckUyelikSzlmes" xml:space="preserve">
+    <value>&lt;strong class="text-danger"&gt;Üyelik sözleşmesini kabul etmeden üye olamazsınız.&lt;/strong&gt;</value>
+  </data>
+  <data name="registerFormAdres" xml:space="preserve">
+    <value>Adres</value>
+  </data>
+  <data name="registerFormBtnRegister" xml:space="preserve">
+    <value>Gönder ve Üyelik Kaydımı Yap</value>
+  </data>
+  <data name="registerFormEposta" xml:space="preserve">
+    <value>Eposta Adresi</value>
+  </data>
+  <data name="registerFormFirmaAdres" xml:space="preserve">
+    <value>Firma Adresi</value>
+  </data>
+  <data name="registerFormFirmaFaturaIsim" xml:space="preserve">
+    <value>Faturaya Yazılacak İsim</value>
+  </data>
+  <data name="registerFormFirmaTel" xml:space="preserve">
+    <value>Firma Telefon</value>
+  </data>
+  <data name="registerFormFirmaTitle" xml:space="preserve">
+    <value>Firma Bilgileriniz</value>
+  </data>
+  <data name="registerFormFirmaUnvan" xml:space="preserve">
+    <value>Firma Ünvanı</value>
+  </data>
+  <data name="registerFormFirmaUyelikSozlesmesiTitle" xml:space="preserve">
+    <value>Üyelik Sözleşmesi</value>
+  </data>
+  <data name="registerFormFirmaVergiDairesi" xml:space="preserve">
+    <value>Vergi Dairesi</value>
+  </data>
+  <data name="registerFormFirmaVergiNumarasi" xml:space="preserve">
+    <value>VergiNumarasi</value>
+  </data>
+  <data name="registerFormIsim" xml:space="preserve">
+    <value>İsim</value>
+  </data>
+  <data name="registerFormMailingList" xml:space="preserve">
+    <value>Yenilikler İçin Mail Listesine Kayıt Ol</value>
+  </data>
+  <data name="registerFormSehir" xml:space="preserve">
+    <value>Şehir</value>
+  </data>
+  <data name="registerFormSehirSecin" xml:space="preserve">
+    <value>Lütfen Şehir Seçin</value>
+  </data>
+  <data name="registerFormSifre" xml:space="preserve">
+    <value>Şifreniz</value>
+  </data>
+  <data name="registerFormSifre2" xml:space="preserve">
+    <value>Şifreniz (Tekrar)</value>
+  </data>
+  <data name="registerFormSoyisim" xml:space="preserve">
+    <value>Soyisim</value>
+  </data>
+  <data name="registerFormSozlesme" xml:space="preserve">
+    <value>Üyelik Sözleşmesini Okudum ve Kabul Ediyorum</value>
+  </data>
+  <data name="registerFormTel" xml:space="preserve">
+    <value>Telefon Numaranız</value>
+  </data>
+  <data name="registerFormUlke" xml:space="preserve">
+    <value>Ülke</value>
+  </data>
+  <data name="registerFormUlkeSecin" xml:space="preserve">
+    <value>Lütfen Ülke Seçin</value>
+  </data>
+  <data name="registerFormUsername" xml:space="preserve">
+    <value>Kullanıcı Adı</value>
+  </data>
+  <data name="registerFormUyelikSozlesmesi1" xml:space="preserve">
+    <value>Sayın Site Kullanıcısı;</value>
+  </data>
+  <data name="registerFormUyelikSozlesmesi10" xml:space="preserve">
+    <value>http://www.cizgialbum.com web sitesine gönderilen bütün dataların Çizgi Albüm tarafından saklanması, depolanması, basılması, kullanılması ve yayımlanmasını kabul ediyorum Bu dataların 3. kişiler tarafından kopyalanıp kullanılmasından Çizgi Albüm' ün herhangi bir sorumluluğu yoktur.</value>
+  </data>
+  <data name="registerFormUyelikSozlesmesi11" xml:space="preserve">
+    <value>Yayınlanan içeriğin kesintisinden, gecikmesinden veya hatalı olmasından ve bunların yola açabileceği zararlardan dolayı Çizgi Albüm hiç bir şekilde sorumlu değildir.</value>
+  </data>
+  <data name="registerFormUyelikSozlesmesi12" xml:space="preserve">
+    <value>http://www.cizgialbum.com internet sitesine üye olduğunuzda siparişinizin durumu, Çizgi Albüm güncellemeleri ve yeni ürünler hakkında spam yapmamak şartı ile kullanıcının mail adresine epostalar gönderilmektedir. Siteye üye olan kullanıcı kendisine Çizgi Albüm tarafından mailler gönderileceğini kabul eder,</value>
+  </data>
+  <data name="registerFormUyelikSozlesmesi13" xml:space="preserve">
+    <value>http://www.cizgialbum.com sitesi kullanıcı sitede gezinirken sadece Çizgi Albüm tarafından kullanıcıyı tanımlamak ve siparişin verilirken sağlıklı olması için cookie (çerez) kullanmaktadır. Çizgi Albüm sitesinde kullanılan çerezlerin reklam amaçlı kullanılmadığını taahhüt eder.</value>
+  </data>
+  <data name="registerFormUyelikSozlesmesi14" xml:space="preserve">
+    <value>Bu yayın, Çizgi Albüm izni olmadan kopyalanamaz, dağıtılamaz, ticari bir amaçla kaynak gösterilmek suretiyle veya kaynak gösterilmeksizin kullanılamaz ve hiçbir format altında bilgisayar sistemlerine aktarılamaz.</value>
+  </data>
+  <data name="registerFormUyelikSozlesmesi15" xml:space="preserve">
+    <value>http://www.cizgialbum.com web sitesine girmekle site ziyaretçileri yukarıdaki uyarı ve beyanları okumuş ve kabul etmiş addedilecektir. Bu hususta herhangi bir anlaşmazlık, iddia ve talep olduğu takdirde, iş bu web sayfasında yazılı bulunan bu ibarelerin ve Çizgi Albüm 'e ait diğer tüm bilgisayar kayıtlarının tek ve gerçek münhasır delil olarak HUMK Madde 287'ye uygun olarak İstanbul Mahkemeleri ve İcra ve İflas Dairelerinin yetkisine sunulacağı Çizgi Albüm tarafından beyan ve işbu http://www.cizgialbum.com web Sitesi'ne giren kişi(ler), kuruluş(lar) tarafından kabul ve taahhüt edilir.</value>
+  </data>
+  <data name="registerFormUyelikSozlesmesi16" xml:space="preserve">
+    <value>ÇİZGİ ALBÜM</value>
+  </data>
+  <data name="registerFormUyelikSozlesmesi2" xml:space="preserve">
+    <value>http://www.cizgialbum.com internet sitesi Çizgi Albüm güvencesinde olup, yine onun tarafından işletilmektedir ve içeriği uluslararası fikri ve sınai mülkiyet mevzuatı tarafından korunmaktadır.  Bu siteyi kullanmaya başladığınız andan itibaren aşağıda yazılı tüm hususları tamamen anlamış ve kabul etmiş sayılırsınız:</value>
+  </data>
+  <data name="registerFormUyelikSozlesmesi3" xml:space="preserve">
+    <value>http://www.cizgialbum.com internet sitesindeki tüm dokümanlar Çizgi Albüm mülkiyetindedir. Kod ve yazılım da dahil olmak üzere, bu sitedeki hiç bir malzemeyi değiştiremez, kopyalayamaz, çoğaltamaz, kiralayamaz, yeniden yayımlayamaz, başka bir bilgisayara yükleyemez, postalayamaz, iletemez ya da dağıtamazsınız. Yukarıda belirtilenden bağımsız olarak, sitenin sayfalarının yazıcı çıktısını kişisel kullanımınız için alabilirsiniz.</value>
+  </data>
+  <data name="registerFormUyelikSozlesmesi4" xml:space="preserve">
+    <value>http://www.cizgialbum.com web sitesinin virüs ve benzeri amaçlı yazılımlardan arındırılmış olması için mevcut imkanlar dahilinde tedbir alınmış olmakla birlikte, nihai güvenliğin sağlanması için kullanıcı, kendi virüs koruma sistemini tedarik etmek ve gerekli korumayı sağlamakla yükümlüdür.</value>
+  </data>
+  <data name="registerFormUyelikSozlesmesi5" xml:space="preserve">
+    <value>http://www.cizgialbum.com web sitesine girmesi nedeniyle, kullanıcının kendi yazılım ve işletim sistemlerinde oluşabilecek tüm hata ve bunların doğrudan ya da dolaylı sonuçlarından kendisinin sorumlu olduğunu kabul eder.</value>
+  </data>
+  <data name="registerFormUyelikSozlesmesi6" xml:space="preserve">
+    <value>İleride söz konusu şartları okumamış veya okumuş olup da bunlara uygun davranmamış olmanızdan kaynaklanabilecek olan her türlü maddi ve manevi zarara ilişkin talebinizden Çizgi Albüm veya http://www.cizgialbum.com Web Sitesi 'nin, bu sitedeki her türlü içeriğin hazırlayıcılarının, çalışanlarının, Çizgi Albüm tarafından yetkilendirdikleri kişi ve kuruluşların hiçbir hukuki ve cezai sorumluluğu bulunmamaktadır.</value>
+  </data>
+  <data name="registerFormUyelikSozlesmesi7" xml:space="preserve">
+    <value>http://www.cizgialbum.com web Sitesini ziyaret edenlerin, reklam ve sponsorluk veren şirketlerin, Web Sitesi'nde yayınlamış olabilecekleri yazı, bilgi, yorum, haber, görüntü, http://www.cizgialbum.com logosunun, anasayfa ile alt bölüm bağlantılarının http://www.cizgialbum.com dışı web sitelerinde kullanımı, hizmetlerinin ve kullanıcılar tarafından Çizgi Albüm sunucularına yüklenip yayınlanan her türlü içeriğin kullanımı suretiyle edinilen bilgiler de dahil ve fakat bu sayılan kişiler ya da yayınlarla sınırlı olmaksızın, Internet, yeterli güvenlik önlemleri olmasına rağmen dolaşılabilir ve yetkili olmayan kişilerce bilgilere erişilebilir olan genel yapısı gereği sorumluluk ve yetkisinde olmayan herhangi bir içerikten, Çizgi Albüm  hukuki, cezai ve/veya şahsi hiçbir sorumluluğu bulunmamakta olup, işbu web Sitesi ziyaretçileri bu hususu bu siteye girdikleri andan itibaren kabul ve beyan ederler.</value>
+  </data>
+  <data name="registerFormUyelikSozlesmesi8" xml:space="preserve">
+    <value>Çizgi Albüm, işbu hüküm ve şartları dilediği zaman önceden haber vermek zorunda olmaksızın tek taraflı olarak değiştirme ve güncelleme hakkına haizdir. Değiştirilen, yenilenen ya da yürürlükten kaldırılan her hüküm, yayın tarihinde tüm kullanıcılar bakımından hüküm ifade edecektir.</value>
+  </data>
+  <data name="registerFormUyelikSozlesmesi9" xml:space="preserve">
+    <value>http://www.cizgialbum.com web sitesinde veya bu siteden bağlantı yapılarak ulaşılan herhangi bir web sitesinde yer alan bilgi, değerlendirme, yorum ve istatistiki şekil ve değerlerin kullanımı sonucunda doğabilecek doğrudan veya dolaylı maddi ve / veya manevi menfi ve / veya müsbet zararlardan ve olası sair zarar ve masraflardan dolayı Çizgi Albüm hiç bir şahsi, hukuki ve cezai sorumluluğu mevcut değildir.</value>
+  </data>
+  <data name="registerFormWeb" xml:space="preserve">
+    <value>Web Siteniz</value>
+  </data>
+  <data name="registerPageDesc" xml:space="preserve">
+    <value>Üye girişi yapmak veya sitemize üye olmak için bu sayfayı kullanabilirsiniz.</value>
+  </data>
+  <data name="registerPageTitle" xml:space="preserve">
+    <value>Üye Girişi Yapın veya Kayıt Olun - Çizgi Albüm</value>
+  </data>
+  <data name="updateProgresLoader" xml:space="preserve">
+    <value>Lütfen Bekleyin ...</value>
+  </data>
+  <data name="regFormComplete" xml:space="preserve">
+    <value>&lt;p&gt;&lt;strong class="text-info"&gt;Sayın {0}, üyelik kaydınız başarı ile tamamlanmıştır.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong class="text-info"&gt;Üyeliğiniz onaylandığında tarafımızdan üyeliğinizin onaylandığına dair bir eposta alacaksınız.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong class="text-info"&gt;Bir sorun yaşarsanız iletişim kısmındaki telefon numaralarımızdan bize ulaşabilirsiniz.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong class="text-danger"&gt;Not : Bilgileri eksik üyelikler onaylanmayacaktır.&lt;/strong&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="regFormCompleteTitle" xml:space="preserve">
+    <value>&lt;strong class="text-info"&gt;Tebrikler, üyelik kaydınız başarı ile tamamlandı&lt;/strong&gt;</value>
+  </data>
+  <data name="loginHataMesaj1" xml:space="preserve">
+    <value>&lt;p&gt;Kullanıcı adı veya Şifrenizi hatalı girdiniz.&lt;/p&gt;</value>
+  </data>
+  <data name="loginHataMesaj2" xml:space="preserve">
+    <value>&lt;p&gt;Lütfen düzeltip tekrar deneyiniz.&lt;/p&gt;</value>
+  </data>
+  <data name="loginHataMesaj3" xml:space="preserve">
+    <value>&lt;p&gt;Değerli Müşterimiz.&lt;/p&gt;&lt;p&gt;Üyeliğiniz henüz aktif edilmemiş&lt;/p&gt;&lt;p&gt;+ 90 212 618 01 08 numaralı telefonu arayarak müşteri temsilcinizden bilgi alabilirsiniz.&lt;/p&gt;</value>
+  </data>
+  <data name="loginHataSifre" xml:space="preserve">
+    <value>&lt;p&gt;Şifrenizi yazmadınız.&lt;/p&gt;</value>
+  </data>
+  <data name="loginHataSifre6" xml:space="preserve">
+    <value>&lt;p&gt;Şifreniz en az 6 karakter uzunluğunda olmalıdır.&lt;/p&gt;</value>
+  </data>
+  <data name="loginHataTitle" xml:space="preserve">
+    <value>Giriş yapılırken bir sorun oluştu !</value>
+  </data>
+  <data name="loginHataUsername" xml:space="preserve">
+    <value>&lt;p&gt;Kullanıcı adınızı yazmadınız.&lt;/p&gt;</value>
+  </data>
+  <data name="regFormMailError" xml:space="preserve">
+    <value>&lt;p class="text-danger"&gt;Üyelik kaydınız yapıldı fakat, &lt;strong&gt;{0}&lt;/strong&gt; mail adresine hoşgeldin maili gönderilemedi.&lt;/p&gt;</value>
+  </data>
+  <data name="registerFirmaAdi" xml:space="preserve">
+    <value>ÇİZGİ ALBUM FOTOGRAFCILIK KIRTASİYE INŞAAT GIDA VE SAN TIC LTD ŞTI</value>
+  </data>
+  <data name="registerFirmaAdres" xml:space="preserve">
+    <value>Yeni Mah. 542/1 Sokak No : 3 Kat : 1 Kücükköy Gaziosmanpasa Istanbul Turkiye</value>
+  </data>
+  <data name="registerFirmaEposta" xml:space="preserve">
+    <value>Eposta : info@cizgialbum.com</value>
+  </data>
+  <data name="registerFirmaFax" xml:space="preserve">
+    <value>Fax 1 : +90 212 6187504</value>
+  </data>
+  <data name="registerFirmaTel1" xml:space="preserve">
+    <value>Tel 1 : +90 212 6180108</value>
+  </data>
+  <data name="registerFirmaTel2" xml:space="preserve">
+    <value>Tel 2 : +90 212 6180122</value>
+  </data>
+  <data name="registerFooterCopyright" xml:space="preserve">
+    <value>Tüm Hakları Saklıdır © 1989-2015</value>
+  </data>
+  <data name="registerHeaderCong" xml:space="preserve">
+    <value>TEBRİKLER ÜYELİK KAYDINIZ TAMAMLANDI !</value>
+  </data>
+  <data name="registerHeaderYapabilecekleri" xml:space="preserve">
+    <value>ÜYELİĞİNİZ İLE YAPABİLECEKLERİNİZİN BAZILARI</value>
+  </data>
+  <data name="registerMailSocial" xml:space="preserve">
+    <value>Çizgi Albüm ' ü Sosyal Medyada Takip Edin.</value>
+  </data>
+  <data name="registerMailTitle" xml:space="preserve">
+    <value>Yeni Üyelik Kayıt - Çizgi Albüm</value>
+  </data>
+  <data name="registerMailTitle2" xml:space="preserve">
+    <value>Çizgi Albüm Üyeliğiniz Hakkında</value>
+  </data>
+  <data name="registerOnlineOdeme" xml:space="preserve">
+    <value>Online Ödeme</value>
+  </data>
+  <data name="registerOnlineOdemeText" xml:space="preserve">
+    <value>Siparişlerinizin ödemelerini 3D Secure sistemi veya Paypal ile güvenli bir şekilde yapabilirsiniz.</value>
+  </data>
+  <data name="registerOnlineSip" xml:space="preserve">
+    <value>Online Sipariş</value>
+  </data>
+  <data name="registerOnlineSipText" xml:space="preserve">
+    <value>Panoramik albüm siparişlerini websitemiz üzerinden online olarak verebilirsiniz.</value>
+  </data>
+  <data name="registerOnlineTakip" xml:space="preserve">
+    <value>Sipariş Takibi</value>
+  </data>
+  <data name="registerOnlineTakipText" xml:space="preserve">
+    <value>Verdiğiniz siparişlerin durumunu adım adım sitemiz üzerinden takip edebilirsiniz.</value>
+  </data>
+  <data name="registerSayin" xml:space="preserve">
+    <value>Sayın</value>
+  </data>
+  <data name="registerTesekkur1" xml:space="preserve">
+    <value>Sitemize üye olduğunuz için teşekkür ederiz,</value>
+  </data>
+  <data name="registerTesekkur2" xml:space="preserve">
+    <value>Üyelik bilgileriniz tarafımızdan incelendikten sonra üyeliğiniz onaylanacaktır.</value>
+  </data>
+  <data name="registerTesekkur3" xml:space="preserve">
+    <value>Üyeliğiniz onaylandığında, tarafınıza üyeliğinizin onaylandığına dair bir onay epostası gönderilecektir.</value>
+  </data>
+  <data name="headerLogout" xml:space="preserve">
+    <value>Çıkış Yap !</value>
+  </data>
+  <data name="languageKisa" xml:space="preserve">
+    <value>Dil</value>
+    <comment>Dil, Lang vb. gibi</comment>
+  </data>
+  <data name="languagePageUrl" xml:space="preserve">
+    <value>dil-secimi</value>
+  </data>
+  <data name="logoutPageName" xml:space="preserve">
+    <value>Cikis-Yap</value>
+  </data>
+  <data name="passForgetDone" xml:space="preserve">
+    <value>&lt;p&gt;Tebrikler&lt;/p&gt;&lt;p&gt;Şifreniz başarı ile sıfırlandı.&lt;/p&gt;&lt;p&gt;Yeni şifreniz email adresinize gönderildi.&lt;/p&gt;</value>
+  </data>
+  <data name="passForgetDoneNoEmail" xml:space="preserve">
+    <value>&lt;p&gt;Şifreniz başarı ile sıfırlandı lakin,&lt;/p&gt;&lt;p&gt;Kayıtlı mail adresinize yeni şifreniz gönderilirken bir sorun oluştu.&lt;/p&gt;&lt;p&gt;Lütfen Çizgi Albüm müşteri temsilciniz ile irtibat kurun.&lt;/p&gt;</value>
+  </data>
+  <data name="passForgetDoneTitle" xml:space="preserve">
+    <value>Şifre Sıfırlama Başarılı !</value>
+  </data>
+  <data name="passForgetHataSorun" xml:space="preserve">
+    <value>&lt;p&gt;Sistemde bir sorun oluştu&lt;/p&gt;&lt;p&gt;Lütfen daha sonra tekrar deneyiniz&lt;/p&gt;&lt;p class="text-danger"&gt;Bu hatayı devamlı alıyorsanız lütfen müşteri temsilciniz ile görüşün.&lt;/p&gt;</value>
+  </data>
+  <data name="passForgetHataSorunTitle" xml:space="preserve">
+    <value>Bir Sorun Oluştu !</value>
+  </data>
+  <data name="passForgetHataTitle" xml:space="preserve">
+    <value>Şifreniz Sıfırlanamadı !</value>
+  </data>
+  <data name="passForgetMail1" xml:space="preserve">
+    <value>Web sitemiz üzerinden yaptığınız istek üzerine şifreniz sıfırlanmıştır.</value>
+  </data>
+  <data name="passForgetMail2" xml:space="preserve">
+    <value>Kullanıcı Adınız : </value>
+  </data>
+  <data name="passForgetMail3" xml:space="preserve">
+    <value>Yeni Şifreniz : </value>
+  </data>
+  <data name="passForgetMailHeader" xml:space="preserve">
+    <value>ÇİZGİ ALBUM ŞİFRENİZ SIFIRLANDI</value>
+  </data>
+  <data name="passForgetMailTitle" xml:space="preserve">
+    <value>Yeni Şifre Bilgileriniz</value>
+  </data>
+  <data name="passForgetMailUyusmuyor" xml:space="preserve">
+    <value>&lt;p&gt;Kullanıcı Adınız/Eposta Adresiniz sitemizdeki kayıtlarla uyuşmuyor.&lt;/p&gt;&lt;p&gt;Lütfen kontrol ederek tekrar deneyiniz.&lt;/p&gt;&lt;p class="text-danger"&gt;Sitemize kayıt olurken girdiğiniz Kullanıcı adını veya Eposta adresinizi hatırlamıyorsanız lütfen müşteri temsilciniz ile görüşün.&lt;/p&gt;</value>
+  </data>
+  <data name="passForgettenForm1" xml:space="preserve">
+    <value>Kayıp Şifre Formu</value>
+  </data>
+  <data name="passForgettenForm2" xml:space="preserve">
+    <value>Şifrenizi resetlemek için aşağıdaki formu kullanabilirsiniz.</value>
+  </data>
+  <data name="passForgettenForm3" xml:space="preserve">
+    <value>Şifremi Gönder !</value>
+  </data>
+  <data name="passForgettenTitle" xml:space="preserve">
+    <value>Şifrenizi unuttuysanız aşağıdaki formu kullanabilirsiniz.</value>
+  </data>
+  <data name="memberAciklama" xml:space="preserve">
+    <value>Üye sayfanızdan ürün siparişlerinizi verebilir, daha önce verdiğiniz siparişlerinizin durumunu takip edebilir veya kredi kartı/paypal kullanarak ödemelerinizi yapabilirsiniz.</value>
+  </data>
+  <data name="memberAdresDefteri" xml:space="preserve">
+    <value>Adres Defterim</value>
+  </data>
+  <data name="memberAdresDefteriLnk" xml:space="preserve">
+    <value>/adreslerim</value>
+  </data>
+  <data name="memberBilgileriDuzenle" xml:space="preserve">
+    <value>Bilgilerimi Düzenle</value>
+  </data>
+  <data name="memberBilgileriDuzenleLnk" xml:space="preserve">
+    <value>/bilgilerimi-duzenle</value>
+  </data>
+  <data name="memberBread" xml:space="preserve">
+    <value>Üye Sayfam</value>
+  </data>
+  <data name="memberHello" xml:space="preserve">
+    <value>Değerli Müşterimiz,</value>
+  </data>
+  <data name="memberHesabimTitle" xml:space="preserve">
+    <value>Hesabım</value>
+  </data>
+  <data name="memberHesapBilgilerim" xml:space="preserve">
+    <value>Üye Bilgilerim</value>
+  </data>
+  <data name="memberMailDuzenle" xml:space="preserve">
+    <value>Eposta Güncelleme</value>
+  </data>
+  <data name="memberMailDuzenleLnk" xml:space="preserve">
+    <value>/eposta-guncelle</value>
+  </data>
+  <data name="memberSifreDuzenle" xml:space="preserve">
+    <value>Parola Güncelleme</value>
+  </data>
+  <data name="memberSifreDuzenleLnk" xml:space="preserve">
+    <value>/parola-guncelle</value>
+  </data>
+  <data name="memberSiparislerim" xml:space="preserve">
+    <value>Siparişlerim</value>
+  </data>
+  <data name="memberSipDetay" xml:space="preserve">
+    <value>Detaylar</value>
+  </data>
+  <data name="memberSipDurum" xml:space="preserve">
+    <value>Durum</value>
+  </data>
+  <data name="memberSipID" xml:space="preserve">
+    <value>Sipariş No</value>
+  </data>
+  <data name="memberSipIslem" xml:space="preserve">
+    <value>İşlem</value>
+  </data>
+  <data name="memberSipPaket" xml:space="preserve">
+    <value>Paket</value>
+  </data>
+  <data name="memberSipTarih" xml:space="preserve">
+    <value>Tarih</value>
+  </data>
+  <data name="memberSipYok" xml:space="preserve">
+    <value>Mevcut sipariş bulunamadı.</value>
+  </data>
+  <data name="memberUyeSayfam" xml:space="preserve">
+    <value>Üye Sayfam</value>
+  </data>
+</root>
